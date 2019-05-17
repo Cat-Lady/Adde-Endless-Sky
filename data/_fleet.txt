@@ -1,0 +1,70 @@
+fleet "Korath Raid"
+	add variant
+		"Korath Raider"
+		"Korath Stalker" 2
+fleet "Large Kor Mereti"
+	add variant 15
+		model_8_disruptor 3
+		model_8_minelayer 2
+	add variant 2
+		"Model 128"
+		"Model 16" 4
+		"Model 256"
+		"Model 32" 2
+		"Model 512"
+		"Model 64" 3
+		model_8_minelayer 2
+	add variant 3
+		"Model 128"
+		"Model 32" 3
+		model_8_disruptor 3
+	add variant 3
+		"Model 256"
+		model_8_minelayer 2
+	add variant 5
+		"Model 128" 2
+		model_8_disruptor 2
+		model_8_minelayer 3
+	add variant 6
+		"Model 64" 2
+		model_8_disruptor 5
+fleet "Large Kor Sestor"
+	add variant 9
+		"Far Lek 14" 10
+		"Far Osk 27" 2
+		"Kar Ik Vot 637"
+		"Met Par Tek 53" 3
+		"Tek Far 71 - Lek"
+	add variant 13
+		"Far Lek 14" 10
+		"Far Osk 27" 8
+		"Kar Ik Vot 637"
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Tek Far 78 - Osk (Close Quarters)"
+fleet "Small Kor Mereti"
+	add variant 24
+		model_8_disruptor
+		model_8_minelayer 4
+	add variant 4
+		"Model 128"
+		"Model 32" 2
+		model_8_disruptor 5
+	add variant 4
+		"Model 256"
+		model_8_minelayer 3
+	add variant 7
+		"Model 128"
+		model_8_disruptor 2
+		model_8_minelayer 3
+	add variant 8
+		"Model 64" 3
+		model_8_disruptor 2
+fleet "Wanderer Flycatchers"
+	add variant
+		Scud 2
+	add variant
+		Scud 3
+	add variant
+		Scud 4
+	add variant
+		Scud 5

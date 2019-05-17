@@ -1,0 +1,4 @@
+tip "apocalypse spine:"
+	"Spinal weapon of the Apocalypse. Cannot be removed."
+tip "quantum keystone:"
+	"A mysterious property. Could it have a use?"

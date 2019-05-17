@@ -1,0 +1,83 @@
+planet "Tai'ei ek"
+	bribe 0
+	description ""
+	landscape land/sea9
+	spaceport ""
+planet Achi'rei
+	bribe 0
+	description ""
+	landscape land/sea6
+	spaceport ""
+planet Arena
+	"required reputation" -1
+	description "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
+	landscape land/kaliida
+	spaceport "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
+planet Arx
+	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
+	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."
+	landscape land/ringworld
+	spaceport "Each completed section of the ring is open and ready for business already. This is a testament to just how much anticipation the Irm hold for their new home."
+	spaceport "The inside of the ring is a looping ribbon world with direct sunlight beaming down on the inhabitants. Solar power is still collected, just maybe not in such massive amounts as would be expected from a station completely wrapping around a systems star."
+	tribute 7500
+		threshold 0
+		fleet "irm defense" 120
+planet Ayek'ret
+	bribe 0
+	description ""
+	landscape land/sea1
+	spaceport ""
+planet barren_wormhole
+	description ``
+planet barren_wormhole2
+	description ``
+planet Everything
+	"required reputation" -1
+	attributes content
+	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
+	landscape land/station1
+	outfitter plugin
+	outfitter vanilla
+	shipyard plugin
+	shipyard vanilla
+	spaceport "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
+planet irm_gate
+planet link_wormhole
+	description ``
+planet Nis
+	description "Eerily, there are no winged creatures amongst the skies and few land roaming animals. Those animals that do walk the land however are large, lumbering beasts that easily dwarf small buildings. The most dominant species is noticeably creatures resembling old earth humans, they boast a very large build and move cautiously in groups."
+	description "These humanesque creatures appear to have received aid as their technology is far beyond what they might have achieved otherwise. They prove quite formidable in the field of infrastructural and agricultural planning also, perhaps they have been aided in that respect also, the various towns and villages appear to have stood for many centuries."
+	landscape land/forest0
+	outfitter "aben sales"
+	spaceport "The spaceport, located in the very center of a deep crater, shoots out of the ground like a glimmering silver spire. Surrounding the spire are densely populated residential and industrial sectors. The lower airspace of the city and lower levels of the spire are utilized for use by some form of flight capable vehicle, presumably for transit for the wealthy."
+	spaceport "It appears as though only the very top regions of the spire are intended for foreigners to land, however there are docking bays located at various points around each docking level. Apparently only the most fortunate of Aben ever make it to the top of the spire, it's regarded as the highest honor to be of the few individuals to greet visiting species."
+planet Pesek
+	description "A lifeless rock with a very thin atmosphere, slightly smaller than the Aben homeworld Nis. Somehow the Aben have managed to travel and colonise here, how they hold the power of spaceflight at their stage of evolution is astounding, even with the advanced technology they have been provided."
+	description "The colonies sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the planets surface, the feel for the intensity of research is very intense."
+	landscape land/mountain2
+	spaceport "The spaceport contains all of two landing pads, if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony."
+	spaceport "A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel."
+planet Plugins
+	"required reputation" -1
+	attributes content
+	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
+	landscape land/station1
+	outfitter plugin
+	shipyard plugin
+	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
+planet Vanilla
+	"required reputation" -1
+	attributes content
+	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
+	landscape land/station1
+	outfitter vanilla
+	shipyard vanilla
+	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
+planet Variants
+	"required reputation" -1
+	attributes content
+	description ""
+	landscape land/kaliida
+	outfitter variants
+	shipyard variants
+	spaceport ""

@@ -1,0 +1,20 @@
+system Caeculus
+	add object barren_wormhole2
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+system Lucina
+	add object barren_wormhole
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+system Rutilicus
+	add object gateway
+		distance 1624
+		period 360
+		sprite planet/wormhole
+system Waypoint
+	add object irm_gate
+		distance 6048
+		period 5634
+		sprite planet/wormhole

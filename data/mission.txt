@@ -1,0 +1,1260 @@
+mission "syndicate target practice [4]"
+	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	destination
+		distance 1 3
+		government Syndicate
+	job
+	name "Syndicate target practice"
+	npc disable "scan cargo"
+		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		government "Test Dummy"
+		personality heroic staying target
+		ship Bulwark "Syndicate Test Vessel"
+		system destination
+	on complete
+		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		payment 160000
+	on visit
+		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+	repeat
+	source
+		government Syndicate
+	to offer
+		"combat rating" > 1400
+		random < 20
+mission aben_first_contact
+	invisible
+	landing
+	on offer
+		conversation
+			`On the descent down into the crater the great shimmering spire casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings are all well maintained, with ease of access by air, or ground. The swarming layers of hover vehicles above it all is incredible, they must run autonomously as they all traverse the airspace fluidly and with hardly any clearance.`
+			`	On the only active comms channel there are repeating instructions on where to land depending on what classification you qualify, 14A for visiting parties. Upon landing your ship within the hanger, a party of 4 approach your ship, what appears at first glance to be naked human men. On closer inspection it's clear that these beings bear no obvious reproductive organs, and a flat stretch of skin where a nose would normally sit, additionally none of these men have any hair across their bodies.`
+			`	As they draw nearer you notice that the two adjacent to the center man bear an unusual build, they are wearing body armor designed to blend in with the others. The last Aben appears to be female, again with no obvious reproductive organs, she is prepared to write down the conversation that is about to take place. "Wonderful day isn't it sir, or ma'am, of course." the spokesperson opens with, he sounds almost cautious when pronouncing. "How do you know how to speak to me?" you reply. He plainly explains, as if it were procedure, "We have met travelers from your people before, they were kind enough to lend us multiple databases of text and literature in your native tongue." he tries to find a way to phrase as to not lead in circles, "We are a modest race, we can not reign supreme or live in peace with the feeble tools we have to defend our way of living. So, to gain power as other great civilizations have, we adapt the tools of others for our use. Many oblige us with their favor, we have received a great many deliveries of new and exotic technology, and they of course get their return, we pay generously so that we may reach great heights in time."`
+			choice
+				`	"What do you mean travelers? You've met us before?"`
+				`	"Well I could see what I could find for you on my travels."`
+					goto register
+			`	"Yes, many cycles ago we were visited by your green skinned brethren; they frequently brought us what we desired so that we may finance their campaign, of which they did not share with us."`
+			`	You hastily say, "You shouldn't trust them! They fought us for centuries for control but we stopped them only for them to go into hiding, they are still as much of a threat than ever!"`
+			`	"I apologize greatly for distressing you; but we had no way of knowing, any information about your kind they brought us had no mention of any recent war between the skins." he says, surprisingly sympathetic for you. He further explains, "They brought us much technology; more than we had hoped for from them and we made discoveries far beyond our comprehension. We apologize greatly for placing your people in such danger but we have no information about their whereabouts, for they arrived using technology that they said 'would only bring chaos here'. They have long since disappeared and now provide us nothing, we would not undo the actions we have taken however, we have reached heights we previously thought impossible because of our partnership with the green skinned humans. If you are still willing, we would partner with you and help you, if you help us."`
+			choice
+				`	"I can see what I can bring back here."`
+					goto register
+				`	"I'm not sure I can do business with you."`
+					decline
+			label register
+			`	"That's very good news! I'll just need some more information for your record." He then proceeds to take an extraordinarily long time to go over the exact specifications of your ship and makes conversation about your past adventures. Finally he looks to the scribe and then back, "We should have everything we need for the documents, now just to inform you of our operating procedure regarding brought technology."`
+			`	"As I had explained earlier, we pay very generously, for the right technology it could make you a very wealthy human. When you bring new technology to us to sell, our engineers will spend some time looking over them to determine the value of the items to us and that will be the final price. We require a set of two of whatever technology you bring to us." he says, putting on a slightly sterner voice than before that you notice.`
+			`	He continues, rebounding back to his calm and predisposed manner of speaking; "Another kindness we allow is the freedom of choice. If you are not comfortable with the payment we offer you aren't made to accept it, you are free to decline the trade if you so wish." As he turns to walk away he hesitates, as if forgetting something important, "Oh of course I never told you my designation, I'm Saed, or at the very least it's the closest translation for humans." he then turns back and continues on his way out.`
+				accept
+	source
+		planet Nis
+mission aben_bounty
+	description "Hunt down a hostile ship that is circling overhead <planet>, then return to <planet> to receive your payment of <payment>."
+	job
+	name "Unknown Assailant"
+	npc kill
+		dialog "You have destroyed the assailant. You can now return to <planet> to collect your payment."
+		fleet
+			cargo 2
+			names hai
+			variant
+				"Shield Beetle (Jump, Tracker)"
+		government "Hai (Unfettered)"
+		personality heroic marked target waiting
+	on complete
+		payment 140000
+		dialog "Saed thanks you for your assistance in hunting down the aggressor, and hands you the agreed upon payment of <payment>."
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 60
+mission aben_bounty_unknown
+	description "Hunt down a hostile ship that is circling overhead <planet>, then return to <planet> to receive your payment of <payment>."
+	job
+	name "Unknown Assailant"
+	npc kill
+		dialog "You have destroyed the assailant. You can now return to <planet> to collect your payment."
+		fleet
+			cargo 2
+			names hai
+			variant
+				"Shield Beetle (Jump, Tracker)"
+		government "Hai (Unfettered)"
+		personality heroic marked target waiting
+	on complete
+		payment 140000
+		dialog "The spokesman for the Aben thanks you for your assistance in hunting down the aggressor, and hands you the agreed upon payment of <payment>."
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 60
+mission aben_harvest_aluminum_large
+	description "The Aben are offering <payment> in exchange for 90 tons of aluminum."
+	job
+	name "Harvest Aluminum"
+	on complete
+		dialog `You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Aluminum -90
+		payment 324000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_aluminum_small
+	description "The Aben are offering <payment> in exchange for 60 tons of aluminum."
+	job
+	name "Harvest Aluminum"
+	on complete
+		dialog `You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Aluminum -60
+		payment 157500
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_copper_large
+	description "The Aben are offering <payment> in exchange for 90 tons of copper."
+	job
+	name "Harvest Copper"
+	on complete
+		dialog `You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Copper -90
+		payment 540000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_copper_small
+	description "The Aben are offering <payment> in exchange for 60 tons of copper."
+	job
+	name "Harvest Copper"
+	on complete
+		dialog `You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Copper -60
+		payment 262500
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_iron_large
+	description "The Aben are offering <payment> in exchange for 90 tons of iron."
+	job
+	name "Harvest Iron"
+	on complete
+		dialog `You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Iron -90
+		payment 216000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_iron_small
+	description "The Aben are offering <payment> in exchange for 60 tons of iron."
+	job
+	name "Harvest Iron"
+	on complete
+		dialog `You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Iron -60
+		payment 105000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_lead_large
+	description "The Aben are offering <payment> in exchange for 90 tons of lead."
+	job
+	name "Harvest Lead"
+	on complete
+		dialog `You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Lead -90
+		payment 189000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_lead_small
+	description "The Aben are offering <payment> in exchange for 60 tons of lead."
+	job
+	name "Harvest Lead"
+	on complete
+		dialog `You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Lead -60
+		payment 90000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_platinum_large
+	description "The Aben are offering <payment> in exchange for 90 tons of platinum."
+	job
+	name "Harvest Platinum"
+	on complete
+		dialog `You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Platinum -90
+		payment 3200000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 5
+mission aben_harvest_platinum_small
+	description "The Aben are offering <payment> in exchange for 60 tons of platinum."
+	job
+	name "Harvest Platinum"
+	on complete
+		dialog `You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Platinum -60
+		payment 1500000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 10
+mission aben_harvest_silicon_large
+	description "The Aben are offering <payment> in exchange for 90 tons of silicon."
+	job
+	name "Harvest Silicon"
+	on complete
+		dialog `You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Silicon -90
+		payment 128000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_silicon_small
+	description "The Aben are offering <payment> in exchange for 60 tons of silicon."
+	job
+	name "Harvest Silicon"
+	on complete
+		dialog `You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Silicon -60
+		payment 60000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_silver_large
+	description "The Aben are offering <payment> in exchange for 90 tons of silver."
+	job
+	name "Harvest Silver"
+	on complete
+		dialog `You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Silver -90
+		payment 960000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 10
+mission aben_harvest_silver_small
+	description "The Aben are offering <payment> in exchange for 60 tons of silver."
+	job
+	name "Harvest Silver"
+	on complete
+		dialog `You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Silver -60
+		payment 450000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_uranium_large
+	description "The Aben are offering <payment> in exchange for 90 tons of uranium."
+	job
+	name "Harvest Uranium"
+	on complete
+		dialog `You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Uranium -90
+		payment 1600000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 5
+mission aben_harvest_uranium_small
+	description "The Aben are offering <payment> in exchange for 60 tons of uranium."
+	job
+	name "Harvest Uranium"
+	on complete
+		dialog `You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
+		outfit Uranium -60
+		payment 750000
+	repeat
+	source
+		planet Nis
+	to offer
+		has "aben_reconnaissance_1: done"
+		random < 10
+mission aben_harvest_aluminum_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of aluminum."
+	job
+	name "Harvest Aluminum"
+	on complete
+		dialog `You unload the aluminum at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Aluminum -90
+		payment 324000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_aluminum_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of aluminum."
+	job
+	name "Harvest Aluminum"
+	on complete
+		dialog `You unload the aluminum at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Aluminum -60
+		payment 157500
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_copper_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of copper."
+	job
+	name "Harvest Copper"
+	on complete
+		dialog `You unload the copper at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Copper -90
+		payment 540000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_copper_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of copper."
+	job
+	name "Harvest Copper"
+	on complete
+		dialog `You unload the copper at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Copper -60
+		payment 262500
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_iron_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of iron."
+	job
+	name "Harvest Iron"
+	on complete
+		dialog `You unload the iron at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Iron -90
+		payment 216000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_iron_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of iron."
+	job
+	name "Harvest Iron"
+	on complete
+		dialog `You unload the iron at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Iron -60
+		payment 105000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_lead_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of lead."
+	job
+	name "Harvest Lead"
+	on complete
+		dialog `You unload the lead at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Lead -90
+		payment 189000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_lead_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of lead."
+	job
+	name "Harvest Lead"
+	on complete
+		dialog `You unload the lead at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Lead -60
+		payment 90000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_platinum_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of platinum."
+	job
+	name "Harvest Platinum"
+	on complete
+		dialog `You unload the platinum at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Platinum -90
+		payment 3200000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 5
+mission aben_harvest_platinum_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of platinum."
+	job
+	name "Harvest Platinum"
+	on complete
+		dialog `You unload the platinum at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Platinum -60
+		payment 1500000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 10
+mission aben_harvest_silicon_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of silicon."
+	job
+	name "Harvest Silicon"
+	on complete
+		dialog `You unload the silicon at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Silicon -90
+		payment 128000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_silicon_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of silicon."
+	job
+	name "Harvest Silicon"
+	on complete
+		dialog `You unload the silicon at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Silicon -60
+		payment 60000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 30
+mission aben_harvest_silver_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of silver."
+	job
+	name "Harvest Silver"
+	on complete
+		dialog `You unload the silver at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Silver -90
+		payment 960000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 10
+mission aben_harvest_silver_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of silver."
+	job
+	name "Harvest Silver"
+	on complete
+		dialog `You unload the silver at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Silver -60
+		payment 450000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 20
+mission aben_harvest_uranium_large_unknown
+	description "The Aben are offering <payment> in exchange for 90 tons of uranium."
+	job
+	name "Harvest Uranium"
+	on complete
+		dialog `You unload the uranium at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Uranium -90
+		payment 1600000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 5
+mission aben_harvest_uranium_small_unknown
+	description "The Aben are offering <payment> in exchange for 60 tons of uranium."
+	job
+	name "Harvest Uranium"
+	on complete
+		dialog `You unload the uranium at the spaceport. The spokesman thanks you, and hands you <payment>.`
+		outfit Uranium -60
+		payment 750000
+	repeat
+	source
+		planet Nis
+	to offer
+		not "aben_reconnaissance_1: done"
+		random < 10
+mission aben_reconnaissance_1
+	on complete
+		conversation
+			`Upon landing there he is already, Saed, and with the scribe by his side. He is obviously adamant to hear all about your assignment. "I see you've returned, does this mean that you've completed what we've asked of you?"`
+			`	"I have, and I hope this can help answer any questions you have." you hand a data chip over and he spends some time attempting to interface it with his projector but finally he succeeds. As the projection of the map flickers on you notice that Aben space is already highlighted in a faint neon blue. "So here is our space, you were already provided with this knowledge, and this.." he draws his finger towards Hai space, which you have filled in on the map, "That's the Hai, they are peaceful for the most part. However forced to maintain a heavy military presence to hold back the warlike Hai at their border system." you interrupt, however he does not seem phased by the interruption so much as he is intrigued by the Hai. "This is exciting, I'd require your in-depth report of your findings about these Hai, and what else surrounds us." he follows up with questions on the rest of your findings, however phased by your description of the scarred and brown hulks towards the galactic core.`
+			`	"Thank you greatly for your efforts, these Hai leave me optimistic of a future of peace but those soulless vessels on the other side of us worry me." you reassure him that those drones don't have the ability to travel beyond hyperspace links. He transfers to you a surprisingly large sum of <payment> and assures you that you're now cleared access to their technology.`
+		payment 2600000
+		set "license: Aben Technology"
+	on offer
+		conversation
+			`On return to the hanger to leave, you are confronted by a pair of figures waiting beside your ship, Saed and the scribe that accompanies him. He seems relieved when you show up, who knows how long they've been waiting for you. He walks up to meet you half way, and says "Hello captain <last>, would you be interested in helping the aben on a more formal assignment? It would be merely a reconnaissance task."`
+			choice
+				`	"What sort of reconnaissance do you need from me?"`
+					goto where
+				`	"Sorry, I'm really busy right now."`
+					defer
+			label where
+			`	He proceeds slowly, "Those that we have done business with, those that grace us with foreign technology, they have seldom ever talked of what lies beyond the confines of our space. We previously disregarded it, as we did not care to get involved in the affairs of other government, something that may have happened if we somehow ventured beyond. We now see that it is foolish to remain blind to what dangers lurk out of sight, for we may not know to prepare for an enemy we do not anticipate."`
+			`	"We have organized for all files that detail Aben space to be provided to you, additionally we have limited information regarding those systems that lie out of our reach." he explains.`
+			`	He pulls out a hologram projector showing a summary of what space the Aben have explored; with additional display modes for detailing the currency of the data shown, and estimated distances between star systems and planetary bodies, along with various other display modes. He then highlights the areas that they are interested in collecting data for, "We require basic scans of the systems closest to our space, and records of system traffic. We are hoping above all else that you are able to provide us any information about any inhabitants of the connected space."`
+				accept
+	name "Aben Reconnaissance"
+	source
+		planet Nis
+	to complete
+		has "Discovered Hai Space: offered"
+	to offer
+		has "aben_first_contact: done"
+	waypoint "Bore Fah"
+	waypoint "Hi Yahr"
+	waypoint Asikafarnut
+	waypoint Celeborim
+mission aben_retrieval_battery_module_large
+	invisible
+	on offer
+		require "Large Battery Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your battery modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	priority
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_battery_module_small: offered"
+	on accept
+		outfit "Large Battery Module" -2
+		payment 741000
+mission aben_retrieval_battery_module_small
+	invisible
+	minor
+	on offer
+		require "Small Battery Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your battery modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_battery_module_large: offered"
+	on accept
+		outfit "Small Battery Module" -2
+		payment 512000
+mission aben_retrieval_collector_module_large
+	invisible
+	on offer
+		require "Large Collector Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your collector modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	priority
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_collector_module_small: offered"
+	on accept
+		outfit "Large Collector Module" -2
+		payment 918000
+mission aben_retrieval_collector_module_small
+	invisible
+	minor
+	on offer
+		require "Small Collector Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your collector modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_collector_module_large: offered"
+	on accept
+		outfit "Small Collector Module" -2
+		payment 607000
+mission aben_retrieval_heat_shunt_large
+	invisible
+	on offer
+		require "Large Heat Shunt"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your heat shunts?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. Saed is obviously puzzled with what he's seeing, "This design is expert to be humble, yet the execution is rudimentary. Why is that?" "The aliens that these come from are extemely old, but they are under threat of extinction. Anything they create is likely a rushed attempt."`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	priority
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_heat_shunt_small: offered"
+	on accept
+		outfit "Large Heat Shunt" -2
+		payment 1274000
+mission aben_retrieval_heat_shunt_small
+	invisible
+	minor
+	on offer
+		require "Small Heat Shunt"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your heat shunts?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. Saed is obviously puzzled with what he's seeing, "This design is expert to be humble, yet the execution is rudimentary. Why is that?" "The aliens that these come from are extemely old, but they are under threat of extinction. Anything they create is likely a rushed attempt."`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_heat_shunt_large: offered"
+	on accept
+		outfit "Small Heat Shunt" -2
+		payment 978000
+mission aben_retrieval_repair_module_large
+	invisible
+	on offer
+		require "Large Repair Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your repair modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	priority
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_repair_module_small: offered"
+	on accept
+		outfit "Large Repair Module" -2
+		payment 2300000
+mission aben_retrieval_repair_module_small
+	invisible
+	minor
+	on offer
+		require "Small Repair Module"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your repair modules?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the modules. While they are working to unload them, Saed strikes up conversation on these 'modules' and you do you best to explain that they come from a species that compact many of their technologies into modules that they can install multiple of.`
+			`	After the engineers unload the modules, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_repair_module_large: offered"
+	on accept
+		outfit "Small Repair Module" -2
+		payment 1506000
+mission aben_retrieval_systems_core_small
+	invisible
+	minor
+	on offer
+		require "Systems Core (Small)"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
+			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not "aben_retrieval_systems_core_medium: offered"
+		not	"aben_retrieval_systems_core_large: offered"
+	on accept
+		outfit "Systems Core (Small)" -2
+		payment 706000
+mission aben_retrieval_systems_core_medium
+	invisible
+	minor
+	on offer
+		require "Systems Core (Medium)"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
+			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_systems_core_small: offered"
+		not	"aben_retrieval_systems_core_large: offered"
+	on accept
+		outfit "Systems Core (Medium)" -2
+		payment 1104000
+mission aben_retrieval_systems_core_large
+	invisible
+	on offer
+		require "Systems Core (Large)"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
+			choice
+				`	Not now.`
+					defer
+				`	Yes.`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
+			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."
+	priority
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_systems_core_small: offered"
+		not	"aben_retrieval_systems_core_medium: offered"
+	on accept
+		outfit "Systems Core (Large)" -2
+		payment 1940000
+mission deprecated_add
+	description "Add deprecated content to outfitters. Effects will not show immediately, take off and land again to see effects take place."
+	job
+	name "Deprecated- Show"
+	on accept
+		event deprecated_add
+		set deprecated
+	repeat
+	source
+		attributes content
+	to offer
+		not deprecated
+mission deprecated_remove
+	description "Remove deprecated content from outfitters. Effects will not show immediately, take off and land again to see effects take place."
+	job
+	name "Deprecated- Hide"
+	on accept
+		event deprecated_remove
+		clear deprecated
+	repeat
+	source
+		attributes content
+	to offer
+		has deprecated
+mission hai_enlisted_1
+	description "Defeat a pirate raid on <destination>."
+	name "Defend <planet>"
+	npc
+		fleet "Large Hai" 2
+		fleet "Large Militia"
+		government Hai
+		personality heroic staying
+	npc evade
+		fleet "Large Northern Pirates" 10
+		government Pirate
+		personality heroic staying
+	on complete
+		dialog "The government of <planet> pays you <payment> for helping to drive off the attack."
+		payment 280000
+	on offer
+		conversation
+			`Suddenly you notice a massive rush in the spaceport: "We are under attack! <planet> is under attack by the unfettered humans! We need every combat-worthy ship to join in the defenses!" The authorities will probably be very gracious, but this could also be an easy way to get yourself killed.`
+			choice
+				`	(Join the defense fleet.)`
+				`	(Stay here until the fight is over.)`
+					decline
+			`A mix of Hai and Human pilots have amassed to help repel the unfettered attack. You join them, and take off together...`
+				launch
+	source
+		planet Allhome
+	to offer
+		"combat rating" > 400
+		random < 35
+mission hai_enlisted_2
+	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
+	destination Hai-home
+	name "Enlist with the Hai"
+	on offer
+		conversation
+			`As soon as you depart your ship you discover an envoy of sorts awaiting you. "Few human visitors demonstrate care for the lasting peace we have established so long ago," the Hai begins hastily. "You are a prominent example of your kind, we request audience on <destination>. The unfettered humans have revealed a tentativeness to prey on those who follow a path unlike their own."`
+			choice
+				`	"I suppose I can hear you out."`
+				`	"I would prefer to not get caught up in any trouble."`
+					defer
+			`	"That is a most pleasing answer," it says. "the consuls will be notified of this news and will be expecting attendance."`
+				accept
+	source
+		government Hai
+	to complete
+		never
+	to fail
+		has enlisted
+	to offer
+		has "hai_enlisted_1: done"
+		"reputation: Hai" > 1
+mission hai_enlisted_3
+	description "Eliminate the coordinator of the attacks on Hai space."
+	landing
+	name "Hai Bounty"
+	npc kill
+		dialog "You have eliminated the pirate leaders' ships. Hopefully this sends a warning to any other pirate warlords who meddles in the affairs of the Hai."
+		government Pirate
+		personality disables heroic nemesis plunders staying target
+		ship "Falcon (Heavy)" "Gash"
+		ship "Splinter (Laser)" "Gnar"
+		system Oblate
+	on complete
+		conversation
+			`	"We already see the fruits of your labor, the attacks are slowing" the elderly Hai again says, "We thank you for your assistance, we may call on you again should we require your assistance."`
+		payment 2800000
+		set "license: Hai Trust"
+	on offer
+		conversation 
+			`Stepping off onto the landing pads you are again greeted by a Hai envoy. "We are glad you could be present for this appointment with the elders," it says, "please follow me."`
+			choice
+				`	(Follow.)`
+					goto continue
+				`	"Actually, I came to formally decline."`
+			`	"I see, well I'll inform my superiors of your decision. I do wish to see you again protecting our peaceful way of life."`
+				decline
+			label continue
+			`	Being lead through a series of hallways and around several bends, you have trouble visualizing the exact way you and the Hai arrived here. Stopping at a large doorway you are told that beyond this door is the chamber of the elders.`
+			`	Entering the chamber you are greeted with a larger audience than you were expecting. "We have heard of your efforts defending the planet of Allhome and we are honored," says a rather elderly Hai, "but as we have business to discuss I will skip the formalities." Saying somewhat resigned, as though discussing hostilities causes them great distress, "Recently we have learned of the source of these attacks, joint warlords that go by Gnar and Gash, they control the unfettered planet of Stormhold," now with even more resignation in its' voice, "Usually we deal with our situations internally however human space is outside of our jurisdiction, and I'm afraid several of our largest warships would stir up quite a panic. We regret to send you alone to deal with our matters given the risk, but we will compensate you greatly for your efforts."`
+				accept
+		set enlisted
+	source Hai-home
+	to offer
+		has "hai_enlisted_2: offered"
+mission incursion_coalition
+	description "Summon unrelenting waves of coalition ships."
+	job
+	name "Incursion- Coalition"
+	on accept
+		event incursion_coalition
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_drak
+	description "Summon unrelenting waves of drak ships."
+	job
+	name "Incursion- Drak"
+	on accept
+		event incursion_drak
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_hai
+	description "Summon unrelenting waves of hai ships."
+	job
+	name "Incursion- Hai"
+	on accept
+		event incursion_hai
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_human
+	description "Summon unrelenting waves of human ships."
+	job
+	name "Incursion- Human"
+	on accept
+		event incursion_human
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_korath
+	description "Summon unrelenting waves of korath ships."
+	job
+	name "Incursion- Korath"
+	on accept
+		event incursion_korath
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_mereti
+	description "Summon unrelenting waves of mereti ships."
+	job
+	name "Incursion- Mereti"
+	on accept
+		event incursion_mereti
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_pug
+	description "Summon unrelenting waves of pug ships."
+	job
+	name "Incursion- Pug"
+	on accept
+		event incursion_pug
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_quarg
+	description "Summon unrelenting waves of quarg ships."
+	job
+	name "Incursion- Quarg"
+	on accept
+		event incursion_quarg
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_remnant
+	description "Summon unrelenting waves of remnant ships."
+	job
+	name "Incursion- Remnant"
+	on accept
+		event incursion_remnant
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_sestor
+	description "Summon unrelenting waves of sestor ships."
+	job
+	name "Incursion- Sestor"
+	on accept
+		event incursion_sestor
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission incursion_wanderer
+	description "Summon unrelenting waves of wanderer ships."
+	job
+	name "Incursion- Wanderer"
+	on accept
+		event incursion_wanderer
+	on complete
+		event incursion_clear
+	repeat
+	source
+		planet Arena
+mission irm_first_contact
+	landing
+	on offer
+		conversation
+			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this stellar construction just got a whole lot crazier.`
+			`	Being greeted by a large group of security personnel on landing has you uneasy, even more so with the escort of several security drones. "What are your intentions here? And who would you represent?" he proclaims slowly, but broadly.`
+			choice
+				`	"What is this place?"`
+					goto where
+				`	"I represent no one but myself, I'm just a traveler."`
+					goto traveler
+				`	"I am merely passing through."`
+			label pass
+			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
+				decline
+			label traveler
+			`	"That is pleasing to hear, yet regrettable, casting off your own will only lead to hardships. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
+			label where
+			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
+			choice
+				`	"Surrounding systems? You've met the Hai?"`
+					goto hai
+				`	"I see. Well I'm just passing through."`
+					goto pass
+			label hai
+			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many millennia since, we have had peace with the Hai, our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
+			`	"We do not know what events took place for the conquesting Hai to find themselves at peace but perhaps it can be an example to others. Now, what is it you are here for?"`
+			choice
+				`	"I'm just passing through."`
+					goto pass
+				`	"I'm just a tourist, seeing all there is to see."`
+			`	"We have few tourists here on Arx, we do not know if this structure is intimidating to outsiders or we are simply not known by many. Whichever is the cause, we do not mind, we have many pressing matters that take precedence over tourism. If you wish to explore our home you are welcome but do not become an issue to us or you will no longer be welcome here."`
+	source
+		system Solum
+mission licenses_give
+	description "Gives all licenses to the player."
+	job
+	name "Licenses- Give"
+	on accept
+		set "license: Aben Technology"
+		set "license: Carrier"
+		set "license: City-Ship"
+		set "license: Coalition"
+		set "license: Cruiser"
+		set "license: Hai Trust"
+		set "license: Heliarch"
+		set "license: Militia Carrier"
+		set "license: Navy"
+		set "license: Remnant Capital License"
+		set "license: Remnant"
+		set "license: Unfettered Militia"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+		set all_licenses
+	repeat
+	source
+		attributes content
+	to offer
+		not all_licenses
+mission licenses_take
+	description "Take all licenses from the player."
+	job
+	name "Licenses- Remove"
+	on accept
+		clear "license: Aben Technology"
+		clear "license: Carrier"
+		clear "license: City-Ship"
+		clear "license: Coalition"
+		clear "license: Cruiser"
+		clear "license: Hai Trust"
+		clear "license: Heliarch"
+		clear "license: Militia Carrier"
+		clear "license: Navy"
+		clear "license: Remnant Capital License"
+		clear "license: Remnant"
+		clear "license: Unfettered Militia"
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+		clear all_licenses
+	repeat
+	source
+		attributes content
+	to offer
+		has all_licenses
+mission money
+	invisible
+	landing
+	on offer
+		payment 1000000000
+	repeat
+	source
+		government Unknown
+mission reveal_map
+	job
+	name "Reveal Map"
+	on accept
+		event reveal_map
+		set revealed_map
+	source
+		attributes content
+	to fail
+		has "reveal_map: Active"
+mission swizzle_0
+	description "Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow."
+	job
+	name "Swizzle- 0"
+	on accept
+		event swizzle_0
+	repeat
+	source
+		attributes content
+mission swizzle_1
+	description "Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink."
+	job
+	name "Swizzle- 1"
+	on accept
+		event swizzle_1
+	repeat
+	source
+		attributes content
+mission swizzle_2
+	description "Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green."
+	job
+	name "Swizzle- 2"
+	on accept
+		event swizzle_2
+	repeat
+	source
+		attributes content
+mission swizzle_3
+	description "Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green."
+	job
+	name "Swizzle- 3"
+	on accept
+		event swizzle_3
+	repeat
+	source
+		attributes content
+mission swizzle_4
+	description "Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple."
+	job
+	name "Swizzle- 4"
+	on accept
+		event swizzle_4
+	repeat
+	source
+		attributes content
+mission swizzle_5
+	description "Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue."
+	job
+	name "Swizzle- 5"
+	on accept
+		event swizzle_5
+	repeat
+	source
+		attributes content
+mission swizzle_6
+	description "Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black."
+	job
+	name "Swizzle- 6"
+	on accept
+		event swizzle_6
+	repeat
+	source
+		attributes content

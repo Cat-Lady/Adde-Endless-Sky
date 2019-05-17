@@ -1,0 +1,7 @@
+government "Bounty Hunter"
+	"attitude toward"
+		Pirate -.5
+government Pirate
+	"attitude toward"
+		"Bounty Hunter" -.5
+		Hai -.5

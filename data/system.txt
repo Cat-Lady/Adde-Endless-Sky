@@ -1,0 +1,792 @@
+system "Ahaw on,za"
+	asteroids "large metal" 21 7
+	fleet "Unfettered Raid" 6000
+	government Uninhabited
+	link "Dzee dzee-bon'da"
+	link "Pak.zin skwa"
+	link Ko,gok
+	minables silicon 50 3
+	minables silver 19 3
+	minables uranium 24 2
+	object
+		distance 1443
+		period 473
+		sprite planet/neptune
+		object
+			distance 223
+			period 16
+			sprite planet/dust1
+		object
+			distance 335
+			period 30
+			sprite planet/rock17
+		object
+			distance 433
+			period 44
+			sprite planet/lava0
+		object
+			distance 631
+			period 78
+			sprite planet/miranda
+	object
+		distance 252
+		period 34
+		sprite planet/ice4
+	object
+		distance 547
+		period 110
+		sprite planet/luna
+	object
+		period 10
+		sprite star/g5
+	pos 137 -622
+system "Dzee dzee-bon'da"
+	asteroids "large metal" 24 3
+	asteroids "large rock" 12 3
+	asteroids "medium metal" 5 2
+	asteroids "medium rock" 45 3
+	asteroids "small metal" 11 3
+	fleet "Unfettered Raid" 6000
+	government Aben
+	link "Ahaw on,za"
+	link "Pak.zin skwa"
+	link Ko,gok
+	minables aluminum 1 3
+	minables copper 3 3
+	minables lead 9 3
+	object
+		distance 1407
+		period 509
+		sprite planet/gas3
+		object
+			distance 312
+			period 14
+			sprite planet/ice7
+		object
+			distance 417
+			period 21
+			sprite planet/luna
+	object Nis
+		distance 1790
+		period 1529
+		sprite planet/ocean3
+	object
+		distance 2346
+		period 1097
+		sprite planet/gas4
+		object
+			distance 252
+			period 14
+			sprite planet/dust5
+		object
+			distance 367
+			period 24
+			sprite planet/ice0
+	object
+		distance 658
+		period 163
+		sprite planet/lava4
+		object
+			distance 144
+			period 22
+			sprite planet/rock3
+	object
+		period 10
+		sprite star/f5
+	pos 130 -564
+system "Ivar i'atai"
+	asteroids "medium rock" 12 4
+	fleet "spirit armada" 500
+	fleet "spirit freight" 2000
+	government "Wanderer Spirits"
+	link "K'ch' rai"
+	link Sa'i'ai
+	object
+		sprite star/k0
+	object "collapsed gateway"
+		distance 1990
+		period 240
+		sprite planet/wormhole
+	object "Tai'ei ek"
+		distance 230
+		period 200
+		sprite planet/forest1
+	pos 10037 -111
+	trade "Heavy Metals" 1313
+	trade "Luxury Goods" 1090
+	trade Clothing 426
+	trade Electronics 695
+	trade Equipment 431
+	trade Food 298
+	trade Industrial 894
+	trade Medical 649
+	trade Metal 756
+	trade Plastic 382
+system "K'ch' rai"
+	asteroids "medium rock" 17 9
+	asteroids "large rock" 5 3
+	fleet "spirit armada" 700
+	fleet "spirit freight" 2300
+	government "Wanderer Spirits"
+	link "Ivar i'atai"
+	link Sa'i'ai
+	object
+		sprite star/b1
+	object Achi'rei
+		distance 370
+		period 320
+		sprite planet/forest2
+	pos 10099 -79
+	trade "Heavy Metals" 1342
+	trade "Luxury Goods" 1106
+	trade Clothing 433
+	trade Electronics 701
+	trade Equipment 445
+	trade Food 307
+	trade Industrial 904
+	trade Medical 651
+	trade Metal 763
+	trade Plastic 389
+system "M'ska gwe,demoos"
+	asteroids "large metal" 1 2
+	asteroids "large rock" 70 2
+	asteroids "medium metal" 86 2
+	asteroids "medium rock" 7 2
+	asteroids "small rock" 24 1
+	fleet "Unfettered Raid" 9000
+	government Uninhabited
+	link "Pak.zin skwa"
+	link Ko,gok
+	link Tso-nii
+	minables iron 16 14
+	minables silver 6 11
+	object
+		distance 1463
+		period 618
+		sprite planet/gas7
+	object
+		distance 19
+		offset 180
+		period 12
+		sprite star/g0
+	object
+		distance 2814
+		period 1648
+		sprite planet/gas0
+		object
+			distance 294
+			period 14
+			sprite planet/rock14
+		object
+			distance 431
+			period 26
+			sprite planet/tethys
+		object
+			distance 536
+			period 36
+			sprite planet/lava0
+	object
+		distance 299
+		period 57
+		sprite planet/ice6
+	object
+		distance 656
+		period 185
+		sprite planet/gas8
+	object
+		distance 89
+		period 12
+		sprite star/m4
+	pos 127 -516
+system "Pak.zin skwa"
+	asteroids "large metal" 2 3
+	asteroids "large rock" 1 5
+	asteroids "medium metal" 26 5
+	asteroids "small metal" 16 6
+	asteroids "small rock" 1 3
+	fleet "Unfettered Raid" 9000
+	government Uninhabited
+	link "Ahaw on,za"
+	link "Dzee dzee-bon'da"
+	link "M'ska gwe,demoos"
+	link Tso-nii
+	minables silicon 2 4
+	object
+		distance 1110
+		period 716
+		sprite planet/gas15
+		object
+			distance 207
+			period 15
+			sprite planet/dust1
+		object
+			distance 364
+			period 36
+			sprite planet/ice0
+	object
+		distance 181
+		period 47
+		sprite planet/cloud6
+	object
+		distance 2098
+		period 1862
+		sprite planet/gas10
+		object
+			distance 194
+			period 14
+			sprite planet/rock7
+		object
+			distance 278
+			period 24
+			sprite planet/tethys
+		object
+			distance 376
+			period 38
+			sprite planet/europa
+	object
+		distance 571
+		period 264
+		sprite planet/venus
+	object
+		period 10
+		sprite star/k5
+	pos 78 -519
+system "Wanderer Spirits"
+	government "Wanderer Spirits"
+	object "collapsed gateway"
+		sprite planet/wormhole
+	pos 49 -10087
+system Diespiter
+	asteroids "large metal" 76 3
+	asteroids "large rock" 3 1
+	asteroids "medium metal" 26 4
+	asteroids "medium rock" 14 1
+	asteroids "small metal" 74 2
+	asteroids "small rock" 65 3
+	government Uninhabited
+	haze _menu/haze-red
+	link Postverta
+	link Prosa
+	link Statina
+	minables iron 22 3
+	minables silicon 46 3
+	minables tungsten 17 3
+	object
+		distance 1600
+		period 398
+		sprite planet/gas11
+		object
+			distance 270
+			period 14
+			sprite planet/rock3
+	object
+		distance 745
+		period 394
+		sprite planet/ice6
+	object
+		distance 922
+		period 543
+		sprite planet/lava0
+	object
+		period 10
+		sprite star/k5-old
+	pos 332 210
+system Egeria
+	asteroids "large metal" 5 4
+	asteroids "large rock" 9 7
+	asteroids "medium metal" 86 3
+	asteroids "medium rock" 20 5
+	asteroids "small rock" 1 8
+	government Uninhabited
+	haze _menu/haze-red
+	link Prosa
+	link Vaticanus
+	minables iron 20 4
+	minables lead 28 5
+	object
+		distance 1326
+		period 2174
+		sprite planet/gas9
+		object
+			distance 270
+			period 16
+			sprite planet/rhea
+	object
+		distance 40
+		offset 180
+		period 19
+		sprite star/k5-old
+	object
+		distance 248
+		period 61
+		sprite planet/ice4
+	object
+		distance 74
+		period 19
+		sprite star/g0
+	object barren_wormhole
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+	pos 288 146
+system Everything
+	government Unknown
+	object Arena
+		distance 444
+		offset 135
+		sprite planet/kaliida
+	object Everything
+		distance 1218
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 20
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 40
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 60
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 80
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 100
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 120
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 140
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 160
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 180
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 200
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 220
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 240
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 260
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 280
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 300
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 320
+		sprite planet/ringworldbig
+	object Everything
+		distance 1218
+		offset 340
+		sprite planet/ringworldbig
+	object Plugins
+		distance 444
+		offset 45
+		sprite planet/kaliida
+	object Vanilla
+		distance 444
+		offset 315
+		sprite planet/kaliida
+	object Variants
+		distance 444
+		offset 225
+		sprite planet/kaliida
+	object gateway
+		sprite planet/wormhole
+	pos -10 -10016
+system Ko,gok
+	asteroids "large metal" 8 2
+	asteroids "large rock" 16 4
+	asteroids "medium metal" 109 4
+	asteroids "medium rock" 12 1
+	asteroids "small metal" 96 2
+	asteroids "small rock" 60 2
+	fleet "Unfettered Raid" 9000
+	government Aben
+	link "Ahaw on,za"
+	link "Dzee dzee-bon'da"
+	link "M'ska gwe,demoos"
+	minables iron 1 2
+	minables lead 1 2
+	minables platinum 4 3
+	object
+		distance 1051
+		period 545
+		sprite planet/gas11
+		object
+			distance 231
+			period 11
+			sprite planet/rock0
+		object
+			distance 374
+			period 23
+			sprite planet/tethys
+		object
+			distance 519
+			period 38
+			sprite planet/rock3
+	object
+		distance 246
+		period 62
+		sprite planet/desert2
+		object
+			distance 132
+			period 16
+			sprite planet/desert4
+	object Pesek
+		distance 647
+		period 37
+		sprite planet/rock16
+	object
+		period 10
+		sprite star/g5
+	pos 169 -552
+system Postverta
+	asteroids "large metal" 9 3
+	asteroids "large rock" 4 3
+	asteroids "medium metal" 52 1
+	asteroids "medium rock" 4 2
+	government Uninhabited
+	haze _menu/haze-red
+	link Diespiter
+	link Prosa
+	link Statina
+	object
+		distance 1208
+		period 654
+		sprite planet/rock10
+	object
+		distance 439
+		period 143
+		sprite planet/desert7
+	object
+		distance 814
+		period 362
+		sprite planet/fog0
+		object
+			distance 202
+			period 21
+			sprite planet/dust4
+	object
+		period 19
+		sprite star/m4
+	pos 297 269
+system Prosa
+	asteroids "large metal" 2 2
+	asteroids "large rock" 16 1
+	asteroids "medium metal" 11 2
+	asteroids "medium rock" 16 1
+	asteroids "small rock" 4 1
+	government Uninhabited
+	haze _menu/haze-red
+	link Diespiter
+	link Egeria
+	link Postverta
+	link Vaticanus
+	minables copper 5 2
+	object
+		distance 311
+		period 34
+		sprite planet/cloud1
+	object
+		distance 749
+		period 127
+		sprite planet/desert9
+	object
+		distance 941
+		period 179
+		sprite planet/rock6
+	object
+		offset 180
+		period 7
+		sprite star/giant
+	object
+		distance 1311
+		period 695
+		sprite planet/gas17
+		object
+			distance 227
+			period 14
+			sprite planet/callisto
+		object
+			distance 351
+			period 28
+			sprite planet/dust5
+	object barren_wormhole2
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+	pos 303 194
+system Sa'i'ai
+	asteroids "medium rock" 13 14
+	asteroids "large rock" 7 3
+	fleet "spirit armada" 600
+	fleet "spirit freight" 2700
+	government "Wanderer Spirits"
+	link "Ivar i'atai"
+	link "K'ch' rai"
+	object
+		sprite star/b1
+	object Ayek'ret
+		distance 420
+		period 350
+		sprite planet/forest4
+	pos 10071 -154
+	trade "Heavy Metals" 1420
+	trade "Luxury Goods" 1098
+	trade Clothing 452
+	trade Electronics 678
+	trade Equipment 423
+	trade Food 293
+	trade Industrial 835
+	trade Medical 701
+	trade Metal 743
+	trade Plastic 412
+system Solum
+	asteroids "large metal" 5 2
+	asteroids "medium rock" 8 3
+	government Irm
+	object
+		distance 812
+		period 360
+		sprite "planet/ringworld left"
+	object
+		distance 812
+		offset -240
+		period 360
+		sprite "planet/ringworld right"
+	object
+		distance 847
+		offset -280
+		period 360
+		sprite planet/ocean2
+	object
+		sprite star/k0
+	object Arx
+		distance 812
+		offset -100
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -120
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -140
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -160
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -180
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -20
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -200
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -220
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -40
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -60
+		period 360
+		sprite planet/ringworld
+	object Arx
+		distance 812
+		offset -80
+		period 360
+		sprite planet/ringworld
+	object irm_gate
+		distance 6048
+		period 5634
+		sprite planet/wormhole
+	pos -215 -580
+system Statina
+	asteroids "large metal" 3 5
+	asteroids "large rock" 1 4
+	asteroids "medium metal" 72 3
+	asteroids "small metal" 39 3
+	government Uninhabited
+	haze _menu/haze-red
+	link Diespiter
+	link Postverta
+	minables iron 5 6
+	minables silicon 11 5
+	minables titanium 10 4
+	object
+		distance 111
+		period 30
+		sprite planet/desert4
+	object
+		distance 308
+		period 142
+		sprite planet/dust3
+	object
+		distance 636
+		period 420
+		sprite planet/gas8
+	object
+		period 10
+		sprite star/m4
+	object
+		distance 1364
+		period 84
+		sprite planet/ice5
+		object
+			distance 158
+			period 17
+			sprite planet/dust4
+	object link_wormhole
+		distance 2754
+		period 389
+		sprite planet/wormhole-red
+	pos 385 198
+system Tso-nii
+	asteroids "large metal" 5 7
+	asteroids "large rock" 19 3
+	asteroids "medium metal" 40 4
+	asteroids "medium rock" 18 4
+	asteroids "small metal" 14 7
+	asteroids "small rock" 4 3
+	fleet "Unfettered Raid" 10500
+	government Uninhabited
+	link "M'ska gwe,demoos"
+	link "Pak.zin skwa"
+	minables lead 21 6
+	minables silicon 45 6
+	object
+		distance 1074
+		offset 51
+		period 563
+		sprite planet/cloud8
+	object
+		distance 22
+		period 10
+		sprite star/f5
+	object
+		distance 2666
+		offset 5
+		period 2202
+		sprite planet/gas11
+		object
+			distance 252
+			period 13
+			sprite planet/callisto
+		object
+			distance 354
+			period 21
+			sprite planet/dust1
+	object
+		distance 449
+		offset 2
+		period 152
+		sprite planet/desert1
+		object
+			distance 254
+			offset 60
+			period 35
+			sprite planet/luna
+	object
+		distance 867
+		offset 86
+		period 409
+		sprite planet/mars
+	object
+		distance 91
+		offset 180
+		period 10
+		sprite star/k5
+	pos 86 -467
+system Vaticanus
+	asteroids "large metal" 11 7
+	asteroids "large rock" 5 8
+	asteroids "medium metal" 47 11
+	asteroids "medium rock" 11 9
+	asteroids "small metal" 14 8
+	asteroids "small rock" 3 6
+	government Uninhabited
+	haze _menu/haze-red
+	link Egeria
+	link Prosa
+	minables lead 16 13
+	minables tungsten 10 13
+	object
+		distance 1670
+		period 1181
+		sprite planet/gas16
+		object
+			distance 204
+			period 14
+			sprite planet/lava1
+	object
+		distance 2105
+		period 3438
+		sprite planet/uranus
+		object
+			distance 235
+			period 14
+			sprite planet/luna
+	object
+		distance 261
+		period 73
+		sprite planet/ice6
+	object
+		distance 768
+		period 368
+		sprite planet/tethys
+	object
+		period 19
+		sprite star/m0
+	object link_wormhole
+		distance 2754
+		period 389
+		sprite planet/wormhole-red
+	pos 324 112

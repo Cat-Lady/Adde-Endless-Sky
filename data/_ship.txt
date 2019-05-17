@@ -1,0 +1,77 @@
+ship "Far Lek 14"
+	attributes
+		"self destruct" .3
+ship "Far Osk 27"
+	attributes
+		"self destruct" .3
+ship "Kar Ik Vot 349"
+	attributes
+		"self destruct" .4
+ship "Met Par Tek 53"
+	attributes
+		"self destruct" .325
+ship "Model 128"
+	attributes
+		"self destruct" .385
+ship "Model 16"
+	attributes
+		"self destruct" .325
+ship "Model 256"
+	attributes
+		"self destruct" .395
+ship "Model 32"
+	attributes
+		"self destruct" .35
+ship "Model 512"
+	attributes
+		"self destruct" .4
+ship "Model 64"
+	attributes
+		"self destruct" .37
+ship "Model 8"
+	attributes
+		"self destruct" .3
+ship "Shield Beetle"
+	attributes
+		licenses
+			"Hai Trust"
+ship "Tek Far 109"
+	attributes
+		"self destruct" .35
+ship "Tek Far 71 - Lek"
+	attributes
+		"self destruct" .35
+ship "Tek Far 78 - Osk"
+	attributes
+		"self destruct" .35
+ship Flivver "Flivver (Racing)"
+	attributes
+		"cargo space" 15
+		"engine capacity" 55
+		"fuel capacity" 600
+		"heat dissipation" .8
+		"outfit space" 130
+		"required crew" 1
+		bunks 2
+		category Transport
+		cost 110000
+		drag 1.1
+		hull 250
+		mass 45
+		shields 900
+		weapon
+			"blast radius" 16
+			"hit force" 240
+			"hull damage" 80
+			"shield damage" 160
+	engine -12 20 .8
+	engine 12 20 .8
+	explode "small explosion" 15
+	explode "tiny explosion" 10
+	outfits
+		"A125 Atomic Steering"
+		"A250 Atomic Thruster"
+		"LP072a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Scram Drive"
+	sprite ship/scutter

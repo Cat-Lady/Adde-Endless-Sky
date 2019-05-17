@@ -1,0 +1,21 @@
+government "Wanderer Spirits"
+	"player reputation" 1
+	color .50 .71 .42
+	language wanderer
+	swizzle 2
+government Aben
+	color .2 .5 .7
+government Irm
+	color .5 .2 1
+	swizzle 3
+government Unknown
+	"penalty for"
+		atrocity 0
+		board 0
+		capture 0
+		destroy 0
+		disable 0
+	"player reputation" -1
+	color 1 1 1
+	fine 0
+	swizzle 0

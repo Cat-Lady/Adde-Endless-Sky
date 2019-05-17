@@ -1,0 +1,464 @@
+fleet "irm defense"
+	government Irm
+	personality heroic unconstrained
+	variant
+		Revelation 1
+	variant
+		Revelation 3
+	variant
+		Revelation 8
+fleet "spirit armada"
+	government "Wanderer Spirits"
+	names wanderer
+	personality
+		heroic opportunistic
+	variant 7
+		"Strong Wind" 2
+		Derecho
+		Tempest 2
+	variant 6
+		"Strong Wind" 3
+		Tempest 2
+	variant 4
+		"Tempest (Missile)" 2
+		Derecho
+		Tempest 2
+	variant 3
+		"Tempest (Missile)"
+		Derecho
+		Hurricane 2
+		Tempest 2
+fleet "spirit freight"
+	cargo 3
+	government "Wanderer Spirits"
+	names wanderer
+	personality
+		timid
+	variant
+		"Deep River 0"
+	variant
+		"Deep River 1"
+	variant
+		"Deep River 2"
+	variant
+		"Deep River 3"
+	variant
+		"Deep River 4"
+	variant
+		"Deep River"
+fleet coalition
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Arach Courier"
+	variant
+		"Arach Freighter"
+	variant
+		"Arach Hulk"
+	variant
+		"Arach Spindle"
+	variant
+		"Arach Transport"
+	variant
+		"Heliarch Interdictor"
+	variant
+		"Heliarch Neutralizer"
+	variant
+		"Heliarch Punisher"
+	variant
+		"Kimek Briar"
+	variant
+		"Kimek Spire"
+	variant
+		"Kimek Thistle"
+	variant
+		"Kimek Thorn"
+	variant
+		"Saryd Runabout"
+	variant
+		"Saryd Sojourner"
+	variant
+		"Saryd Traveler"
+	variant
+		"Saryd Visitor"
+fleet drak
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Archon (Cloaked)"
+	variant
+		Archon
+fleet hai
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Lightning Bug"
+	variant
+		"Pond Strider"
+		Flea 8
+	variant
+		"Shield Beetle"
+	variant
+		"Violin Spider" 6
+		Solifuge
+	variant
+		"Water Bug"
+	variant
+		Aphid
+	variant
+		Centipede
+	variant
+		Geocoris
+	variant
+		Grasshopper
+fleet human
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Bulk Freighter"
+	variant
+		"Class C Freighter"
+		"Combat Drone" 12
+	variant
+		"Combat Drone" 4
+		Cruiser
+	variant
+		"Combat Drone" 6
+		Carrier
+		Finch 4
+	variant
+		"Hauler II"
+	variant
+		"Hauler III"
+	variant
+		"Heavy Shuttle"
+	variant
+		"Marauder Arrow (Engines)"
+	variant
+		"Marauder Arrow (Weapons)"
+	variant
+		"Marauder Arrow"
+	variant
+		"Marauder Bounder (Engines)"
+	variant
+		"Marauder Bounder (Weapons)"
+	variant
+		"Marauder Bounder"
+	variant
+		"Marauder Falcon (Engines)"
+	variant
+		"Marauder Falcon (Weapons)"
+	variant
+		"Marauder Falcon"
+	variant
+		"Marauder Firebird (Engines)"
+	variant
+		"Marauder Firebird (Weapons)"
+	variant
+		"Marauder Firebird"
+	variant
+		"Marauder Fury"
+	variant
+		"Marauder Leviathan (Engines)"
+	variant
+		"Marauder Leviathan (Weapons)"
+	variant
+		"Marauder Leviathan"
+	variant
+		"Marauder Manta (Engines)"
+	variant
+		"Marauder Manta (Weapons)"
+	variant
+		"Marauder Manta"
+	variant
+		"Marauder Quicksilver (Engines)"
+	variant
+		"Marauder Quicksilver (Weapons)"
+	variant
+		"Marauder Quicksilver"
+	variant
+		"Marauder Raven (Engines)"
+	variant
+		"Marauder Raven (Weapons)"
+	variant
+		"Marauder Raven"
+	variant
+		"Marauder Splinter (Engines)"
+	variant
+		"Marauder Splinter (Weapons)"
+	variant
+		"Marauder Splinter"
+	variant
+		"Modified Argosy"
+	variant
+		"Star Barge"
+	variant
+		"Star Queen"
+	variant
+		"Surveillance Drone"
+	variant
+		Aerie
+		Finch 2
+	variant
+		Argosy
+	variant
+		Arrow
+	variant
+		Bactrian
+		Finch 3
+	variant
+		Bastion
+	variant
+		Behemoth
+	variant
+		Berserker
+	variant
+		Blackbird
+	variant
+		Bounder
+	variant
+		Clipper
+	variant
+		Corvette
+	variant
+		Dreadnought
+	variant
+		Falcon
+	variant
+		Finch
+		Mule
+	variant
+		Finch 2
+		Nest
+	variant
+		Finch 4
+		Roost
+	variant
+		Finch 6
+		Skein
+	variant
+		Firebird
+	variant
+		Flivver
+	variant
+		Freighter
+	variant
+		Frigate
+	variant
+		Fury
+	variant
+		Gunboat
+	variant
+		Hauler
+	variant
+		Hawk
+	variant
+		Headhunter
+	variant
+		Kestrel
+	variant
+		Leviathan
+	variant
+		Manta
+	variant
+		Osprey
+	variant
+		Protector
+	variant
+		Quicksilver
+	variant
+		Rainmaker
+	variant
+		Raven
+	variant
+		Scout
+	variant
+		Shuttle
+	variant
+		Sparrow
+	variant
+		Splinter
+	variant
+		Vanguard
+	variant
+		Wasp
+fleet korath
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Korath Chaser" 2
+		"Korath Raider"
+	variant
+		"Korath World-Ship B"
+	variant
+		"Korath World-Ship C"
+	variant
+		"Korath World-Ship"
+fleet mereti
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Model 128"
+	variant
+		"Model 16"
+	variant
+		"Model 256"
+	variant
+		"Model 32"
+	variant
+		"Model 512"
+	variant
+		"Model 64"
+	variant
+		"Model 8"
+fleet pug
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Pug Arfecta"
+	variant
+		"Pug Enfolta"
+	variant
+		"Pug Maboro"
+	variant
+		"Pug Zibruka"
+fleet quarg
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Quarg Skylark"
+	variant
+		"Quarg Wardragon"
+fleet remnant
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		Albatross
+	variant
+		Gascraft
+	variant
+		Gull
+	variant
+		Pelican
+	variant
+		Starling
+fleet sestor
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Far Lek 14" 10
+		"Tek Far 71 - Lek"
+	variant
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+		"Tek Far 109"
+	variant
+		"Far Osk 27" 9
+		"Tek Far 78 - Osk"
+	variant
+		"Kar Ik Vot 349"
+	variant
+		"Met Par Tek 53"
+fleet wanderer
+	government Unknown
+	personality
+		heroic
+		marked
+		mute
+		nemesis
+		unconstrained
+		vindictive
+	variant
+		"Autumn Leaf"
+	variant
+		"Cool Breeze"
+	variant
+		"Deep River 0"
+	variant
+		"Deep River 1"
+	variant
+		"Deep River 2"
+	variant
+		"Deep River 3"
+	variant
+		"Deep River 4"
+	variant
+		"Deep River Transport"
+	variant
+		"Deep River"
+	variant
+		"Earth Shaper"
+	variant
+		"Strong Wind"
+	variant
+		"Summer Leaf"
+	variant
+		"Winter Gale"
+	variant
+		Derecho
+	variant
+		Flycatcher
+	variant
+		Hurricane
+	variant
+		Tempest

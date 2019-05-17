@@ -1,0 +1,34 @@
+person "Captain Plasma"
+	government Korath
+	personality
+		disables opportunistic plunders
+	phrase
+		word
+			"I dearly hope you're packing some shunts, this is gonna be fun!"
+	ship "Captain Plasma"
+person "Darcy Manoel"
+	frequency 200
+	government Author
+	personality
+		plunders
+	phrase
+		word
+			"I hope you're enjoying my plugin! Come collab with me some time!"
+	ship "Darcy Manoel"
+person Lorantine
+	frequency 100
+	government Author
+	personality
+		unconstrained
+		vindictive
+	phrase
+		word
+			"Gotta keep my eyes open. Damn dragons could swoop down at any time."
+			"I know your kind, always flying about."
+			"I mostly deal with petty plundering and drunken fights. Been too long since I've had a good pirate raid."
+			"I used to be a pilot like you. Then I took a torpedo in the stern."
+			"Imagine, blowing up an entire planet. Damn Korath... The Core will never be the same."
+			"So you can shoot a few ships? Am I supposed to be impressed?"
+			"What is it? Dragons?"
+			"You see those dragons from Derogam? They've got curved ships. Curved. Ships."
+	ship Lorantine
