@@ -1,7 +1,9 @@
 person "Captain Plasma"
 	government Korath
 	personality
-		disables opportunistic plunders
+		disables
+		opportunistic
+		plunders
 	phrase
 		word
 			"I dearly hope you're packing some shunts, this is gonna be fun!"

@@ -1,4 +1,4 @@
-outfitter "aben sales"
+outfitter aben_sales
 	"Aben Cooling"
 	"Aben Energy Generator"
 	"Aben Energy Storage"
