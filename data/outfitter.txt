@@ -34,6 +34,7 @@ outfitter plugin
 	"Irm Small Engines"
 	"Korath Disruptor Gun"
 	"Korath Fire-Lance Turret"
+	"Plasma Repeater"
 	"Quad Plasma Turret"
 	"Regional Map"
 	"Smugglers Fittings"

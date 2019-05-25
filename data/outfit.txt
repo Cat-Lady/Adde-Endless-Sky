@@ -216,6 +216,31 @@ outfit "Korath Fire-Lance Turret"
 			"frame rate" 12
 			"random start frame"
 		velocity 350
+outfit "Plasma Repeater"
+	"gun ports" -1
+	"outfit space" -32
+	"weapon capacity" -32
+	category Guns
+	cost 274000
+	description "Derived from the original Plasma Cannon, this larger weapon trades off it's larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than it's predecessor, it imparts more damage onto the enemy overall."
+	mass 32
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 13
+		"firing heat" 110
+		"heat damage" 144
+		"hit effect" "plasma explosion"
+		"hit force" 19
+		"hull damage" 13
+		"random lifetime" 14
+		"shield damage" 33
+		inaccuracy 5
+		lifetime 36
+		reload 7
+		sprite projectile/plasma
+			"frame rate" 3
+		sound plasma
+		velocity 12
 outfit "Quad Plasma Turret"
 	"outfit space" -87
 	"required crew" 2
