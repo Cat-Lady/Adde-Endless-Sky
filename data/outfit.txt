@@ -175,6 +175,7 @@ outfit "Korath Disruptor Gun"
 	"weapon capacity" -23
 	category Guns
 	cost 697000
+	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
 	mass 23
 	thumbnail outfit/disruptor_gun
 	weapon
