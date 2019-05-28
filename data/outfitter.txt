@@ -40,6 +40,7 @@ outfitter plugin
 	"Smugglers Fittings"
 	"Transparency Plating"
 	Capacitors
+	Deterrence
 	Devastator
 	Harrier
 outfitter vanilla

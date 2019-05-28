@@ -293,6 +293,17 @@ outfit "Transparency Plating"
 	cost 750000
 	thumbnail outfit/transparency_plating
 	unplunderable 1
+outfit Deterrence
+	"turret mounts" -1
+	category Turrets
+	thumbnail outfit/unknown
+	weapon
+		"hull damage" 16666666.6667
+		"turret turn" 12
+        lifetime 1
+		piercing 1
+		reload 1
+		velocity 1000000
 outfit Devastator
 	"apocalypse spine" 1
 	"gun ports" -1
