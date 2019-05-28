@@ -1,3 +1,7 @@
+shipyard Havenworks
+	"Marauder Firebird"
+	"Marauder Leviathan"
+	"Modified Argosy"
 shipyard plugin
 	"Captain Plasma"
 	"Darcy Manoel"
