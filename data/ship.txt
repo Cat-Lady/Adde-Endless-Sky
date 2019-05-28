@@ -535,11 +535,12 @@ ship Bulwark
 ship Caster
 	attributes
 		"afterburner thrust" -200000
-		"cargo space" 1000
 		"cargo scan power" 1000000
 		"cargo scan speed" 1000000
+		"cargo space" 1000
 		"energy generation" 16666.67
 		"fuel capacity" 300
+		"fuel generation" 1000000
 		"heat dissipation" .1667
 		"hull repair rate" 16666.67
 		"jump drive" 1
@@ -560,7 +561,6 @@ ship Caster
 		hull 1000000
 		hyperdrive 1
 		mass 1000000
-		ramscoop 1000000
 		shields 1000000
 		thrust 200000
 		turn 3000000
