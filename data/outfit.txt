@@ -225,7 +225,7 @@ outfit "Plasma Repeater"
 	cost 274000
 	description "Derived from the original Plasma Cannon, this larger weapon trades off it's larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than it's predecessor, it imparts more damage onto the enemy overall."
 	mass 32
-	thumbnail outfit/unknown
+	thumbnail outfit/plasma_repeater
 	weapon
 		"firing energy" 13
 		"firing heat" 110
@@ -233,10 +233,9 @@ outfit "Plasma Repeater"
 		"hit effect" "plasma explosion"
 		"hit force" 19
 		"hull damage" 13
-		"random lifetime" 14
 		"shield damage" 33
 		inaccuracy 5
-		lifetime 36
+		lifetime 38
 		reload 7
 		sprite projectile/plasma
 			"frame rate" 3
@@ -345,7 +344,7 @@ outfit Harrier
 	"weapon capacity" -31
 	category Guns
 	cost 1160000
-	mass 57
+	mass 31
 	thumbnail outfit/unknown
 	weapon
 		"firing energy" 4
