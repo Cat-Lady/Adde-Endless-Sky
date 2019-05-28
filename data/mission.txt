@@ -565,7 +565,7 @@ mission aben_retrieval_battery_module_large
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	priority
 	source
 		planet Nis
@@ -592,7 +592,7 @@ mission aben_retrieval_battery_module_small
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -617,7 +617,7 @@ mission aben_retrieval_collector_module_large
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	priority
 	source
 		planet Nis
@@ -644,7 +644,7 @@ mission aben_retrieval_collector_module_small
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -669,7 +669,7 @@ mission aben_retrieval_heat_shunt_large
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	priority
 	source
 		planet Nis
@@ -696,7 +696,7 @@ mission aben_retrieval_heat_shunt_small
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -721,7 +721,7 @@ mission aben_retrieval_repair_module_large
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	priority
 	source
 		planet Nis
@@ -748,7 +748,7 @@ mission aben_retrieval_repair_module_small
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -774,7 +774,7 @@ mission aben_retrieval_systems_core_small
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -801,7 +801,7 @@ mission aben_retrieval_systems_core_medium
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	source
 		planet Nis
 	to offer
@@ -827,7 +827,7 @@ mission aben_retrieval_systems_core_large
 			choice
 				`	"Yes, it is."`
 					accept
-				`	"I can't accept that."
+				`	"I can't accept that."`
 	priority
 	source
 		planet Nis

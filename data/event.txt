@@ -262,7 +262,6 @@ event reveal_map
 	"visit planet" Darkwaste
 	"visit planet" Deep
 	"visit planet" Delve
-	"visit planet" Developer
 	"visit planet" Dune
 	"visit planet" Dustmaker
 	"visit planet" Earth

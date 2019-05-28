@@ -267,8 +267,7 @@ ship "Model 8" model_8_disruptor
 		"Thruster (Comet Class)"
 		Hyperdrive
 ship "Model 8" model_8_minelayer
-	gun 9 -36 "Korath Disruptor Gun"
-	gun -11 -15 "Korath Disruptor Gun"
+	gun 9 -36 "Korath Minelayer"
 	outfits
 		"Generator (Furnace Class)"
 		"Korath Mine Rack" 3

@@ -299,7 +299,7 @@ outfit Deterrence
 	weapon
 		"hull damage" 16666666.6667
 		"turret turn" 12
-        lifetime 1
+		lifetime 1
 		piercing 1
 		reload 1
 		velocity 1000000
@@ -313,25 +313,25 @@ outfit Devastator
 	mass 143
 	thumbnail outfit/unknown
 	weapon
-        "blast radius" 400
-        "die effect" devastator_die
-        "fire effect" devastator_fire1 2
-        "fire effect" devastator_fire2
-        "firing energy" 13
-        "firing heat" 11
-        "heat damage" 140
-        "hit effect" devastator_hit1
-        "hit effect" devastator_hit2 4
-        "hit effect" devastator_hit3
-        "hit force" 10
-        "hull damage" 17
-        "random velocity" 80 120
-        "shield damage" 26
-        inaccuracy 2
-        lifetime 30
-        safe
-        sound "final explosion small"
-        sprite projectile/superweapon
+		"blast radius" 400
+		"die effect" devastator_die
+		"fire effect" devastator_fire1 2
+		"fire effect" devastator_fire2
+		"firing energy" 13
+		"firing heat" 11
+		"heat damage" 140
+		"hit effect" devastator_hit1
+		"hit effect" devastator_hit2 4
+		"hit effect" devastator_hit3
+		"hit force" 10
+		"hull damage" 17
+		"random velocity" 80 120
+		"shield damage" 26
+		inaccuracy 2
+		lifetime 30
+		safe
+		sound "final explosion small"
+		sprite projectile/superweapon
 outfit Capacitors
 	"capacitor slots" -1
 	"energy capacity" 18.75

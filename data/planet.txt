@@ -79,6 +79,5 @@ planet Variants
 	attributes content
 	description ""
 	landscape land/kaliida
-	outfitter variants
 	shipyard variants
 	spaceport ""
