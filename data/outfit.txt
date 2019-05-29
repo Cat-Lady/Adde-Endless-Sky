@@ -108,6 +108,7 @@ outfit "Flame Thrower"
 	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 35000
+	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
 	illegal 800000
 	thumbnail outfit/flame_thrower
 outfit "Ion Mortar"
