@@ -43,6 +43,7 @@ ship "Captain Plasma"
 		"Thruster (Lunar Class)"
 		"Triple Plasma Core"
 	sprite ship/bulwark
+	thumbnail thumbnail/bulwark
 	turret -46 -62 "Korath Warder"
 	turret -46 54 "Korath Grab-Strike"
 	turret -64 -4 "Quad Plasma Turret"
@@ -323,6 +324,7 @@ ship Adel
 		`"Benga" Atomic Thruster`
 		Hyperdrive
 	sprite ship/adel
+	thumbnail thumbnail/adel
 ship Aesalon
 	"final explode" "final explosion medium"
 	attributes
@@ -375,6 +377,7 @@ ship Aesalon
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
 	sprite ship/aesalon
+	thumbnail thumbnail/aesalon
 	turret -16 -21 "Laser Turret"
 	turret -46 34 "Electron Turret"
 	turret 16 -21 "Laser Turret"
@@ -418,6 +421,7 @@ ship Apocalypse
 		"Irm Large Engines"
 		Devastator 2
 	sprite ship/apocalypse
+	thumbnail thumbnail/apocalypse
 	turret -46 26 "Apotropaic Anti-Missile"
 	turret -46 115 "Apotropaic Anti-Missile"
 	turret -46 204 "Apotropaic Anti-Missile"
@@ -525,6 +529,7 @@ ship Bulwark
 		"X3200 Ion Steering"
 		Hyperdrive
 	sprite ship/bulwark
+	thumbnail thumbnail/bulwark
 	turret -46 -62 "Quad Blaster Turret"
 	turret -46 54 "Quad Blaster Turret"
 	turret -64 -4 "Quad Blaster Turret"
