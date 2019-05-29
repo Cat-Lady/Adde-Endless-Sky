@@ -405,6 +405,22 @@ ship Apocalypse
 		mass 3700
 		ramscoop 2
 		shields 74800
+	drone -96 109 over left
+	drone -96 109 under left
+	drone -96 195 over left
+	drone -96 195 under left
+	drone -96 23 over left
+	drone -96 23 under left
+	drone -96 281 over left
+	drone -96 281 under left
+	drone 96 109 over right
+	drone 96 109 under right
+	drone 96 195 over right
+	drone 96 195 under right
+	drone 96 23 over right
+	drone 96 23 under right
+	drone 96 281 over right
+	drone 96 281 under right
 	engine -129 -101 .6
 	engine -30 486.5 1.2
 	engine -30 486.5 1.2
