@@ -223,7 +223,8 @@ outfit "Plasma Repeater"
 	"weapon capacity" -32
 	category Guns
 	cost 274000
-	description "Derived from the original Plasma Cannon, this larger weapon trades off it's larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than it's predecessor, it imparts more damage onto the enemy overall."
+	description "Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding."
+	description "Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall."
 	mass 32
 	thumbnail outfit/plasma_repeater
 	weapon
