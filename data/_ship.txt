@@ -75,3 +75,4 @@ ship Flivver "Flivver (Racing)"
 		"nGVF-BB Fuel Cell"
 		"Scram Drive"
 	sprite ship/scutter
+	thumbnail thumbnail/scutter

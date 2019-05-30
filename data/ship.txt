@@ -165,6 +165,7 @@ ship "Kar Ik Vot 637"
 		"Triple Plasma Core"
 		Hyperdrive
 	sprite ship/kar_ik_vot_637
+	thumbnail thumbnail/kar_ik_vot_637
 	turret -124 198 "Korath Repeater Turret"
 	turret -50 -261 "Korath Repeater Turret"
 	turret -52 -238 "Korath Repeater Turret"
@@ -603,6 +604,7 @@ ship Caster
 	outfits
 		Deterrence
 	sprite ship/caster
+	thumbnail thumbnail/caster
 	turret 0 116 Deterrence
 	turret 0 116
 	turret 0 116
@@ -658,6 +660,7 @@ ship Hornet
 		"X2700 Ion Thruster"
 		Hyperdrive
 	sprite ship/hornet
+	thumbnail thumbnail/hornet
 ship Hydra
 	"final explode" "final explosion large"
 	attributes
@@ -712,6 +715,7 @@ ship Hydra
 		"Typhoon Torpedo" 225
 		Hyperdrive
 	sprite ship/hydra
+	thumbnail thumbnail/hydra
 	turret -15 -50 "Pulse Turret"
 	turret -28 10 "Heavy Anti-Missile Turret"
 	turret 15 -50 "Pulse Turret"
