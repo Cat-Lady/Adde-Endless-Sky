@@ -559,6 +559,7 @@ ship Bulwark
 ship Caster
 	attributes
 		"afterburner thrust" -200000
+		"asteroid scan power" 1000000
 		"cargo scan power" 1000000
 		"cargo scan speed" 1000000
 		"cargo space" 1000000
@@ -575,6 +576,8 @@ ship Caster
 		"quantum keystone" 1
 		"required crew" 1
 		"scan interference" 1000000
+		"slowing resistance" 1000000
+		"tactical scan power" 1000000
 		"weapon capacity" 1000000
 		bunks 10000
 		category Transport
