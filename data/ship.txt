@@ -208,6 +208,7 @@ ship "Korath Stalker"
 		"Steering (Asteroid Class)"
 		"Thruster (Asteroid Class)"
 	sprite ship/stalker
+	thumbnail thumbnail/stalker
 ship "Model 1024"
 	"final explode" "final explosion large"
 	attributes
@@ -255,6 +256,7 @@ ship "Model 1024"
 		"Triple Plasma Core"
 		Hyperdrive
 	sprite ship/model_1024
+	thumbnail thumbnail/model_1024
 	turret -121 86 "Korath Slicer Turret"
 	turret 54 138 "Korath Disruptor"
 	turret 91 -102 "Korath Slicer Turret"
@@ -821,7 +823,8 @@ ship Revelation
 	outfits
 		"Irm Small Engines"
 		Harrier
-	sprite "ship/revelation"
+	sprite ship/revelation
+	thumbnail thumbnail/revelation
 ship Sarkic
 	"never disabled"
 	attributes
@@ -850,6 +853,7 @@ ship Sarkic
 	outfits
 		Mouthparts? 6
 	sprite ship/sarkic
+	thumbnail thumbnail/sarkic
 ship Scud
 	attributes
 		"engine capacity" 25
@@ -880,3 +884,4 @@ ship Scud
 		"Type 1 Radiant Steering"
 	gun 0 -36 "Thunderhead Launcher"
 	sprite ship/scud
+	thumbnail thumbnail/scud
