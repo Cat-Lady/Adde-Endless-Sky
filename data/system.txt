@@ -649,6 +649,16 @@ system Solum
 		period 5634
 		sprite planet/wormhole
 	pos -215 -580
+	trade "Heavy Metals" 1343
+	trade "Luxury Goods" 818
+	trade Clothing 251
+	trade Electronics 874
+	trade Equipment 492
+	trade Food 192
+	trade Industrial 943
+	trade Medical 499
+	trade Metal 932
+	trade Plastic 487
 system Statina
 	asteroids "large metal" 3 5
 	asteroids "large rock" 1 4

@@ -853,7 +853,6 @@ ship Sarkic
 	outfits
 		Mouthparts? 6
 	sprite ship/sarkic
-	thumbnail thumbnail/sarkic
 ship Scud
 	attributes
 		"engine capacity" 25
