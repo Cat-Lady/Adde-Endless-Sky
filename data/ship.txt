@@ -204,6 +204,7 @@ ship "Korath Stalker"
 	outfits
 		"Generator (Furnace Class)"
 		"Korath Fire-Lance" 2
+		"Korath Repeater Rifle" 2
 		"Steering (Asteroid Class)"
 		"Thruster (Asteroid Class)"
 	sprite ship/stalker

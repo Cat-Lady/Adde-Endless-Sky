@@ -1,3 +1,7 @@
+fleet "Korath Ember Waste Raid"
+	add variant
+		"Korath Raider (Ember)"
+		"Korath Stalker" 2
 fleet "Korath Raid"
 	add variant
 		"Korath Raider"
