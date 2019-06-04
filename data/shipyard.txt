@@ -16,7 +16,6 @@ shipyard plugin
 	Caster
 	Hornet
 	Hydra
-	Lorantine
 	Revelation
 	Sarkic
 	Scud
