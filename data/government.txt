@@ -1,8 +1,3 @@
-government "Wanderer Spirits"
-	"player reputation" 1
-	color .50 .71 .42
-	language wanderer
-	swizzle 2
 government Aben
 	color .2 .5 .7
 government Irm

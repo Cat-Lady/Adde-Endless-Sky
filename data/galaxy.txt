@@ -1,6 +1,3 @@
 galaxy apod
 	pos 0 -10000
 	sprite ui/apod
-galaxy helix
-	pos 10000 0
-	sprite ui/helix

@@ -382,46 +382,6 @@ fleet sestor
 		"Kar Ik Vot 349"
 	variant
 		"Met Par Tek 53"
-fleet spirit_armada
-	government "Wanderer Spirits"
-	names wanderer
-	personality
-		heroic
-		opportunistic
-	variant 7
-		"Strong Wind" 2
-		Derecho
-		Tempest 2
-	variant 6
-		"Strong Wind" 3
-		Tempest 2
-	variant 4
-		"Tempest (Missile)" 2
-		Derecho
-		Tempest 2
-	variant 3
-		"Tempest (Missile)"
-		Derecho
-		Hurricane 2
-		Tempest 2
-fleet spirit_freight
-	cargo 3
-	government "Wanderer Spirits"
-	names wanderer
-	personality
-		timid
-	variant
-		"Deep River 0"
-	variant
-		"Deep River 1"
-	variant
-		"Deep River 2"
-	variant
-		"Deep River 3"
-	variant
-		"Deep River 4"
-	variant
-		"Deep River"
 fleet wanderer
 	government Unknown
 	personality

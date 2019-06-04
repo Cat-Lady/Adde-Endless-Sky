@@ -94,59 +94,6 @@ system "Dzee dzee-bon'da"
 		period 10
 		sprite star/f5
 	pos 130 -564
-system "Ivar i'atai"
-	asteroids "medium rock" 12 4
-	fleet spirit_armada 500
-	fleet spirit_freight 2000
-	government "Wanderer Spirits"
-	link "K'ch' rai"
-	link Sa'i'ai
-	object
-		sprite star/k0
-	object collapsed_gateway
-		distance 1990
-		period 240
-		sprite planet/wormhole
-	object "Tai'ei ek"
-		distance 230
-		period 200
-		sprite planet/forest1
-	pos 10037 -111
-	trade "Heavy Metals" 1313
-	trade "Luxury Goods" 1090
-	trade Clothing 426
-	trade Electronics 695
-	trade Equipment 431
-	trade Food 298
-	trade Industrial 894
-	trade Medical 649
-	trade Metal 756
-	trade Plastic 382
-system "K'ch' rai"
-	asteroids "medium rock" 17 9
-	asteroids "large rock" 5 3
-	fleet spirit_armada 700
-	fleet spirit_freight 2300
-	government "Wanderer Spirits"
-	link "Ivar i'atai"
-	link Sa'i'ai
-	object
-		sprite star/b1
-	object Achi'rei
-		distance 370
-		period 320
-		sprite planet/forest2
-	pos 10099 -79
-	trade "Heavy Metals" 1342
-	trade "Luxury Goods" 1106
-	trade Clothing 433
-	trade Electronics 701
-	trade Equipment 445
-	trade Food 307
-	trade Industrial 904
-	trade Medical 651
-	trade Metal 763
-	trade Plastic 389
 system "M'ska gwe,demoos"
 	asteroids "large metal" 1 2
 	asteroids "large rock" 70 2
@@ -251,11 +198,6 @@ system "Pak.zin skwa"
 		period 10
 		sprite star/k5
 	pos 78 -519
-system "Wanderer Spirits"
-	government "Wanderer Spirits"
-	object collapsed_gateway
-		sprite planet/wormhole
-	pos 49 -10087
 system Diespiter
 	asteroids "large metal" 76 3
 	asteroids "large rock" 3 1
@@ -544,31 +486,6 @@ system Prosa
 		period 389
 		sprite planet/wormhole-red
 	pos 303 194
-system Sa'i'ai
-	asteroids "medium rock" 13 14
-	asteroids "large rock" 7 3
-	fleet spirit_armada 600
-	fleet spirit_freight 2700
-	government "Wanderer Spirits"
-	link "Ivar i'atai"
-	link "K'ch' rai"
-	object
-		sprite star/b1
-	object Ayek'ret
-		distance 420
-		period 350
-		sprite planet/forest4
-	pos 10071 -154
-	trade "Heavy Metals" 1420
-	trade "Luxury Goods" 1098
-	trade Clothing 452
-	trade Electronics 678
-	trade Equipment 423
-	trade Food 293
-	trade Industrial 835
-	trade Medical 701
-	trade Metal 743
-	trade Plastic 412
 system Solum
 	asteroids "large metal" 5 2
 	asteroids "medium rock" 8 3
