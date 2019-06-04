@@ -155,7 +155,6 @@ ship "Kar Ik Vot 637"
 		"Korath Piercer Launcher" 2
 		"Korath Piercer" 62
 		"Korath Repeater Turret" 8
-		"Korath Warder" 2
 		"Large Heat Shunt" 5
 		"Small Heat Shunt"
 		"Steering (Stellar Class)"
@@ -166,16 +165,14 @@ ship "Kar Ik Vot 637"
 		Hyperdrive
 	sprite ship/kar_ik_vot_637
 	thumbnail thumbnail/kar_ik_vot_637
-	turret -124 198 "Korath Repeater Turret"
 	turret -50 -261 "Korath Repeater Turret"
 	turret -52 -238 "Korath Repeater Turret"
 	turret -54 -210 "Korath Repeater Turret"
-	turret -57 -181 "Korath Warder"
-	turret 124 198 "Korath Repeater Turret"
+	turret -57 -181 "Korath Repeater Turret"
 	turret 50 -261 "Korath Repeater Turret"
 	turret 52 -238 "Korath Repeater Turret"
 	turret 54 -210 "Korath Repeater Turret"
-	turret 57 -181 "Korath Warder"
+	turret 57 -181 "Korath Repeater Turret"
 ship "Korath Stalker"
 	attributes
 		"energy capacity" 1100
