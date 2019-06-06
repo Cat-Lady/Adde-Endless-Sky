@@ -1,6 +1,13 @@
 government Aben
 	color .2 .5 .7
 government Fallen
+	"penalty for"
+		atrocity 0
+		board 0
+		capture 0
+		destroy 0
+		disable 0
+	"player reputation" -1
 	color .3 .2 .2
 	swizzle 0
 government Irm

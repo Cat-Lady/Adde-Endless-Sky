@@ -233,6 +233,11 @@ system Aurigae
 	object
 		period 10
 		sprite star/k0
+	object "Relic Station"
+		distance 779
+		offset 353
+		period 570
+		sprite planet/station6
 	pos -905 298
 system Diespiter
 	asteroids "large metal" 76 3
