@@ -1,5 +1,8 @@
 government Aben
 	color .2 .5 .7
+government Fallen
+	color .3 .2 .2
+	swizzle 0
 government Irm
 	color .5 .2 1
 	swizzle 3

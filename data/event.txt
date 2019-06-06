@@ -192,7 +192,6 @@ event reveal_map
 	"visit planet" "Sopi Lefarkata"
 	"visit planet" "Spera Anatrusk"
 	"visit planet" "Stronghold of Flugbu"
-	"visit planet" "Tai'ei ek"
 	"visit planet" "Tebuteb's Table"
 	"visit planet" "Tefkar Ret"
 	"visit planet" "Third Umber"
@@ -221,7 +220,6 @@ event reveal_map
 	"visit planet" "Weir of Glubatub"
 	"visit planet" "Wormhole Alpha"
 	"visit planet" "Wyvern Station"
-	"visit planet" Achi'rei
 	"visit planet" Ada
 	"visit planet" Ahr
 	"visit planet" Albatross
@@ -236,7 +234,6 @@ event reveal_map
 	"visit planet" Asgard
 	"visit planet" Avalon
 	"visit planet" Aventine
-	"visit planet" Ayek'ret
 	"visit planet" barren_wormhole
 	"visit planet" barren_wormhole2
 	"visit planet" Bivrost
@@ -458,8 +455,6 @@ event reveal_map
 	visit "Imo Dep"
 	visit "Io Lowe"
 	visit "Io Mann"
-	visit "Ivar i'atai"
-	visit "K'ch' rai"
 	visit "Kappa Centauri"
 	visit "Kaus Australis"
 	visit "Kaus Borealis"
@@ -495,7 +490,6 @@ event reveal_map
 	visit "Wah Ki"
 	visit "Wah Oh"
 	visit "Wah Yoot"
-	visit "Wanderer Spirits"
 	visit "World's End"
 	visit "Ya Hai"
 	visit "Yed Prior"
@@ -547,6 +541,7 @@ event reveal_map
 	visit Asikafarnut
 	visit Aspidiske
 	visit Atria
+	visit Aurigae
 	visit Avior
 	visit Aya'k'k
 	visit Beginning
@@ -730,7 +725,6 @@ event reveal_map
 	visit Rigel
 	visit Ruchbah
 	visit Rutilicus
-	visit Sa'i'ai
 	visit Sabik
 	visit Sabriset
 	visit Sadalmelik
@@ -748,6 +742,7 @@ event reveal_map
 	visit Seketra
 	visit Sepetrosk
 	visit Sepriaptu
+	visit Serpentis
 	visit Sevrelect
 	visit Shaula
 	visit Sheratan

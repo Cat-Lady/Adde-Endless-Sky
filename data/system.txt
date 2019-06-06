@@ -198,6 +198,42 @@ system "Pak.zin skwa"
 		period 10
 		sprite star/k5
 	pos 78 -519
+system Aurigae
+	asteroids "large metal" 28 3
+	asteroids "large rock" 14 2
+	asteroids "medium metal" 9 5
+	asteroids "medium rock" 75 4
+	asteroids "small metal" 9 2
+	asteroids "small rock" 6 1
+	government Fallen
+	link Serpentis
+	minables copper 23 7
+	minables gold 10 4
+	minables silicon 21 7
+	object
+		distance 1289
+		period 897
+		sprite planet/desert3-b
+	object
+		distance 1885
+		period 1484
+		sprite planet/gas2-b
+		object
+			distance 213
+			period 18
+			sprite planet/ice7-b
+		object
+			distance 360
+			period 41
+			sprite planet/rock3
+	object
+		distance 814
+		period 450
+		sprite planet/desert4
+	object
+		period 10
+		sprite star/k0
+	pos -905 298
 system Diespiter
 	asteroids "large metal" 76 3
 	asteroids "large rock" 3 1
@@ -486,6 +522,47 @@ system Prosa
 		period 389
 		sprite planet/wormhole-red
 	pos 303 194
+system Serpentis
+	asteroids "large metal" 2 2
+	asteroids "large rock" 16 1
+	asteroids "medium metal" 11 2
+	asteroids "medium rock" 16 1
+	asteroids "small rock" 4 1
+	government Fallen
+	link Aurigae
+	minables copper 5 2
+	object
+		distance 2053
+		period 1687
+		sprite planet/gas2-b
+		object
+			distance 203
+			period 17
+			sprite planet/rock3
+		object
+			distance 336
+			period 37
+			sprite planet/tethys-b
+		object
+			distance 402
+			period 48
+			sprite planet/oberon-b
+		object
+			distance 504
+			period 68
+			sprite planet/rock7
+	object
+		distance 219
+		period 51
+		sprite planet/rock19
+	object
+		distance 420
+		period 137
+		sprite planet/mercury-b
+	object
+		period 10
+		sprite star/g5
+	pos -959 328
 system Solum
 	asteroids "large metal" 5 2
 	asteroids "medium rock" 8 3

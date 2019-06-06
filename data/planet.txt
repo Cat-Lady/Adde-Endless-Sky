@@ -1,13 +1,3 @@
-planet "Tai'ei ek"
-	bribe 0
-	description ""
-	landscape land/sea9
-	spaceport ""
-planet Achi'rei
-	bribe 0
-	description ""
-	landscape land/sea6
-	spaceport ""
 planet Arena
 	"required reputation" -1
 	description "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
@@ -22,11 +12,6 @@ planet Arx
 	tribute 7500
 		threshold 0
 		fleet irm_defense 120
-planet Ayek'ret
-	bribe 0
-	description ""
-	landscape land/sea1
-	spaceport ""
 planet barren_wormhole
 	description ``
 planet barren_wormhole2
