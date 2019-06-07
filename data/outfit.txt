@@ -36,6 +36,22 @@ outfit "Aben Shield Generator"
 		Aben Technology
 	mass 21
 	thumbnail outfit/unknown
+outfit "Alpha Hermes Frame"
+	"engine capacity" -15
+	"flare sound" skylance
+	"flare sprite" effect/seeker
+		"frame rate" 2
+	"module capacity" 35
+	"outfit space" -15
+	"reverse thrust energy" 300
+	"reverse thrust heat" 300
+	"reverse thrust" 5
+	category Engines
+	cost 250000
+	description "This is a small frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
+	mass 15
+	thrust 0
+	thumbnail outfit/unknown
 outfit "Apotropaic Anti-Missile"
 	"outfit space" -52
 	"turret mounts" -1
@@ -51,6 +67,39 @@ outfit "Apotropaic Anti-Missile"
 		lifetime 1
 		reload 75
 		velocity 500
+outfit "B-1 Achilles Frame"
+	"engine capacity" -30
+	"flare sound" "skylance"
+	"flare sprite" effect/scimitar
+		"frame rate" 4
+		rewind
+	"module capacity" 55
+	"outfit space" -30
+	"reverse thrust" 10
+	"reverse thrusting energy" 5
+	"reverse thrusting heat" 5
+	category Engines
+	cost 500000
+	description "This is a medium frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
+	mass 30
+	thrust 0
+	thumbnail outfit/unknown
+outfit "C-3 Nimbus Frame"
+	"engine capacity" -50
+	"flare sound" skylance
+	"flare sprite" effect/nimbus
+		"frame rate" 26
+	"module capacity" 100
+	"outfit space" -50
+	"reverse thrust" 20
+	"reverse thrusting energy" 15
+	"reverse thrusting heat" 15
+	category Engines
+	cost 1500000
+	description "The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships."
+	mass -50
+	thrust 0
+	thumbnail outfit/unknown
 outfit "Capacitor Rack"
 	"capacitor slots" 2
 	"outfit space" -.5
@@ -103,6 +152,15 @@ outfit "Dual Electron Beam"
 		sprite projectile/electron
 			"frame rate" 60
 		velocity 450
+outfit "Energy Cube"
+	"energy generation" .182
+	"heat generation" .4
+	"outfit space" -1
+	category Power
+	cost 50000
+	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
+	mass 1
+	thumbnail outfit/unknown
 outfit "Flame Thrower"
 	"capture attack" 1.5
 	"capture defense" 1.2
@@ -111,6 +169,14 @@ outfit "Flame Thrower"
 	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
 	illegal 800000
 	thumbnail outfit/flame_thrower
+outfit "Heat Sink"
+	"outfit space" -1
+	category Systems
+	cooling 1.725
+	cost 3750
+	description "This heat sink has a modular design."
+	mass 1
+	thumbnail outfit/unknown
 outfit "Ion Mortar"
 	"outfit space" -98
 	"required crew" 2
@@ -276,6 +342,16 @@ outfit "Regional Map"
 	description "This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 	map 48
 	thumbnail outfit/map
+outfit "Shield Modulator"
+	"energy generation" -.024
+	"heat generation" .162
+	"outfit space" -1
+	"shield generation" .062
+	category Systems
+	cost 21622
+	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
+	mass 1
+	thumbnail outfit/unknown
 outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8
@@ -286,6 +362,78 @@ outfit "Smugglers Fittings"
 	description "This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it."
 	illegal 650000
 	thumbnail outfit/smugglers_fittings
+outfit "Sonic Beam"
+	"gun ports" -1
+	"outfit space" -15
+	"weapon capacity" -15
+	category Guns
+	cost 120000
+	description "Based on ancient technology, this beam super-excites the molecules on the surface of an object by bombarding them with quantum sound fluxuations. This excitement generates a significant amount of ionization as a by-product."
+	mass 15
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 1
+		"firing heat" 1
+		"heat damage" 100
+		"hit effect" "sonic impact"
+		"hull damage" .5
+		"ion damage" .025
+		"shield damage" 1
+		inaccuracy 2
+		lifetime 1
+		reload 1
+		sound banisher
+		sprite projectile/tick
+			"frame rate" 1.3
+			"random start frame"
+		velocity 300
+outfit "Sonic Turret"
+	"outfit space" -35
+	"turret mounts" -1
+	"weapon capacity" -35
+	category Turrets
+	cost 250000
+	mass 35
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 2
+		"firing heat" 2
+		"heat damage" 200
+		"hit effect" "sonic impact"
+		"hull damage" 1
+		"ion damage" .05
+		"shield damage" 2
+		inaccuracy 2
+		lifetime 1
+		reload 1
+		sound banisher
+		sprite projectile/tick
+			"frame rate" 1.3
+			"random start frame"
+		velocity 300
+	description "A slap from this weapon will make any captain think twice about continuing aggression against you."
+outfit "Storage Cell"
+	"energy capacity" 130
+	"outfit space" -1
+	category Power
+	cost 1875
+	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
+	mass 1
+	thumbnail outfit/unknown
+outfit "Thrust Module"
+	"engine capacity" -2
+	"module capacity" -1
+	"outfit space" -2
+	"thrusting energy" .105
+	"thrusting heat" .229
+	"turning energy" .072
+	"turning heat" .190
+	category Engines
+	cost 38508
+	mass 2
+	thrust 1.1
+	thumbnail outfit/unknown
+	turn 38.141
 outfit "Transparency Plating"
 	"cloaking energy" 18
 	"outfit space" -3
