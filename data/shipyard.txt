@@ -3,6 +3,7 @@ shipyard Havenworks
 	"Marauder Leviathan"
 	"Modified Argosy"
 shipyard plugin
+	"A-3 Lexel"
 	"Captain Plasma"
 	"Darcy Manoel"
 	"Kar Ik Vot 637"
