@@ -28,13 +28,13 @@ outfit "Aben Energy Storage"
 	thumbnail outfit/unknown
 outfit "Aben Shield Generator"
 	"outfit space" -21
+	"shield generation" .36
+	"shield energy" .5
 	category Systems
 	cost 420900
 	licenses
 		Aben Technology
 	mass 21
-	"shield generation" .36
-	"shield energy" .5
 	thumbnail outfit/unknown
 outfit "Apotropaic Anti-Missile"
 	"outfit space" -52
