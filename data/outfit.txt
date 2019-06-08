@@ -375,7 +375,7 @@ outfit "Sonic Beam"
 		"firing energy" 1
 		"firing heat" 1
 		"heat damage" 100
-		"hit effect" "sonic impact"
+		"hit effect" sonic_impact
 		"hull damage" .5
 		"ion damage" .025
 		"shield damage" 1
@@ -386,7 +386,7 @@ outfit "Sonic Beam"
 		sprite projectile/tick
 			"frame rate" 1.3
 			"random start frame"
-		velocity 300
+		velocity 270
 outfit "Sonic Turret"
 	"outfit space" -35
 	"turret mounts" -1
@@ -399,10 +399,11 @@ outfit "Sonic Turret"
 		"firing energy" 2
 		"firing heat" 2
 		"heat damage" 200
-		"hit effect" "sonic impact"
+		"hit effect" sonic_impact
 		"hull damage" 1
 		"ion damage" .05
 		"shield damage" 2
+		"turret turn" 2
 		inaccuracy 2
 		lifetime 1
 		reload 1
@@ -410,7 +411,7 @@ outfit "Sonic Turret"
 		sprite projectile/tick
 			"frame rate" 1.3
 			"random start frame"
-		velocity 300
+		velocity 270
 	description "A slap from this weapon will make any captain think twice about continuing aggression against you."
 outfit "Storage Cell"
 	"energy capacity" 130

@@ -1,6 +1,11 @@
 government Aben
 	color .2 .5 .7
 government Fallen
+	"attitude toward"
+		"Free Worlds" -1
+		"Merchant" -1
+		"Militia" -1
+		"Pirate" -1
 	"penalty for"
 		atrocity 0
 		board 0

@@ -43,7 +43,7 @@ ship "A-3 Lexel"
 		"Storage Cell" 10
 		"Thrust Module" 35
 	sprite ship/lexel
-	turret 0 26 "Anti-Missile Turret"
+	turret 0 26
 ship "Captain Plasma"
 	"final explode" "final explosion large"
 	attributes

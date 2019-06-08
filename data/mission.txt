@@ -1018,6 +1018,25 @@ mission deprecated_remove
 		attributes content
 	to offer
 		has deprecated
+mission fallen_activation
+	invisible
+	landing
+	on accept
+		event fallen_incursion
+	on offer
+		conversation
+			`Upon arrival to the space station you think back on your preliminary scans of the entire station, no signatures of life, must be a derelict station. The metals that the station is made up of is like nothing you've seen before.`
+			`	You enter the station through an airlock that automatically pressurized the large hanger once you are clear of the hanger doors and are landed. Long winding hallways lead you to a bare room with a console on the far wall with a single button with text in some strange alien language.`
+			choice
+				`	(Press the button.)`
+				`	(Depart from the station.)`
+					flee
+			`	As soon as the consoles button was pressed, long stretches of blinding lights crawl across the floors and illuminates the console room and passageways. The lights outline pathways on the floor and lead you to doorways on each of the other walls of the room, doorways you previously didn't notice, or perhaps they only just opened up once the console was activated.`
+			`	You cautiously check each doorway and it turns out that they conjoin behind the console room and leads to a hanger bay of sorts, multiple large and hefty mechanical arms are busily working to move around massive plates of scrap metal. You seem to have activated what seems to be a ship manufacturing station.`
+			`	With nothing left to do here you decide it would be best to depart, else you might activate some other unsavory section of this strange alien station.`
+				launch
+	source
+		planet "Relic Station"
 mission hai_enlisted_1
 	description "Defeat a pirate raid on <destination>."
 	name "Defend <planet>"

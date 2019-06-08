@@ -52,6 +52,15 @@ fleet drak
 		"Archon (Cloaked)"
 	variant
 		Archon
+fleet fallen
+	government Fallen
+	personality
+		coward
+		disables
+		heroic
+		mute
+	variant
+		"A-3 Lexel"
 fleet hai
 	government Unknown
 	personality

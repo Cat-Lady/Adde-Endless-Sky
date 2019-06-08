@@ -8,6 +8,17 @@ event deprecated_remove
 		remove outfitter deprecated
 	planet Vanilla
 		remove outfitter deprecated
+event fallen_incursion
+	system "Zeta Centauri"
+		add fleet fallen 600
+	system Alkaid
+		add fleet fallen 600
+	system Aurigae
+		add fleet fallen 200
+	system Men
+		add fleet fallen 700
+	system Serpentis
+		add fleet fallen 1200
 event incursion_clear
 	system Everything
 		remove fleet coalition
