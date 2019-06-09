@@ -60,7 +60,7 @@ fleet fallen
 		heroic
 		mute
 	variant
-		"A-3 Lexel"
+		"A-3 Lexel" 2
 fleet hai
 	government Unknown
 	personality

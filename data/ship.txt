@@ -32,16 +32,16 @@ ship "A-3 Lexel"
 	engine 15 51
 	engine 20 48
 	engine 25 44
-	gun -7 -53 "Sonic Beam"
-	gun 7 -53 "Sonic Beam"
+	gun -7 -53 "Balefire Projector"
+	gun 7 -53 "Balefire Projector"
 	outfits
 		"Alpha Hermes Frame"
-		"Energy Cube" 40
-		"Heat Sink" 8
-		"Shield Modulator" 7
-		"Sonic Beam" 2
-		"Storage Cell" 10
-		"Thrust Module" 35
+		"Balefire Projector" 2
+		"Energy Cube" 35
+		"Heat Sink" 10
+		"Shield Modulator" 15
+		"Storage Cell" 25
+		"Thrust Module" 20
 	sprite ship/lexel
 	turret 0 26
 ship "Captain Plasma"

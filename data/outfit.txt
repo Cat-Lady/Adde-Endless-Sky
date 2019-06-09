@@ -84,6 +84,31 @@ outfit "B-1 Achilles Frame"
 	mass 30
 	thrust 0
 	thumbnail outfit/unknown
+outfit "Balefire Projector"
+	"gun ports" -1
+	"outfit space" -20
+	"weapon capacity" -20
+	category Guns
+	cost 250000
+	description "Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accellerator."
+	mass 20
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 35
+		"firing force" 10
+		"firing heat" 120
+		"hit effect" projector_impact
+		"hit force" 40
+		"hull damage" 45
+		"shield damage" 60
+		inaccuracy 2
+		lifetime 30
+		reload 20
+		sound proton
+		sprite projectile/projector
+			"frame rate" 30
+			"random start frame"
+		velocity 7
 outfit "C-3 Nimbus Frame"
 	"engine capacity" -50
 	"flare sound" skylance
@@ -97,7 +122,7 @@ outfit "C-3 Nimbus Frame"
 	category Engines
 	cost 1500000
 	description "The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships."
-	mass -50
+	mass 50
 	thrust 0
 	thumbnail outfit/unknown
 outfit "Capacitor Rack"
@@ -362,57 +387,6 @@ outfit "Smugglers Fittings"
 	description "This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it."
 	illegal 650000
 	thumbnail outfit/smugglers_fittings
-outfit "Sonic Beam"
-	"gun ports" -1
-	"outfit space" -15
-	"weapon capacity" -15
-	category Guns
-	cost 120000
-	description "Based on ancient technology, this beam super-excites the molecules on the surface of an object by bombarding them with quantum sound fluxuations. This excitement generates a significant amount of ionization as a by-product."
-	mass 15
-	thumbnail outfit/unknown
-	weapon
-		"firing energy" 1
-		"firing heat" 1
-		"heat damage" 100
-		"hit effect" sonic_impact
-		"hull damage" .5
-		"ion damage" .025
-		"shield damage" 1
-		inaccuracy 2
-		lifetime 1
-		reload 1
-		sound banisher
-		sprite projectile/tick
-			"frame rate" 1.3
-			"random start frame"
-		velocity 270
-outfit "Sonic Turret"
-	"outfit space" -35
-	"turret mounts" -1
-	"weapon capacity" -35
-	category Turrets
-	cost 250000
-	mass 35
-	thumbnail outfit/unknown
-	weapon
-		"firing energy" 2
-		"firing heat" 2
-		"heat damage" 200
-		"hit effect" sonic_impact
-		"hull damage" 1
-		"ion damage" .05
-		"shield damage" 2
-		"turret turn" 2
-		inaccuracy 2
-		lifetime 1
-		reload 1
-		sound banisher
-		sprite projectile/tick
-			"frame rate" 1.3
-			"random start frame"
-		velocity 270
-	description "A slap from this weapon will make any captain think twice about continuing aggression against you."
 outfit "Storage Cell"
 	"energy capacity" 130
 	"outfit space" -1

@@ -46,12 +46,10 @@ effect devastator_hit3
 		"frame rate" 60
 		"no repeat"
 		"start frame" 1
-effect sonic_impact
+effect projector_impact
 	"random angle" 2
-	"random spin" 1
-	"velocity scale" -.003
-	lifetime 5
-	sound fire-lance
-	sprite "effect/sonic impact"
-		"no repeat"
+	"velocity scale" -.005
+	lifetime 20
+	sprite "effect/projector impact"
 		"frame rate" 30
+		"no repeat"
