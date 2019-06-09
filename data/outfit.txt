@@ -39,7 +39,7 @@ outfit "Aben Shield Generator"
 outfit "Alpha Hermes Frame"
 	"engine capacity" -15
 	"flare sound" skylance
-	"flare sprite" effect/seeker
+	"flare sprite" flare_sprite/seeker
 		"frame rate" 2
 	"module capacity" 35
 	"outfit space" -15
@@ -69,8 +69,8 @@ outfit "Apotropaic Anti-Missile"
 		velocity 500
 outfit "B-1 Achilles Frame"
 	"engine capacity" -30
-	"flare sound" "skylance"
-	"flare sprite" effect/scimitar
+	"flare sound" skylance
+	"flare sprite" flare_sprite/scimitar
 		"frame rate" 4
 		rewind
 	"module capacity" 55
@@ -105,14 +105,14 @@ outfit "Balefire Projector"
 		lifetime 30
 		reload 20
 		sound proton
-		sprite projectile/projector
+		sprite sprite/projector
 			"frame rate" 30
 			"random start frame"
 		velocity 7
 outfit "C-3 Nimbus Frame"
 	"engine capacity" -50
 	"flare sound" skylance
-	"flare sprite" effect/nimbus
+	"flare sprite" flare_sprite/nimbus
 		"frame rate" 26
 	"module capacity" 100
 	"outfit space" -50
@@ -131,7 +131,7 @@ outfit "Capacitor Rack"
 	category Power
 	cost 2000
 	mass .5
-	thumbnail outfit/capacitor_rack
+	thumbnail thumbnail/capacitor_rack
 outfit "Chain Blaster Turret"
 	"outfit space" -34
 	"required crew" 2
@@ -140,12 +140,11 @@ outfit "Chain Blaster Turret"
 	category Turrets
 	cost 360000
 	mass 34
-	thumbnail outfit/chain_blaster_turret
+	thumbnail thumbnail/chain_blaster_turret
 	weapon
 		"firing energy" 12
 		"firing heat" 30
 		"hardpoint offset" 9.
-		"hardpoint sprite" "hardpoint/quad blaster turret"
 		"hit effect" "blaster impact"
 		"hull damage" 6
 		"shield damage" 9
@@ -163,7 +162,7 @@ outfit "Dual Electron Beam"
 	category Guns
 	cost 440000
 	mass 41
-	thumbnail outfit/dual_electron_beam
+	thumbnail thumbnail/dual_electron_beam
 	weapon
 		"firing energy" 3.4
 		"firing heat" 4.1
@@ -193,7 +192,7 @@ outfit "Flame Thrower"
 	cost 35000
 	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
 	illegal 800000
-	thumbnail outfit/flame_thrower
+	thumbnail thumbnail/flame_thrower
 outfit "Heat Sink"
 	"outfit space" -1
 	category Systems
@@ -210,12 +209,12 @@ outfit "Ion Mortar"
 	category Turrets
 	cost 1320000
 	mass 98
-	thumbnail outfit/ion_mortar
+	thumbnail thumbnail/ion_mortar
 	weapon
 		"firing energy" 270
 		"firing force" 10
 		"firing heat" 210
-		"hardpoint sprite" hardpoint/ion_mortar
+		"hardpoint sprite" hardpoint_sprite/ion_mortar
 		"hit effect" "ion impact" 2
 		"hit force" 120
 		"hull damage" 48
@@ -232,7 +231,7 @@ outfit "Ion Mortar"
 outfit "Irm Large Engines"
 	"engine capacity" -139
 	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_large_engines
+	"flare sprite" flare_sprite/irm_large_engines
 		"frame rate" 3
 	"outfit space" -139
 	"thrusting energy" 7.2
@@ -248,7 +247,7 @@ outfit "Irm Large Engines"
 outfit "Irm Small Engines"
 	"engine capacity" -76
 	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_small_engines
+	"flare sprite" flare_sprite/irm_small_engines
 		"frame rate" 3
 	"outfit space" -76
 	"thrusting energy" 2.6
@@ -269,7 +268,7 @@ outfit "Korath Disruptor Gun"
 	cost 697000
 	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
 	mass 23
-	thumbnail outfit/disruptor_gun
+	thumbnail thumbnail/disruptor_gun
 	weapon
 		"disruption damage" .24
 		"firing energy" 8.0
@@ -292,7 +291,7 @@ outfit "Korath Fire-Lance Turret"
 	category Turrets
 	cost 1193000
 	mass 52
-	thumbnail outfit/fire-lance_turret
+	thumbnail thumbnail/fire-lance_turret
 	weapon
 		"firing energy" 5.3
 		"firing heat" 3.7
@@ -318,7 +317,7 @@ outfit "Plasma Repeater"
 	description "Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding."
 	description "Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall."
 	mass 32
-	thumbnail outfit/plasma_repeater
+	thumbnail thumbnail/plasma_repeater
 	weapon
 		"firing energy" 13
 		"firing heat" 110
@@ -342,12 +341,12 @@ outfit "Quad Plasma Turret"
 	category Turrets
 	cost 520000
 	mass 87
-	thumbnail outfit/quad_plasma_turret
+	thumbnail thumbnail/quad_plasma_turret
 	weapon
 		"firing energy" 32
 		"firing heat" 195
 		"hardpoint offset" 15
-		"hardpoint sprite" hardpoint/quad_plasma_turret
+		"hardpoint sprite" hardpoint_sprite/quad_plasma_turret
 		"heat damage" 370
 		"hit effect" "plasma explosion"
 		"hit force" 40
@@ -386,7 +385,7 @@ outfit "Smugglers Fittings"
 	cost 9000
 	description "This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it."
 	illegal 650000
-	thumbnail outfit/smugglers_fittings
+	thumbnail thumbnail/smugglers_fittings
 outfit "Storage Cell"
 	"energy capacity" 130
 	"outfit space" -1
@@ -415,7 +414,7 @@ outfit "Transparency Plating"
 	category Systems
 	cloak .002
 	cost 750000
-	thumbnail outfit/transparency_plating
+	thumbnail thumbnail/transparency_plating
 	unplunderable 1
 outfit Deterrence
 	"turret mounts" -1
@@ -456,13 +455,13 @@ outfit Devastator
 		lifetime 30
 		safe
 		sound "final explosion small"
-		sprite projectile/superweapon
+		sprite sprite/superweapon
 outfit Capacitors
 	"capacitor slots" -1
 	"energy capacity" 18.75
 	category Power
 	cost 2400
-	thumbnail outfit/capacitors
+	thumbnail thumbnail/capacitors
 outfit Harrier
 	"gun ports" -1
 	"outfit space" -31
@@ -482,7 +481,7 @@ outfit Harrier
 		lifetime 1
 		reload 1
 		sound fire-lance
-		sprite "projectile/ion beam"
+		sprite sprite/ion_beam
 			"frame rate" 1
 			"random start frame"
 		velocity 630

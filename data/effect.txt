@@ -1,7 +1,7 @@
 effect devastator_die
 	"velocity scale" 1
 	lifetime 4
-	sprite "effect/usniper fadeout"
+	sprite "sprite/usniper fadeout"
 		"frame rate" 60
 		"no repeat"
 		"start frame" 0
@@ -11,7 +11,7 @@ effect devastator_fire1
 	"random velocity" 20
 	"velocity scale" 1
 	lifetime 10
-	sprite "effect/seeker impact red"
+	sprite "sprite/seeker impact red"
 		"frame rate" 30
 		"no repeat"
 		"start frame" 0
@@ -20,7 +20,7 @@ effect devastator_fire2
 	"random frame rate" 10
 	"velocity scale" 1
 	lifetime 3
-	sprite "effect/odyssey weapon pulse"
+	sprite "sprite/odyssey weapon pulse"
 		"frame rate" 60
 		"no repeat"
 		"start frame" 0
@@ -28,7 +28,7 @@ effect devastator_hit1
 	"random angle" 360
 	"velocity scale" .3
 	lifetime 3
-	sprite "effect/big superweapon impact"
+	sprite "sprite/big superweapon impact"
 		"frame rate" 60
 effect devastator_hit2
 	"random angle" 360
@@ -36,13 +36,13 @@ effect devastator_hit2
 	"random velocity" 20
 	"velocity scale" .2
 	lifetime 9
-	sprite "effect/red huge"
+	sprite effect/explosion/huge
 		"frame rate" 60
 		"no repeat"
 effect devastator_hit3
 	"velocity scale" .25
 	lifetime 4
-	sprite "effect/U-Sniper OP fadeout"
+	sprite "sprite/U-Sniper OP fadeout"
 		"frame rate" 60
 		"no repeat"
 		"start frame" 1
@@ -50,6 +50,6 @@ effect projector_impact
 	"random angle" 2
 	"velocity scale" -.005
 	lifetime 20
-	sprite "effect/projector impact"
+	sprite "sprite/projector impact"
 		"frame rate" 30
 		"no repeat"

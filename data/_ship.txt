@@ -74,5 +74,5 @@ ship Flivver "Flivver (Racing)"
 		"LP072a Battery Pack"
 		"nGVF-BB Fuel Cell"
 		"Scram Drive"
-	sprite ship/scutter
+	sprite sprite/scutter
 	thumbnail thumbnail/scutter
