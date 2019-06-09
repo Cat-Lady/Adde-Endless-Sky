@@ -42,7 +42,7 @@ ship "A-3 Lexel"
 		"Shield Modulator" 15
 		"Storage Cell" 25
 		"Thrust Module" 20
-	sprite sprite/lexel
+	sprite sprite/a3_lexel
 	turret 0 26
 ship "Kar Ik Vot 637"
 	"final explode" "final explosion large"
@@ -142,8 +142,8 @@ ship "Korath Stalker"
 		"Korath Repeater Rifle" 2
 		"Steering (Asteroid Class)"
 		"Thruster (Asteroid Class)"
-	sprite sprite/stalker
-	thumbnail thumbnail/stalker
+	sprite sprite/korath_stalker
+	thumbnail thumbnail/korath_stalker
 ship "Model 1024"
 	"final explode" "final explosion large"
 	attributes

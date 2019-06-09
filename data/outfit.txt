@@ -39,7 +39,7 @@ outfit "Aben Shield Generator"
 outfit "Alpha Hermes Frame"
 	"engine capacity" -15
 	"flare sound" skylance
-	"flare sprite" flare_sprite/seeker
+	"flare sprite" flare_sprite/alpha_hermes_frame
 		"frame rate" 2
 	"module capacity" 35
 	"outfit space" -15
@@ -70,7 +70,7 @@ outfit "Apotropaic Anti-Missile"
 outfit "B-1 Achilles Frame"
 	"engine capacity" -30
 	"flare sound" skylance
-	"flare sprite" flare_sprite/scimitar
+	"flare sprite" flare_sprite/b1_achilles_frame
 		"frame rate" 4
 		rewind
 	"module capacity" 55
@@ -97,7 +97,7 @@ outfit "Balefire Projector"
 		"firing energy" 35
 		"firing force" 10
 		"firing heat" 120
-		"hit effect" projector_impact
+		"hit effect" balefire_projector_hit
 		"hit force" 40
 		"hull damage" 45
 		"shield damage" 60
@@ -105,14 +105,14 @@ outfit "Balefire Projector"
 		lifetime 30
 		reload 20
 		sound proton
-		sprite sprite/projector
+		sprite sprite/balefire_projector
 			"frame rate" 30
 			"random start frame"
 		velocity 7
 outfit "C-3 Nimbus Frame"
 	"engine capacity" -50
 	"flare sound" skylance
-	"flare sprite" flare_sprite/nimbus
+	"flare sprite" flare_sprite/c3_nimbus_frame
 		"frame rate" 26
 	"module capacity" 100
 	"outfit space" -50
@@ -455,7 +455,7 @@ outfit Devastator
 		lifetime 30
 		safe
 		sound "final explosion small"
-		sprite sprite/superweapon
+		sprite sprite/devastator
 outfit Capacitors
 	"capacitor slots" -1
 	"energy capacity" 18.75

@@ -317,90 +317,90 @@ system Everything
 	object Arena
 		distance 444
 		offset 135
-		sprite sprite/kaliida
+		sprite sprite/station8
 	object Everything
 		distance 1218
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 20
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 40
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 60
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 80
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 100
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 120
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 140
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 160
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 180
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 200
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 220
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 240
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 260
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 280
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 300
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 320
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Everything
 		distance 1218
 		offset 340
-		sprite sprite/ringworldbig
+		sprite sprite/everything
 	object Plugins
 		distance 444
 		offset 45
-		sprite sprite/kaliida
+		sprite sprite/station8
 	object Vanilla
 		distance 444
 		offset 315
-		sprite sprite/kaliida
+		sprite sprite/station8
 	object Variants
 		distance 444
 		offset 225
-		sprite sprite/kaliida
+		sprite sprite/station8
 	object gateway
 		sprite planet/wormhole
 	pos -10 -10016
