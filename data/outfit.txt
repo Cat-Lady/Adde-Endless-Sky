@@ -427,7 +427,7 @@ outfit Deterrence
 		lifetime 1
 		piercing 1
 		reload 1
-		velocity 1000000
+		velocity 100000
 outfit Devastator
 	"apocalypse spine" 1
 	"gun ports" -1
