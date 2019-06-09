@@ -4,8 +4,6 @@ shipyard Havenworks
 	"Modified Argosy"
 shipyard plugin
 	"A-3 Lexel"
-	"Captain Plasma"
-	"Darcy Manoel"
 	"Kar Ik Vot 637"
 	"Korath Stalker"
 	"Model 1024"
