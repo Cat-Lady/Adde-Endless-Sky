@@ -1186,3 +1186,67 @@ mission syndicate_target_practice_4
 	to offer
 		"combat rating" > 1400
 		random < 20
+mission test_plasma_repeater_1
+	description "When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test."
+	destination Rust
+	landing
+	name "Weapon Testing"
+	on offer
+		conversation
+			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
+				accept
+	source
+		near Kraz 1 100
+	to offer
+		has "free worlds plot completed"
+		random < 10
+mission test_plasma_repeater_2
+	description "A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance."
+	landing
+	name "Weapon Testing"
+	npc save disable
+		personality disables heroic staying
+		government "Test Dummy"
+		ship leviathan_plasma_repeater Warlock
+	on complete
+		event plasma_repeater_available 30
+		log "Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results."
+		conversation
+			scene thumbnail/plasma_repeater
+			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun much like an old Plasma Cannon, but somewhat different. Presumably, this is the weapon that you were just attacked with in orbit. "It runs alot hotter, you see," he says. "But the results are impressive."`
+			choice
+				`	"What was that?"`
+					goto what
+				`	"It looks impressive, but it didn't do too much damage."`
+					goto damage
+			label what
+			`	"Heh, it's been a while since we've seen a good upgrade to the cannon." he says. "That, boy, was the Plasma Repeater. Of course, it wasn't easy to find where opportunity lies when everyone could have taken a crack at it."`
+			`	"When will it be available for sale?" you ask.`
+				goto available
+			label damage
+			`	"Well, you are famous for a reason I suppose." he says. "The idea is that by shrinking the concentrations of superheated plasma we can offload many more bursts onto a target, the effects on said target result in faster build up of heat and of course damage. Of course, big ships can ward of these effects much longer than a smaller ship can, it's always been a notable issue with the orginal design, but it is a hell of a lot more impressive."`
+			`	"That is an interesting idea," you say. "Are they available for sale yet?"`
+			label available
+			`	"Well, I should have an initial model for sale in a month or so," he says. "I'll be interested to see what uses you or anyone else might find for them. Anyway, thanks for your help." You say goodbye and head back to your ship.`
+	on offer
+		conversation
+			`You received a message recently from an old friend, Barmy Edwards, asking you to stop by the Kraz Cybernetics facility to help test a new weapon. Do you want to visit them now?`
+			choice
+				`	(Yes.)`
+				`	(No.)`
+					defer
+			scene scene/loc5
+			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Here's the deal. We've got a new weapon, something that could have helped our chances during the war had we finished prototyping just a little earlier."`
+			`	"Of course," you say.`
+			`	"Great," he says. "You shouldn't notice too much out of the ordinary other than meeting the Warlock in orbit, it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
+			`	He shakes a finger in your face and says, "Now mind you, we just want you to disable the Warlock, not destroy it. We've recommissioned it from retirement, so it's not top of the line, but all the same I want to be able to keep using it for future tests. Understood?"`
+			choice
+				`	"Okay, I promise not to destroy it or steal it."`
+				`	"Sorry, this sounds a bit too risky. I'd rather not be involved in this sort of testing."`
+					decline
+			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+				accept
+	source Rust
+	to offer
+		has "free worlds plot completed"
+		has "test_plasma_repeater_1: done"

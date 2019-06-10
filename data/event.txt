@@ -65,6 +65,9 @@ event incursion_sestor
 event incursion_wanderer
 	system Everything
 		add fleet wanderer 400
+event plasma_repeater_available
+	outfitter "Kraz Advanced"
+		"Plasma Repeater"
 event reveal_map
 	"visit planet" "Ablub's Invention"
 	"visit planet" "Alta Hai"
