@@ -36,14 +36,112 @@ ship "A-3 Lexel"
 	gun 7 -53 "Balefire Projector"
 	outfits
 		"Alpha Hermes Frame"
-		"Balefire Projector" 2
-		"Energy Cube" 35
-		"Heat Sink" 10
+		"Balefire Projector" 2	
+		"Energy Cube" 20
+		"Heat Sink" 5
 		"Shield Modulator" 15
-		"Storage Cell" 25
-		"Thrust Module" 20
+		"Storage Cell" 8
+		"Thrust Module" 8
 	sprite sprite/a3_lexel
 	turret 0 26
+ship "A-60 Olisivant"
+	attributes
+		"cargo space" 500
+		"engine capacity" 210
+		"fuel capacity" 800
+		"heat dissipation" 1
+		"jump drive" 1
+		"jump speed" 1
+		"outfit space" 800
+		"turret mounts" 6
+		"weapon capacity" 330
+		automaton 1
+		category "Heavy Warship"
+		cost 31000000
+		drag 14.75
+		hull 10000
+		hyperdrive 1
+		mass 1000
+		ramscoop 60
+		shields 18000
+	explode "big explosion" 20
+	explode "huge explosion" 20
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	outfits
+		"C-3 Nimbus Frame"
+		"Calypso Weapon" 2
+		"Denial Turret" 2
+		"Energy Cube" 40
+		"Fracture Engine" 2
+		"Heat Sink" 20
+		"Shield Modulator" 85
+		"Storage Cell" 18
+		"Thrust Module" 45
+	sprite outfit/unknown
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+ship "B-10 Warden"
+	attributes
+		"cargo space" 50
+		"engine capacity" 180
+		"fuel capacity" 500
+		"heat dissipation" 1
+		"hull repair rate" 2
+		"jump drive" 1
+		"jump speed" 1
+		"outfit space" 400
+		"weapon capacity" 175
+		automaton 1
+		category "Medium Warship"
+		cost 4000000
+		drag 6.5
+		hull 2500
+		hyperdrive 1
+		mass 275
+		shields 9000
+		weapon
+			"blast radius" 50
+			"hit force" 100
+			"hull damage" 45
+			"shield damage" 120
+	explode "big explosion" 10
+	explode "medium explosion" 20
+	explode "small explosion" 20
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	outfits
+		"B-1 Achilles Frame"
+		"Balefire Lance" 2
+		"Denial Turret"
+		"Energy Cube" 34
+		"Heat Sink" 16
+		"Kinetic Splicer" 2
+		"Shield Modulator" 60
+		"Storage Cell" 18
+		"Thrust Module" 26
+	sprite outfit/unknown
+	turret 0 0
 ship "Kar Ik Vot 637"
 	"final explode" "final explosion large"
 	attributes
