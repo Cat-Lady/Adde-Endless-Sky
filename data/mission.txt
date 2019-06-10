@@ -270,230 +270,6 @@ mission aben_harvest_uranium_small
 	to offer
 		has "aben_reconnaissance_1: done"
 		random < 10
-mission aben_harvest_aluminum_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of aluminum."
-	job
-	name "Harvest Aluminum"
-	on complete
-		dialog `You unload the aluminum at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Aluminum -90
-		payment 324000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_aluminum_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of aluminum."
-	job
-	name "Harvest Aluminum"
-	on complete
-		dialog `You unload the aluminum at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Aluminum -60
-		payment 157500
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 30
-mission aben_harvest_copper_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of copper."
-	job
-	name "Harvest Copper"
-	on complete
-		dialog `You unload the copper at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Copper -90
-		payment 540000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_copper_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of copper."
-	job
-	name "Harvest Copper"
-	on complete
-		dialog `You unload the copper at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Copper -60
-		payment 262500
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 30
-mission aben_harvest_iron_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of iron."
-	job
-	name "Harvest Iron"
-	on complete
-		dialog `You unload the iron at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Iron -90
-		payment 216000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_iron_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of iron."
-	job
-	name "Harvest Iron"
-	on complete
-		dialog `You unload the iron at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Iron -60
-		payment 105000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 30
-mission aben_harvest_lead_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of lead."
-	job
-	name "Harvest Lead"
-	on complete
-		dialog `You unload the lead at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Lead -90
-		payment 189000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_lead_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of lead."
-	job
-	name "Harvest Lead"
-	on complete
-		dialog `You unload the lead at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Lead -60
-		payment 90000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 30
-mission aben_harvest_platinum_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of platinum."
-	job
-	name "Harvest Platinum"
-	on complete
-		dialog `You unload the platinum at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Platinum -90
-		payment 3200000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 5
-mission aben_harvest_platinum_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of platinum."
-	job
-	name "Harvest Platinum"
-	on complete
-		dialog `You unload the platinum at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Platinum -60
-		payment 1500000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 10
-mission aben_harvest_silicon_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of silicon."
-	job
-	name "Harvest Silicon"
-	on complete
-		dialog `You unload the silicon at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Silicon -90
-		payment 128000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_silicon_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of silicon."
-	job
-	name "Harvest Silicon"
-	on complete
-		dialog `You unload the silicon at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Silicon -60
-		payment 60000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 30
-mission aben_harvest_silver_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of silver."
-	job
-	name "Harvest Silver"
-	on complete
-		dialog `You unload the silver at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Silver -90
-		payment 960000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 10
-mission aben_harvest_silver_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of silver."
-	job
-	name "Harvest Silver"
-	on complete
-		dialog `You unload the silver at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Silver -60
-		payment 450000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 20
-mission aben_harvest_uranium_large_unknown
-	description "The Aben are offering <payment> in exchange for 90 tons of uranium."
-	job
-	name "Harvest Uranium"
-	on complete
-		dialog `You unload the uranium at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Uranium -90
-		payment 1600000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 5
-mission aben_harvest_uranium_small_unknown
-	description "The Aben are offering <payment> in exchange for 60 tons of uranium."
-	job
-	name "Harvest Uranium"
-	on complete
-		dialog `You unload the uranium at the spaceport. The spokesman thanks you, and hands you <payment>.`
-		outfit Uranium -60
-		payment 750000
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
-		random < 10
 mission aben_reconnaissance_1
 	on complete
 		conversation
@@ -838,60 +614,6 @@ mission aben_retrieval_repair_module_small
 	on accept
 		outfit "Small Repair Module" -2
 		payment 1506000
-mission aben_retrieval_systems_core_small
-	invisible
-	minor
-	on offer
-		require "Systems Core (Small)"
-		conversation
-			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
-			choice
-				`	(Not now.)`
-					defer
-				`	(Yes.)`
-			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
-			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
-			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
-			choice
-				`	"Yes, it is."`
-					accept
-				`	"I can't accept that."`
-	source
-		planet Nis
-	to offer
-		has "aben_first_contact: done"
-		not "aben_retrieval_systems_core_medium: offered"
-		not	"aben_retrieval_systems_core_large: offered"
-	on accept
-		outfit "Systems Core (Small)" -2
-		payment 706000
-mission aben_retrieval_systems_core_medium
-	invisible
-	minor
-	on offer
-		require "Systems Core (Medium)"
-		conversation
-			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
-			choice
-				`	(Not now.)`
-					defer
-				`	(Yes.)`
-			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
-			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
-			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
-			choice
-				`	"Yes, it is."`
-					accept
-				`	"I can't accept that."`
-	source
-		planet Nis
-	to offer
-		has "aben_first_contact: done"
-		not	"aben_retrieval_systems_core_small: offered"
-		not	"aben_retrieval_systems_core_large: offered"
-	on accept
-		outfit "Systems Core (Medium)" -2
-		payment 1104000
 mission aben_retrieval_systems_core_large
 	invisible
 	on offer
@@ -919,6 +641,60 @@ mission aben_retrieval_systems_core_large
 	on accept
 		outfit "Systems Core (Large)" -2
 		payment 1940000
+mission aben_retrieval_systems_core_medium
+	invisible
+	minor
+	on offer
+		require "Systems Core (Medium)"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
+			choice
+				`	(Not now.)`
+					defer
+				`	(Yes.)`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
+			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."`
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not	"aben_retrieval_systems_core_small: offered"
+		not	"aben_retrieval_systems_core_large: offered"
+	on accept
+		outfit "Systems Core (Medium)" -2
+		payment 1104000
+mission aben_retrieval_systems_core_small
+	invisible
+	minor
+	on offer
+		require "Systems Core (Small)"
+		conversation
+			`You remember being told that the Aben are interested in buying exotic technology. Would you like to offer them your systems cores?`
+			choice
+				`	(Not now.)`
+					defer
+				`	(Yes.)`
+			`	As soon as you step off your ship you are greeted by Saed and a scribe, "Greetings again, captain. Is there anything we are able to assist you with today?", you explain that you have some technology for offer and he motions to the engineers, while the rest carry on refueling your ship one walks up to Saed.`
+			`	Saed explains the situation to the engineer and he walks on back to his team which are now done refueling to explain to them the situation. They all walk on back and you guide them to your cargo hold to unload the systems cores. While they are working to unload them, Saed asks you exactly what purpose these 'cores' serve and you explain to him the best you can, he asks many additional questions about the cores in the meantime.`
+			`	After the engineers unload the cores, they run multiple scans on both pieces and begin to examine them as best they could without disassembling them. One of them makes their way to Saed after some time and says something to him that you can't understand. "Taking into account everything you have told us, and what we have found by examining it, we can offer you <payment>, is this an acceptable offer?"`
+			choice
+				`	"Yes, it is."`
+					accept
+				`	"I can't accept that."`
+	source
+		planet Nis
+	to offer
+		has "aben_first_contact: done"
+		not "aben_retrieval_systems_core_medium: offered"
+		not	"aben_retrieval_systems_core_large: offered"
+	on accept
+		outfit "Systems Core (Small)" -2
+		payment 706000
 mission aben_retrieval_wanderer_shield_large
 	invisible
 	on offer
