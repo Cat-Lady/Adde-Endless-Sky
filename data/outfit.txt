@@ -325,22 +325,6 @@ outfit "Irm Large Engines"
 	thrust 65.9
 	thumbnail outfit/unknown
 	turn 1790
-outfit "Irm Small Engines"
-	"engine capacity" -76
-	"flare sound" "plasma medium"
-	"flare sprite" flare_sprite/irm_small_engines
-		"frame rate" 3
-	"outfit space" -76
-	"thrusting energy" 2.6
-	"thrusting heat" 1.8
-	"turning energy" 1.7
-	"turning heat" 1.1
-	category Engines
-	cost 940000
-	mass 76
-	thrust 12.5
-	thumbnail outfit/unknown
-	turn 430
 outfit "Kinetic Splicer"
 	"gun ports" -1
 	"outfit space" -35
@@ -504,6 +488,22 @@ outfit "Storage Cell"
 	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
 	mass 1
 	thumbnail outfit/unknown
+outfit "Tekina Engine"
+	"engine capacity" -76
+	"flare sound" "plasma medium"
+	"flare sprite" flare_sprite/tekina_engine
+		"frame rate" 3
+	"outfit space" -76
+	"thrusting energy" 2.6
+	"thrusting heat" 1.8
+	"turning energy" 1.7
+	"turning heat" 1.1
+	category Engines
+	cost 940000
+	mass 76
+	thrust 12.5
+	thumbnail thumbnail/tekina_engine
+	turn 430
 outfit "Thrust Module"
 	"engine capacity" -2
 	"module capacity" -1

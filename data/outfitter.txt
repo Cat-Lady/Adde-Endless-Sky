@@ -41,7 +41,6 @@ outfitter plugin
 	"Heat Sink"
 	"Ion Mortar"
 	"Irm Large Engines"
-	"Irm Small Engines"
 	"Kinetic Splicer"
 	"Korath Disruptor Gun"
 	"Korath Fire-Lance Turret"
@@ -51,6 +50,7 @@ outfitter plugin
 	"Shield Modulator"
 	"Smugglers Fittings"
 	"Storage Cell"
+	"Tekina Engine"
 	"Thrust Module"
 	"Transparency Plating"
 	Capacitors

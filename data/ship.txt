@@ -782,7 +782,7 @@ ship Revelation
 	engine 8 25 .3
 	gun 0 -40 Harrier
 	outfits
-		"Irm Small Engines"
+		"Tekina Engine"
 		Harrier
 	sprite sprite/revelation
 	thumbnail thumbnail/revelation
