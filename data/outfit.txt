@@ -164,6 +164,7 @@ outfit "Calypso Weapon"
 		"hit effect" calypso_weapon_hit
 		"hull damage" 7
 		"shield damage" 15
+		"turret turn" 1.2
 		lifetime 1
 		reload 1
 		sound "heavy laser"
@@ -264,14 +265,15 @@ outfit "Fracture Engine"
 	mass 65
 	thumbnail outfit/unknown
 	weapon
-		sound plasma
-		submunition fracture_engine_submunition 65
-		inaccuracy .1
-		velocity 10
-		lifetime 1
-		reload 200
 		"firing energy" 1000
 		"firing heat" 2000
+		"turret turn" 6
+		inaccuracy .1
+		lifetime 1
+		reload 200
+		sound plasma
+		submunition fracture_engine_submunition 65
+		velocity 10
 outfit "Heat Sink"
 	"outfit space" -1
 	category Systems
@@ -357,7 +359,7 @@ outfit "Kinetic Splicer"
 		"shield damage" 50
 		acceleration .5
 		drag .1
-		homing 5
+		homing 3
 		inaccuracy 35
 		lifetime 600
 		reload 16
@@ -365,6 +367,7 @@ outfit "Kinetic Splicer"
 		sprite sprite/kinetic_splicer
 			"frame rate" 20
 			"random start frame"
+		tracking .3
 		turn 4
 		velocity 5
 outfit "Korath Disruptor Gun"
