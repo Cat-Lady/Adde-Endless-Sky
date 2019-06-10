@@ -1,9 +1,9 @@
-system "Ahaw on,za"
+system "Ahaw On,za"
 	asteroids "large metal" 21 7
 	fleet "Unfettered Raid" 6000
 	government Uninhabited
-	link "Dzee dzee-bon'da"
-	link "Pak.zin skwa"
+	link "Dzee dzee-Bon'da"
+	link "Pak.zin Skwa"
 	link Ko,gok
 	minables silicon 50 3
 	minables silver 19 3
@@ -40,7 +40,7 @@ system "Ahaw on,za"
 		period 10
 		sprite star/g5
 	pos 137 -622
-system "Dzee dzee-bon'da"
+system "Dzee dzee-Bon'da"
 	asteroids "large metal" 24 3
 	asteroids "large rock" 12 3
 	asteroids "medium metal" 5 2
@@ -48,8 +48,8 @@ system "Dzee dzee-bon'da"
 	asteroids "small metal" 11 3
 	fleet "Unfettered Raid" 6000
 	government Aben
-	link "Ahaw on,za"
-	link "Pak.zin skwa"
+	link "Ahaw On,za"
+	link "Pak.zin Skwa"
 	link Ko,gok
 	minables aluminum 1 3
 	minables copper 3 3
@@ -94,7 +94,7 @@ system "Dzee dzee-bon'da"
 		period 10
 		sprite star/f5
 	pos 130 -564
-system "M'ska gwe,demoos"
+system "M'ska gwe,Demoos"
 	asteroids "large metal" 1 2
 	asteroids "large rock" 70 2
 	asteroids "medium metal" 86 2
@@ -102,7 +102,7 @@ system "M'ska gwe,demoos"
 	asteroids "small rock" 24 1
 	fleet "Unfettered Raid" 9000
 	government Uninhabited
-	link "Pak.zin skwa"
+	link "Pak.zin Skwa"
 	link Ko,gok
 	link Tso-nii
 	minables iron 16 14
@@ -145,7 +145,7 @@ system "M'ska gwe,demoos"
 		period 12
 		sprite star/m4
 	pos 127 -516
-system "Pak.zin skwa"
+system "Pak.zin Skwa"
 	asteroids "large metal" 2 3
 	asteroids "large rock" 1 5
 	asteroids "medium metal" 26 5
@@ -153,9 +153,9 @@ system "Pak.zin skwa"
 	asteroids "small rock" 1 3
 	fleet "Unfettered Raid" 9000
 	government Uninhabited
-	link "Ahaw on,za"
-	link "Dzee dzee-bon'da"
-	link "M'ska gwe,demoos"
+	link "Ahaw On,za"
+	link "Dzee dzee-Bon'da"
+	link "M'ska gwe,Demoos"
 	link Tso-nii
 	minables silicon 2 4
 	object
@@ -413,9 +413,9 @@ system Ko,gok
 	asteroids "small rock" 60 2
 	fleet "Unfettered Raid" 9000
 	government Aben
-	link "Ahaw on,za"
-	link "Dzee dzee-bon'da"
-	link "M'ska gwe,demoos"
+	link "Ahaw On,za"
+	link "Dzee dzee-Bon'da"
+	link "M'ska gwe,Demoos"
 	minables iron 1 2
 	minables lead 1 2
 	minables platinum 4 3
@@ -707,8 +707,8 @@ system Tso-nii
 	asteroids "small rock" 4 3
 	fleet "Unfettered Raid" 10500
 	government Uninhabited
-	link "M'ska gwe,demoos"
-	link "Pak.zin skwa"
+	link "M'ska gwe,Demoos"
+	link "Pak.zin Skwa"
 	minables lead 21 6
 	minables silicon 45 6
 	object
