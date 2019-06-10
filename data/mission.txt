@@ -45,29 +45,6 @@ mission aben_bounty
 	source
 		planet Nis
 	to offer
-		has "aben_reconnaissance_1: done"
-		random < 60
-mission aben_bounty_unknown
-	description "Hunt down a hostile ship that is circling overhead <planet>, then return to <planet> to receive your payment of <payment>."
-	job
-	name "Unknown Assailant"
-	npc kill
-		dialog "You have destroyed the assailant. You can now return to <planet> to collect your payment."
-		fleet
-			cargo 2
-			names hai
-			variant
-				"Shield Beetle (Jump, Tracker)"
-		government "Hai (Unfettered)"
-		personality heroic marked target waiting
-	on complete
-		payment 140000
-		dialog "The spokesman for the Aben thanks you for your assistance in hunting down the aggressor, and hands you the agreed upon payment of <payment>."
-	repeat
-	source
-		planet Nis
-	to offer
-		not "aben_reconnaissance_1: done"
 		random < 60
 mission aben_harvest_aluminum_large
 	description "The Aben are offering <payment> in exchange for 90 tons of aluminum."
