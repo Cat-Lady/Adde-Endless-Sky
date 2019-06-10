@@ -1,3 +1,34 @@
+effect balefire_lance_hit
+	"random angle" 2
+	"random spin" 1
+	"random velocity" 1
+	"velocity scale" -.007
+	lifetime 5
+	sprite sprite/balefire_lance_hit
+		"frame rate" 1.75
+		"no repeat"
+effect balefire_projector_hit
+	"random angle" 2
+	"velocity scale" -.005
+	lifetime 20
+	sprite sprite/balefire_projector_hit
+		"frame rate" 30
+		"no repeat"
+effect calypso_weapon_hit
+	"velocity scale" .007
+	lifetime 5
+	sound sunbeam
+	sprite sprite/calypso_weapon_hit
+		"frame rate" 3.5
+		"no repeat"
+		"random start frame"
+effect denial_turret_hit
+	"velocity scale" 1
+	lifetime 11
+	sound grab-strike
+	sprite sprite/denial_turret_hit
+		"frame rate" 23
+		"no repeat"
 effect devastator_die
 	"velocity scale" 1
 	lifetime 4
@@ -46,10 +77,13 @@ effect devastator_hit3
 		"frame rate" 60
 		"no repeat"
 		"start frame" 1
-effect balefire_projector_hit
-	"random angle" 2
-	"velocity scale" -.005
-	lifetime 20
-	sprite sprite/balefire_projector_hit
-		"frame rate" 30
+effect kinetic_splicer_hit
+	"random angle" 360
+	"random spin" 4
+	"random velocity" .1
+	"velocity scale" -.05
+	lifetime 21
+	sound banisher
+	sprite sprite/kinetic_splicer_hit
+		"frame rate" 20
 		"no repeat"
