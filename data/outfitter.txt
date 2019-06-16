@@ -48,6 +48,7 @@ outfitter plugin
 	"Quad Plasma Turret"
 	"Regional Map"
 	"Shield Modulator"
+	"Shipwright Gear"
 	"Smugglers Fittings"
 	"Storage Cell"
 	"Tekina Engine"

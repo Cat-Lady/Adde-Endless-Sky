@@ -470,6 +470,14 @@ outfit "Shield Modulator"
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	mass 1
 	thumbnail outfit/unknown
+outfit "Shipwright Gear"
+	"hull energy" .06
+	"hull repair rate" .04
+	"required crew" 1
+	category Special
+	cost 8400
+	description "As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship."
+	thumbnail outfit/unknown
 outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8
