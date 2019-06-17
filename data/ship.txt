@@ -42,7 +42,7 @@ ship "A-3 Lexel"
 		"Shield Modulator" 15
 		"Storage Cell" 8
 		"Thrust Module" 8
-	sprite sprite/a3_lexel
+	sprite ship/a3_lexel
 	turret 0 26
 ship "A-60 Olisivant"
 	attributes
@@ -199,7 +199,7 @@ ship "Kar Ik Vot 637"
 		"Thruster (Stellar Class)"
 		"Triple Plasma Core"
 		Hyperdrive
-	sprite sprite/kar_ik_vot_637
+	sprite ship/kar_ik_vot_637
 	thumbnail thumbnail/kar_ik_vot_637
 	turret -50 -261 "Korath Repeater Turret"
 	turret -52 -238 "Korath Repeater Turret"
@@ -240,7 +240,7 @@ ship "Korath Stalker"
 		"Korath Repeater Rifle" 2
 		"Steering (Asteroid Class)"
 		"Thruster (Asteroid Class)"
-	sprite sprite/korath_stalker
+	sprite ship/korath_stalker
 	thumbnail thumbnail/korath_stalker
 ship "Model 1024"
 	"final explode" "final explosion large"
@@ -288,7 +288,7 @@ ship "Model 1024"
 		"Thruster (Planetary Class)"
 		"Triple Plasma Core"
 		Hyperdrive
-	sprite sprite/model_1024
+	sprite ship/model_1024
 	thumbnail thumbnail/model_1024
 	turret -121 86 "Korath Slicer Turret"
 	turret 54 138 "Korath Disruptor"
@@ -360,7 +360,7 @@ ship Adel
 		"S-270 Regenerator" 2
 		`"Benga" Atomic Thruster`
 		Hyperdrive
-	sprite sprite/adel
+	sprite ship/adel
 	thumbnail thumbnail/adel
 ship Aesalon
 	"final explode" "final explosion medium"
@@ -413,7 +413,7 @@ ship Aesalon
 		"Scram Drive"
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
-	sprite sprite/aesalon
+	sprite ship/aesalon
 	thumbnail thumbnail/aesalon
 	turret -16 -21 "Laser Turret"
 	turret -46 34 "Electron Turret"
@@ -473,7 +473,7 @@ ship Apocalypse
 		"Apotropaic Anti-Missile" 8
 		"Irm Large Engines"
 		Devastator 2
-	sprite sprite/apocalypse
+	sprite ship/apocalypse
 	thumbnail thumbnail/apocalypse
 	turret -46 26 "Apotropaic Anti-Missile"
 	turret -46 115 "Apotropaic Anti-Missile"
@@ -534,7 +534,7 @@ ship Bennu
 		`"Biroo" Atomic Steering`
 		`"Biroo" Atomic Thruster`
 		Hyperdrive
-	sprite sprite/bennu
+	sprite ship/bennu
 	thumbnail thumbnail/bennu
 	turret 0 3 "Bullfrog Anti-Missile"
 	turret 0 19 "Bullfrog Anti-Missile"
@@ -581,7 +581,7 @@ ship Bulwark
 		"X1200 Ion Steering"
 		"X3200 Ion Steering"
 		Hyperdrive
-	sprite sprite/bulwark
+	sprite ship/bulwark
 	thumbnail thumbnail/bulwark
 	turret -46 -62 "Quad Blaster Turret"
 	turret -46 54 "Quad Blaster Turret"
@@ -642,7 +642,7 @@ ship Caster
 	gun 0 -172
 	outfits
 		Deterrence
-	sprite sprite/caster
+	sprite ship/caster
 	thumbnail thumbnail/caster
 	turret 0 116 Deterrence
 	turret 0 116
@@ -698,7 +698,7 @@ ship Hornet
 		"X2200 Ion Steering"
 		"X2700 Ion Thruster"
 		Hyperdrive
-	sprite sprite/hornet
+	sprite ship/hornet
 	thumbnail thumbnail/hornet
 ship Hydra
 	"final explode" "final explosion large"
@@ -753,7 +753,7 @@ ship Hydra
 		"Typhoon Storage Tube" 11
 		"Typhoon Torpedo" 225
 		Hyperdrive
-	sprite sprite/hydra
+	sprite ship/hydra
 	thumbnail thumbnail/hydra
 	turret -15 -50 "Pulse Turret"
 	turret -28 10 "Heavy Anti-Missile Turret"
@@ -806,7 +806,7 @@ ship Revelation
 	outfits
 		"Tekina Engine"
 		Harrier
-	sprite sprite/revelation
+	sprite ship/revelation
 	thumbnail thumbnail/revelation
 ship Sarkic
 	"never disabled"
@@ -835,7 +835,7 @@ ship Sarkic
 	noun entity
 	outfits
 		Mouthparts? 6
-	sprite sprite/sarkic
+	sprite ship/sarkic
 ship Scud
 	attributes
 		"engine capacity" 25
@@ -865,5 +865,5 @@ ship Scud
 		"Type 1 Radiant Thruster"
 		"Type 1 Radiant Steering"
 	gun 0 -36 "Thunderhead Launcher"
-	sprite sprite/scud
+	sprite ship/scud
 	thumbnail thumbnail/scud
