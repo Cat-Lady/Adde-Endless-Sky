@@ -471,6 +471,7 @@ outfit "Shield Modulator"
 	mass 1
 	thumbnail outfit/unknown
 outfit "Shipwright Gear"
+	"tool storage" -1
 	"hull energy" .06
 	"hull repair rate" .04
 	"required crew" 1
@@ -495,6 +496,12 @@ outfit "Storage Cell"
 	cost 1875
 	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
 	mass 1
+	thumbnail outfit/unknown
+outfit "Storage Locker"
+	"outfit space" -13
+	"tool storage" 5
+	category Systems
+	cost 13600
 	thumbnail outfit/unknown
 outfit "Tekina Engine"
 	"engine capacity" -76
@@ -526,6 +533,12 @@ outfit "Thrust Module"
 	thrust 1.1
 	thumbnail outfit/unknown
 	turn 38.141
+outfit "Tool Rack"
+	"outfit space" -3
+	"tool storage" 1
+	category Systems
+	cost 13600
+	thumbnail outfit/unknown
 outfit "Transparency Plating"
 	"cloaking energy" 18
 	"outfit space" -3

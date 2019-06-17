@@ -51,8 +51,10 @@ outfitter plugin
 	"Shipwright Gear"
 	"Smugglers Fittings"
 	"Storage Cell"
+	"Storage Locker"
 	"Tekina Engine"
 	"Thrust Module"
+	"Tool Rack"
 	"Transparency Plating"
 	Capacitors
 	Deterrence
