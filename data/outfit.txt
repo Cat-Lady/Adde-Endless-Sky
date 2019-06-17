@@ -278,7 +278,7 @@ outfit "Heat Sink"
 	"outfit space" -1
 	category Systems
 	cooling 1.725
-	cost 3750
+	cost 3800
 	description "This heat sink has a modular design."
 	mass 1
 	thumbnail outfit/unknown
@@ -466,7 +466,7 @@ outfit "Shield Modulator"
 	"outfit space" -1
 	"shield generation" .062
 	category Systems
-	cost 21622
+	cost 21600
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	mass 1
 	thumbnail outfit/unknown
@@ -493,7 +493,7 @@ outfit "Storage Cell"
 	"energy capacity" 130
 	"outfit space" -1
 	category Power
-	cost 1875
+	cost 1900
 	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
 	mass 1
 	thumbnail outfit/unknown
@@ -528,7 +528,7 @@ outfit "Thrust Module"
 	"turning energy" .072
 	"turning heat" .190
 	category Engines
-	cost 38508
+	cost 38500
 	mass 2
 	thrust 1.1
 	thumbnail outfit/unknown
