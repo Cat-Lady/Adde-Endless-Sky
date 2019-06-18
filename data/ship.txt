@@ -42,7 +42,7 @@ ship "A-3 Lexel"
 		"Shield Modulator" 15
 		"Storage Cell" 8
 		"Thrust Module" 8
-	sprite ship/a3_lexel
+	sprite outfit/unknown
 	turret 0 26
 ship "A-60 Olisivant"
 	attributes
