@@ -497,12 +497,13 @@ outfit "Storage Cell"
 	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
 	mass 1
 	thumbnail outfit/unknown
-outfit "Storage Locker"
+outfit "Storage Lockers"
 	"outfit space" -13
 	"tool storage" 5
 	category Systems
 	cost 13600
-	thumbnail outfit/unknown
+	mass 13
+	thumbnail thumbnail/storage_lockers
 outfit "Tekina Engine"
 	"engine capacity" -76
 	"flare sound" "plasma medium"
@@ -538,7 +539,8 @@ outfit "Tool Rack"
 	"tool storage" 1
 	category Systems
 	cost 13600
-	thumbnail outfit/unknown
+	mass 3
+	thumbnail thumbnail/tool_rack
 outfit "Transparency Plating"
 	"cloaking energy" 18
 	"outfit space" -3

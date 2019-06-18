@@ -51,7 +51,7 @@ outfitter plugin
 	"Shipwright Gear"
 	"Smugglers Fittings"
 	"Storage Cell"
-	"Storage Locker"
+	"Storage Lockers"
 	"Tekina Engine"
 	"Thrust Module"
 	"Tool Rack"
