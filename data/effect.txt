@@ -12,10 +12,11 @@ effect balefire_projector_hit
 	"velocity scale" -.005
 	lifetime 20
 	sprite sprite/balefire_projector_hit
-		"frame rate" 30
+		"frame rate" 3
 		"no repeat"
 effect calypso_weapon_hit
 	"velocity scale" .007
+	"random spin" 12
 	lifetime 5
 	sound sunbeam
 	sprite sprite/calypso_weapon_hit
