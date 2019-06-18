@@ -176,7 +176,7 @@ outfit "Capacitor Rack"
 	category Power
 	cost 2000
 	mass .5
-	thumbnail thumbnail/capacitor_rack
+	thumbnail outfit/capacitor_rack
 outfit "Chain Blaster Turret"
 	"outfit space" -34
 	"required crew" 2
@@ -185,7 +185,7 @@ outfit "Chain Blaster Turret"
 	category Turrets
 	cost 360000
 	mass 34
-	thumbnail thumbnail/chain_blaster_turret
+	thumbnail outfit/chain_blaster_turret
 	weapon
 		"firing energy" 12
 		"firing heat" 30
@@ -224,7 +224,7 @@ outfit "Dual Electron Beam"
 	category Guns
 	cost 440000
 	mass 41
-	thumbnail thumbnail/dual_electron_beam
+	thumbnail outfit/dual_electron_beam
 	weapon
 		"firing energy" 3.4
 		"firing heat" 4.1
@@ -254,7 +254,7 @@ outfit "Flame Thrower"
 	cost 35000
 	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
 	illegal 800000
-	thumbnail thumbnail/flame_thrower
+	thumbnail outfit/flame_thrower
 outfit "Fracture Engine"
 	"outfit space" -65
 	"turret mounts" -1
@@ -290,7 +290,7 @@ outfit "Ion Mortar"
 	category Turrets
 	cost 1320000
 	mass 98
-	thumbnail thumbnail/ion_mortar
+	thumbnail outfit/ion_mortar
 	weapon
 		"firing energy" 270
 		"firing force" 10
@@ -362,7 +362,7 @@ outfit "Korath Disruptor Gun"
 	cost 697000
 	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
 	mass 23
-	thumbnail thumbnail/disruptor_gun
+	thumbnail outfit/disruptor_gun
 	weapon
 		"disruption damage" .24
 		"firing energy" 8.0
@@ -385,7 +385,7 @@ outfit "Korath Fire-Lance Turret"
 	category Turrets
 	cost 1193000
 	mass 52
-	thumbnail thumbnail/fire-lance_turret
+	thumbnail outfit/fire-lance_turret
 	weapon
 		"firing energy" 5.3
 		"firing heat" 3.7
@@ -411,7 +411,7 @@ outfit "Plasma Repeater"
 	description "Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding."
 	description "Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall."
 	mass 32
-	thumbnail thumbnail/plasma_repeater
+	thumbnail outfit/plasma_repeater
 	weapon
 		"firing energy" 13
 		"firing heat" 110
@@ -435,7 +435,7 @@ outfit "Quad Plasma Turret"
 	category Turrets
 	cost 520000
 	mass 87
-	thumbnail thumbnail/quad_plasma_turret
+	thumbnail outfit/quad_plasma_turret
 	weapon
 		"firing energy" 32
 		"firing heat" 195
@@ -488,7 +488,7 @@ outfit "Smugglers Fittings"
 	cost 9000
 	description "This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it."
 	illegal 650000
-	thumbnail thumbnail/smugglers_fittings
+	thumbnail outfit/smugglers_fittings
 outfit "Storage Cell"
 	"energy capacity" 130
 	"outfit space" -1
@@ -503,7 +503,7 @@ outfit "Storage Lockers"
 	category Systems
 	cost 13600
 	mass 13
-	thumbnail thumbnail/storage_lockers
+	thumbnail outfit/storage_lockers
 outfit "Tekina Engine"
 	"engine capacity" -76
 	"flare sound" "plasma medium"
@@ -518,7 +518,7 @@ outfit "Tekina Engine"
 	cost 940000
 	mass 76
 	thrust 12.5
-	thumbnail thumbnail/tekina_engine
+	thumbnail outfit/tekina_engine
 	turn 430
 outfit "Thrust Module"
 	"engine capacity" -2
@@ -540,14 +540,14 @@ outfit "Tool Rack"
 	category Systems
 	cost 13600
 	mass 3
-	thumbnail thumbnail/tool_rack
+	thumbnail outfit/tool_rack
 outfit "Transparency Plating"
 	"cloaking energy" 18
 	"outfit space" -3
 	category Systems
 	cloak .002
 	cost 750000
-	thumbnail thumbnail/transparency_plating
+	thumbnail outfit/transparency_plating
 	unplunderable 1
 outfit Deterrence
 	"turret mounts" -1
@@ -594,7 +594,7 @@ outfit Capacitors
 	"energy capacity" 18.75
 	category Power
 	cost 2400
-	thumbnail thumbnail/capacitors
+	thumbnail outfit/capacitors
 outfit fracture_engine_submunition
 	weapon
 		"hit effect" "heavy laser impact"
