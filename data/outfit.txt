@@ -478,7 +478,7 @@ outfit "Shipwright Gear"
 	category Special
 	cost 8400
 	description "As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship."
-	thumbnail outfit/unknown
+	thumbnail outfit/shipwright_gear
 outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8
