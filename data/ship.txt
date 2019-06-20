@@ -787,16 +787,19 @@ ship Revelation
 		"cargo space" 16
 		"energy capacity" 51000
 		"engine capacity" 79
+		"fuel capacity" 100
 		"heat dissipation" .9
 		"outfit space" 119
 		"solar collection" 6.6
 		"weapon capacity" 32
 		"shield generation" 3.7
 		"shield energy" 4.1
-		category Drone
+		automaton 1
+		category Interceptor
 		cost 3410000
 		drag 1.4
 		hull 2200
+		hyperdrive 1
 		mass 68
 		shields 900
 	engine -8 25 .3

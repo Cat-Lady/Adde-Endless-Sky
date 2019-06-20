@@ -571,6 +571,7 @@ system Serpentis
 system Solum
 	asteroids "large metal" 5 2
 	asteroids "medium rock" 8 3
+	fleet irm_defense 250
 	government Irm
 	object
 		distance 812

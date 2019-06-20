@@ -268,7 +268,9 @@ fleet human
 	variant
 		Wasp
 fleet irm_defense
+	cargo 3
 	government Irm
+	names "kor mereti"
 	personality
 		heroic
 		unconstrained
