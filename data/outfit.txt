@@ -255,6 +255,7 @@ outfit "Flame Thrower"
 	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
 	illegal 800000
 	thumbnail outfit/flame_thrower
+	unplunderable 1
 outfit "Fracture Engine"
 	"outfit space" -65
 	"turret mounts" -1
@@ -363,6 +364,7 @@ outfit "Knockout Gas"
 	licenses
 		Navy
 	thumbnail outfit/knockout_gas
+	unplunderable 1
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -23
