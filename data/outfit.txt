@@ -622,7 +622,7 @@ outfit Harrier
 	category Guns
 	cost 1160000
 	mass 31
-	thumbnail outfit/unknown
+	thumbnail outfit/harrier
 	weapon
 		"firing energy" 4
 		"firing heat" 3.7
