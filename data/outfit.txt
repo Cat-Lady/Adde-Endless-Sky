@@ -354,6 +354,15 @@ outfit "Kinetic Splicer"
 		tracking .3
 		turn 4
 		velocity 5
+outfit "Knockout Gas"
+	"capture attack" 2.2
+	"capture defense" 1.2
+	category "Hand to Hand"
+	cost 110000
+	description "Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from some of the psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal."
+	licenses
+		Navy
+	thumbnail outfit/knockout_gas
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -23

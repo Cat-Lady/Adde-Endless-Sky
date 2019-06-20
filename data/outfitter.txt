@@ -42,6 +42,7 @@ outfitter plugin
 	"Ion Mortar"
 	"Irm Large Engines"
 	"Kinetic Splicer"
+	"Knockout Gas"
 	"Korath Disruptor Gun"
 	"Korath Fire-Lance Turret"
 	"Plasma Repeater"
