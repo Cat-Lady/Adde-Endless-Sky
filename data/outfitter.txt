@@ -1,10 +1,3 @@
-outfitter aben_sales
-	"Aben Cooling"
-	"Aben Energy Generator"
-	"Aben Energy Storage"
-	"Aben Shield Generator"
-	"Cargo Expansion"
-	"Outfits Expansion"
 outfitter deprecated
 	"Bullfrog Anti-Missile Turret"
 	"Chameleon Anti-Missile Turret"
@@ -20,10 +13,6 @@ outfitter deprecated
 	"NDR-114 Android"
 	"Reverse Thruster"
 outfitter plugin
-	"Aben Cooling"
-	"Aben Energy Generator"
-	"Aben Energy Storage"
-	"Aben Shield Generator"
 	"Alpha Hermes Frame"
 	"Apotropaic Anti-Missile"
 	"B-1 Achilles Frame"
