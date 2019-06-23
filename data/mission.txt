@@ -1015,6 +1015,7 @@ mission incursion_wanderer
 mission irm_first_contact
 	landing
 	on offer
+		log Factions Irm `The Irm is inward facing technocratic society, their entire civilization is undertaking the construction of a massive megastructure. Although they very obviously despise cooperating with other species due to a lack of trust and no willingness to give them the chance to prove their trust, they have traded with the Hai before whilst observing the rise and fall of the mighty Hai empire.`
 		conversation
 			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this stellar construction just got a whole lot crazier.`
 			`	Being greeted by a large group of security personnel on landing has you uneasy, even more so with the escort of several security drones. "What are your intentions here? And who would you represent?" he proclaims slowly, but broadly.`
