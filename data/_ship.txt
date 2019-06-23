@@ -7,6 +7,9 @@ ship "Far Osk 27"
 ship "Kar Ik Vot 349"
 	attributes
 		"self destruct" .4
+ship "Korath World-Ship"
+	attributes
+		category Transport
 ship "Met Par Tek 53"
 	attributes
 		"self destruct" .325
@@ -44,6 +47,9 @@ ship "Tek Far 71 - Lek"
 ship "Tek Far 78 - Osk"
 	attributes
 		"self destruct" .35
+ship Bactrian
+	attributes
+		category Transport
 ship Flivver "Flivver (Racing)"
 	attributes
 		"cargo space" 15
