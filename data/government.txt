@@ -1,3 +1,5 @@
+government "Uninhabited "
+	color .4 .4 .4
 government Aben
 	color .2 .5 .7
 government Fallen

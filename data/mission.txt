@@ -1107,6 +1107,18 @@ mission money
 	repeat
 	source
 		government Unknown
+mission remnant_surveillance
+	description "Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>"
+	waypoint
+		government "Uninhabited "
+	job
+	name "Remnant Surveillance"
+	on complete
+		dialog `You transmit your scans and receive a payment of <payment>. "This will save us months!" you hear someone sing in strange rhythm in the background as you close the audio link.`
+		payment 220000
+	repeat
+	source
+		government Remnant
 mission reveal_map
 	job
 	name "Reveal Map"
