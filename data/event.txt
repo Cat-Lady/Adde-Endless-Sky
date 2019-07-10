@@ -589,8 +589,10 @@ event reveal_map
 	visit Dabih
 	visit Danoa
 	visit Debrugt
+	visit Decima
 	visit Deneb
 	visit Denebola
+	visit Deverra
 	visit Diespiter
 	visit Diphda
 	visit Dokdobaru
@@ -728,6 +730,7 @@ event reveal_map
 	visit Postverta
 	visit Prakacha'a
 	visit Procyon
+	visit Promitor
 	visit Prosa
 	visit Quaru
 	visit Rajak
@@ -738,6 +741,7 @@ event reveal_map
 	visit Remembrance
 	visit Rigel
 	visit Ruchbah
+	visit Rusor
 	visit Rutilicus
 	visit Sabik
 	visit Sabriset
@@ -774,6 +778,7 @@ event reveal_map
 	visit Sospi
 	visit Speloog
 	visit Spica
+	visit Stata
 	visit Statina
 	visit Stercutus
 	visit Suhail
