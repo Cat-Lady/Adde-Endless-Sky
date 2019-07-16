@@ -47,6 +47,24 @@ ship "Tek Far 71 - Lek"
 ship "Tek Far 78 - Osk"
 	attributes
 		"self destruct" .35
+ship Albatross "Albatross (Heavy)"
+	outfits
+		"Aeon Cell"
+		"Crucible-Class Thruster"
+		"Crystal Capacitor" 2
+		"Epoch Cell"
+		"Forge-Class Steering"
+		"Forge-Class Thruster"
+		"Inhibitor Cannon" 3
+		"Millennium Cell"
+		"Outfits Expansion" 4
+		"Quantum Key Stone"
+		"Smelter-Class Steering"
+		"Thermoelectric Cooler" 2
+		"Thrasher Cannon" 4
+		"Thrasher Turret" 3
+		"Tuning Rifle" 65
+		Hyperdrive
 ship Bactrian
 	attributes
 		category Transport
@@ -270,3 +288,16 @@ ship Frigate
 		"X3700 Ion Thruster"
 		Hyperdrive
 		Torpedo 60
+ship Starling "Starling (Hunter)"
+	outfits
+		"Crystal Capacitor"
+		"Emergency Ramscoop"
+		"Epoch Cell"
+		"Forge-Class Steering"
+		"Forge-Class Thruster"
+		"Inhibitor Cannon" 2
+		"Millennium Cell"
+		"Quantum Key Stone"
+		"Thrasher Turret"
+		"Tuning Rifle" 11
+		Hyperdrive
