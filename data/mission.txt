@@ -1127,21 +1127,21 @@ mission remnant_colonisation
 		payment 8500000
 	on offer
 		conversation
-			`	Shortly after breaking through the atmosphere you notice a large number of warships and transports occupying near all of the landing pads. To your surprise you're greeted by a dozen odd Remnant as you depart your ship, the two leading the group are wearing robes, likely to decorate them for their place in government. The first of the two steps forward, "You are Captain <last>?"`
+			`Shortly after breaking through the atmosphere you notice a large number of warships and transports occupying near all of the landing pads. To your surprise you're greeted by a dozen odd Remnant as you depart your ship, the two leading the group are wearing robes, likely to decorate them for their place in government. The first of the two steps forward, "You are Captain <last>?"`
 			choice
 				`	"Yes. That's me."`
 					goto thatsme
 				`	"I'm sorry, who are you?"`
-			`"I am prefect Kier and this is prefect Yann, we represent the branch of the Remnant responsible for expansion and population management."
+			`	"I am prefect Kier and this is prefect Yann, we represent the branch of the Remnant responsible for expansion and population management."
 			choice
 				`	"Alright. Well, that's me."`
 			label thatsme
-			`She begins signing slowly while also singing, they must know you're still learning how to sign, "Good, we don't require your assistance if you can't spare the time but I must ask for your help in our current endeavor. You see, we are funded generously as we undertake a task of great importance, but it has taken us only so far as we've hit our budget for the time being."`
+			`	She begins signing slowly while also singing, they must know you're still learning how to sign, "Good, we don't require your assistance if you can't spare the time but I must ask for your help in our current endeavor. You see, we are funded generously as we undertake a task of great importance, but it has taken us only so far as we've hit our budget for the time being."`
 			choice
 				`	"So, what do you need me for, exactly?"`
 				`	"I'm sorry, I can't help you"`
 					decline
-			`"Our worlds are becoming crowded, noisy, it's time to begin spreading elsewhere within the ember region. We have a destination but we need assurance that we can get there safely, so we want your help escorting the transports, you would be rewarded of course."`
+			`	"Our worlds are becoming crowded, noisy, it's time to begin spreading elsewhere within the ember region. We have a destination but we need assurance that we can get there safely, so we want your help escorting the transports, you would be rewarded of course."`
 			choice
 				`	"I can help you with that."`
 					accept
