@@ -1110,6 +1110,7 @@ mission money
 mission remnant_colonisation
 	description "Escort the Remnant colonization fleet through the ember wastes to <destination>, they have suggested attempting to cross the barrens to arrive sooner and remain safer."
 	destination "Far Monad"
+	name "Remnant Colonisation"
 	npc accompany save
 		government "Remnant"
 		personality escort timid
