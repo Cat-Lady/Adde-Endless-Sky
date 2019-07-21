@@ -1126,6 +1126,7 @@ mission remnant_colonisation
 	on complete
 		dialog "On landing, two prefects thank you for your services. They promise that you'll be hearing from them again."
 		payment 8500000
+		event remnant_colonisation_first_stages 85
 	on offer
 		conversation
 			`Shortly after breaking through the atmosphere you notice a large number of warships and transports occupying near all of the landing pads. To your surprise you're greeted by a dozen odd Remnant as you depart your ship, the two leading the group are wearing robes, likely to decorate them for their place in government. The first of the two steps forward, "You are Captain <last>?"`
@@ -1154,6 +1155,24 @@ mission remnant_colonisation
 		"combat rating" > 7000
 		has "license: Remnant Capital"
 		random < 15
+mission remnant_colonisation_supplies
+	description "Fetch additional supplies for the Remnant colonisation effort."
+	cargo random 12 16
+	job
+	name "Remnant Resupply"
+	on complete
+		dialog "The dock workers at <origin> seem eager to offload the supplies you've brought them. They thank you and pay you <payment> credits."
+		payment 75000
+	on stopover
+		dialog "Spaceport workers quickly load the supplies into your ships cargo hold. It's time to head back to <origin>."
+	repeat
+	source
+		planet "Far Monad"
+	stopover
+		government Remnant
+	to offer
+		has "remnant_colonisation_first_stages"
+		random < 35
 mission remnant_surveillance
 	description "Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>"
 	waypoint
