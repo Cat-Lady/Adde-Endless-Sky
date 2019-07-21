@@ -1061,7 +1061,7 @@ mission licenses_give
 		set "license: Heliarch"
 		set "license: Militia Carrier"
 		set "license: Navy"
-		set "license: Remnant Capital License"
+		set "license: Remnant Capital"
 		set "license: Remnant"
 		set "license: Unfettered Militia"
 		set "license: Wanderer Military"
@@ -1151,6 +1151,7 @@ mission remnant_colonisation
 		government Remnant
 	to offer
 		"combat rating" > 7000
+		has "license: Remnant Capital"
 		random < 15
 mission remnant_surveillance
 	description "Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>"
