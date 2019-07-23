@@ -1185,6 +1185,8 @@ mission remnant_surveillance
 	repeat
 	source
 		government Remnant
+	to offer
+		random < 80
 mission reveal_map
 	job
 	name "Reveal Map"
