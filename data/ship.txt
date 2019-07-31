@@ -21,19 +21,19 @@ ship "A-3 Lexel"
 			"hit force" 100
 			"hull damage" 160
 			"shield damage" 600
+	engine -24 28
+	engine 24 28
+	engine -22 35
+	engine 22 35
+	engine -20 42
+	engine 20 42
+	engine -18 48
+	engine 18 48
 	explode "medium explosion" 10
 	explode "small explosion" 10
 	explode "tiny explosion" 20
-	engine -11 53
-	engine -15 51
-	engine -20 48
-	engine -25 44
-	engine 11 53
-	engine 15 51
-	engine 20 48
-	engine 25 44
-	gun -7 -53 "Balefire Projector"
-	gun 7 -53 "Balefire Projector"
+	gun -7 -50 "Balefire Projector"
+	gun 7 -50 "Balefire Projector"
 	outfits
 		"Alpha Hermes Frame"
 		"Balefire Projector" 2	
@@ -42,8 +42,8 @@ ship "A-3 Lexel"
 		"Shield Modulator" 15
 		"Storage Cell" 8
 		"Thrust Module" 8
-	sprite outfit/unknown
-	turret 0 26
+	sprite ship/lexel
+	thumbnail thumbnail/lexel
 ship "A-60 Olisivant"
 	attributes
 		"cargo space" 500
