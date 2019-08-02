@@ -27,6 +27,7 @@ outfitter plugin
 	"Energy Cube"
 	"Flame Thrower"
 	"Fracture Engine"
+	"Hai Scanner"
 	"Heat Sink"
 	"Ion Mortar"
 	"Irm Large Engines"

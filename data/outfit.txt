@@ -237,6 +237,16 @@ outfit "Fracture Engine"
 		sound plasma
 		submunition fracture_engine_submunition 65
 		velocity 10
+outfit "Hai Scanner"
+	"outfit scan power" 21
+	"outfit scan speed" 2
+	"outfit space" -4
+	"tactical scan power" 38
+	category Systems
+	cost 538000
+	description "The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe."
+	mass 4
+	thumbnail outfit/unknown
 outfit "Heat Sink"
 	"outfit space" -1
 	category Systems
