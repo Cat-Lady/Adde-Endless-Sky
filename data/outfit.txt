@@ -332,7 +332,7 @@ outfit "Knockout Gas"
 	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 110000
-	description "Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from some of the psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal."
+	description "Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal."
 	licenses
 		Navy
 	thumbnail outfit/knockout_gas
