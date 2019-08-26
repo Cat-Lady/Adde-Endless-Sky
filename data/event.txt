@@ -304,6 +304,8 @@ event reveal_map
 	"visit planet" Glaze
 	"visit planet" Glory
 	"visit planet" Grakhord
+	"visit planet" graveyard_wormhole
+	"visit planet" graveyard_wormhole2
 	"visit planet" Greenbloom
 	"visit planet" Greenrock
 	"visit planet" Greenwater
@@ -583,6 +585,7 @@ event reveal_map
 	visit Castor
 	visit Cebalrai
 	visit Celeborim
+	visit Celiatis
 	visit Chikatip
 	visit Chimitarp
 	visit Chirr'ay'akai
@@ -596,11 +599,13 @@ event reveal_map
 	visit Danoa
 	visit Debrugt
 	visit Decima
+	visit Delia
 	visit Deneb
 	visit Denebola
 	visit Deverra
 	visit Diespiter
 	visit Diphda
+	visit Dixere
 	visit Dokdobaru
 	visit Dschubba
 	visit Dubhe
@@ -617,6 +622,7 @@ event reveal_map
 	visit Enif
 	visit Es'sprak'ai
 	visit Eshkoshtar
+	visit Esix
 	visit Eteron
 	visit Everything
 	visit Everything
@@ -625,6 +631,10 @@ event reveal_map
 	visit Farinus
 	visit Faronektu
 	visit Fasitopfar
+	visit Fearis
+	visit Felii
+	visit Feraticus
+	visit Fereti
 	visit Feroteri
 	visit Ferukistek
 	visit Fingol
@@ -633,7 +643,10 @@ event reveal_map
 	visit Fornarep
 	visit Furmeliki
 	visit Gacrux
+	visit Gerenus
+	visit Gerusti
 	visit Gienah
+	visit Giribea
 	visit Girtab
 	visit Glubatub
 	visit Gomeisa
@@ -674,10 +687,13 @@ event reveal_map
 	visit Lesath
 	visit Levana
 	visit Limen
+	visit Lire
 	visit Lolami
 	visit Lucina
 	visit Lurata
+	visit Mafari
 	visit Makferuti
+	visit Marati
 	visit Markab
 	visit Markeb
 	visit Matar
@@ -710,18 +726,23 @@ event reveal_map
 	visit Nenia
 	visit Nihal
 	visit Nocte
+	visit Nona
 	visit Nunki
 	visit Oblate
 	visit Orbona
 	visit Orvala
 	visit Ossipago
+	visit Ottava
+	visit Paeli
 	visit Pantica
 	visit Parca
+	visit Paritixi
 	visit Peacock
 	visit Pelubta
 	visit Peragenor
 	visit Peresedersi
 	visit Perfica
+	visit Perima
 	visit Persian
 	visit Persitar
 	visit Phact
@@ -731,21 +752,29 @@ event reveal_map
 	visit Pik'ro'iyak
 	visit Plort
 	visit Polaris
+	visit Polerius
 	visit Pollux
 	visit Porrima
 	visit Postverta
 	visit Prakacha'a
+	visit Prima
 	visit Procyon
 	visit Promitor
 	visit Prosa
 	visit Quaru
+	visit Queri
 	visit Rajak
+	visit Raliesa
 	visit Rasalhague
 	visit Rastaban
 	visit Regor
 	visit Regulus
+	visit Relifer
 	visit Remembrance
+	visit Remia
+	visit Resetus
 	visit Rigel
+	visit Ritilas
 	visit Ruchbah
 	visit Rusor
 	visit Rutilicus
@@ -803,6 +832,7 @@ event reveal_map
 	visit Umbral
 	visit Unagi
 	visit Unukalhai
+	visit Urinaeli
 	visit Vaticanus
 	visit Vega
 	visit Vindemiatrix
