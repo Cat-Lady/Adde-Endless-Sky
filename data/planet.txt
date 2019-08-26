@@ -27,6 +27,10 @@ planet Everything
 	shipyard vanilla
 	shipyard variants
 	spaceport "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
+planet graveyard_wormhole
+	description ``
+planet graveyard_wormhole2
+	description ``
 planet irm_gate
 	description ``
 planet link_wormhole

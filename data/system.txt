@@ -559,6 +559,10 @@ system Esix
 		offset 180
 		period 17
 		sprite star/m4
+	object graveyard_wormhole2
+		distance 1342
+		period 411
+		sprite planet/wormhole-red
 	pos 142 532
 system Everything
 	government Unknown
@@ -691,6 +695,10 @@ system Fearis
 	object
 		period 10
 		sprite star/g0
+	object graveyard_wormhole
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
 	pos -16 643
 system Felii
 	asteroids "large metal" 1 3
@@ -1699,6 +1707,10 @@ system Relifer
 	object
 		period 10
 		sprite star/g0
+	object graveyard_wormhole2
+		distance 1342
+		period 411
+		sprite planet/wormhole-red
 	pos 19 603
 system Resetus
 	asteroids "large metal" 4 7
@@ -1781,6 +1793,10 @@ system Ritilas
 	object
 		period 10
 		sprite star/m4
+	object graveyard_wormhole
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
 	pos 11 523
 system Rusor
 	asteroids "medium rock" 18 3
