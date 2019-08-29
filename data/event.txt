@@ -177,6 +177,7 @@ event reveal_map
 	"visit planet" "Oberon Station"
 	"visit planet" "Phoenix Station"
 	"visit planet" "Plort's Water"
+	"visit planet" "Pug Kaelin"
 	"visit planet" "Refuge of Belugt"
 	"visit planet" "Rekat Moraski"
 	"visit planet" "Remnant Wormhole"
@@ -495,6 +496,7 @@ event reveal_map
 	visit "Mei Yohn"
 	visit "Over the Rainbow"
 	visit "Pak.zin Skwa"
+	visit "Pug Aki'il"
 	visit "Pug Iyik"
 	visit "Rati Cal"
 	visit "Sagittarius A*"
@@ -832,7 +834,6 @@ event reveal_map
 	visit Umbral
 	visit Unagi
 	visit Unukalhai
-	visit Urinaeli
 	visit Vaticanus
 	visit Vega
 	visit Vindemiatrix

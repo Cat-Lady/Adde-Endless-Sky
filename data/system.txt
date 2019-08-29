@@ -2104,14 +2104,14 @@ system Tso-nii
 		period 10
 		sprite star/k5
 	pos 86 -467
-system Urinaeli
+system "Pug Aki'il"
 	asteroids "large metal" 47 5
 	asteroids "large rock" 2 10
 	asteroids "medium metal" 100 8
 	asteroids "medium rock" 4 5
 	asteroids "small metal" 48 6
 	asteroids "small rock" 4 8
-	government Uninhabited
+	government Pug
 	object
 		distance 1106
 		period 667
@@ -2128,7 +2128,7 @@ system Urinaeli
 		distance 497
 		period 201
 		sprite planet/desert7
-	object
+	object "Pug Kaelin"
 		distance 824
 		period 429
 		sprite planet/ocean3

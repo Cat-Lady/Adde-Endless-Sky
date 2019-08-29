@@ -1,3 +1,16 @@
+planet "Pug Kaelin"
+	"required reputation" 2
+	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
+	landscape land/myrabella5
+	security 1
+	spaceport `The spaceport here can be described no other way than impressive, it is the largest tower, placed directly central of the gargantuan city. With a base almost looking big enough to pass as a sizable village, very quickly getting thinner as it raises into the cities airspace.`
+	spaceport `Reaching unimaginable heights many would consider impossible, the tower is more than the planets spaceport, it is quite literally the epicenter for everything from logistics to residence.`
+planet "Relic Station"
+	"required reputation" -1
+	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
+	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
+	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
+	landscape land/space6
 planet Arena
 	"required reputation" -1
 	description "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
@@ -55,12 +68,6 @@ planet Plugins
 	outfitter plugin
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
-planet "Relic Station"
-	"required reputation" -1
-	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
-	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
-	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
-	landscape land/space6
 planet Vanilla
 	"required reputation" -1
 	attributes content
