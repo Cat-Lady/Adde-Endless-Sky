@@ -279,35 +279,6 @@ system Celiatis
 		period 10
 		sprite star/k5
 	pos -136 759
-system Decima
-	asteroids "medium rock" 3 4
-	asteroids "large rock" 2 2
-	asteroids "small metal" 2 2
-	asteroids "medium metal" 4 2
-	asteroids "large metal" 5 5
-	fleet "Large Remnant" 15000
-	fleet "Small Remnant" 14000
-	fleet "Remnant Transport" 18000
-	government "Uninhabited "
-	haze _menu/haze-red
-	link Farinus
-	link Perfica
-	object
-		distance 2219
-		period 1896
-		sprite planet/gas3
-	object
-		distance 225
-		period 61
-		sprite planet/lava3
-	object
-		distance 375
-		period 132
-		sprite planet/rock17
-	object
-		period 10
-		sprite star/k0
-	pos 169 458
 system Delia
 	asteroids "large metal" 10 9
 	asteroids "large rock" 11 5
@@ -354,52 +325,6 @@ system Delia
 		period 10
 		sprite star/k0
 	pos -41 757
-system Deverra
-	asteroids "small rock" 6 3
-	asteroids "medium rock" 46 4
-	asteroids "large rock" 12 3
-	asteroids "small metal" 17 2
-	asteroids "medium metal" 18 4
-	asteroids "large metal" 10 4
-	fleet "Large Remnant" 2200
-	fleet "Small Remnant" 2800
-	fleet "Remnant Transport" 3100
-	government "Uninhabited "
-	haze _menu/haze-red
-	link Pantica
-	link Rusor
-	object
-		distance 1242
-		period 540
-		sprite planet/gas5
-		object
-			distance 270
-			period 14
-			sprite planet/desert4
-		object
-			distance 379
-			period 24
-			sprite planet/callisto
-		object
-			distance 532
-			period 40
-			sprite planet/rock0
-	object
-		distance 2312
-		object
-			distance 257
-			period 16
-			sprite planet/lava0
-		period 1372
-		sprite planet/gas14
-	object
-		distance 297
-		period 63
-		sprite planet/fog0
-	object
-		period 17
-		sprite star/k5
-	pos 283 487
 system Diespiter
 	asteroids "large metal" 76 3
 	asteroids "large rock" 3 1
@@ -1437,60 +1362,6 @@ system Prima
 		period 10
 		sprite star/g5
 	pos -254 634
-system Promitor
-	asteroids "small rock" 2 9
-	asteroids "medium rock" 2 7
-	asteroids "large rock" 4 5
-	asteroids "small metal" 4 4
-	asteroids "medium metal" 6 9
-	asteroids "large metal" 3 5
-	fleet "Large Remnant" 1600
-	fleet "Small Remnant" 2200
-	fleet "Remnant Transport" 2100
-	government "Uninhabited "
-	haze _menu/haze-red
-	link Arculus
-	link Stata
-	object
-		sprite planet/rock6
-		distance 1049
-		period 890
-	object
-		sprite planet/ice2
-		distance 1606
-		period 1686
-	object
-		sprite planet/desert9
-		distance 1801
-		period 2002
-	object
-		distance 199
-		period 73
-		sprite planet/lava6
-	object
-		distance 2580
-		period 3433
-		sprite planet/gas2
-		object
-			sprite planet/ice8
-			distance 186
-			period 15
-		object
-			distance 329
-			period 36
-			sprite planet/oberon
-		object
-			distance 486
-			period 64
-			sprite planet/ice7
-		object
-			distance 615
-			period 92
-			sprite planet/rhea
-	object
-		period 10
-		sprite star/m4
-	pos 341 354
 system Prosa
 	asteroids "large metal" 2 2
 	asteroids "large rock" 16 1
@@ -1798,42 +1669,6 @@ system Ritilas
 		period 782
 		sprite planet/wormhole-red
 	pos 11 523
-system Rusor
-	asteroids "medium rock" 18 3
-	asteroids "large rock" 1 3
-	asteroids "large metal" 1 2
-	fleet "Large Remnant" 1900
-	fleet "Small Remnant" 2300
-	fleet "Remnant Transport" 2800
-	government "Uninhabited "
-	haze _menu/haze-red
-	link Deverra
-	link Pantica
-	link Stata
-	object
-		distance 1334
-		period 883
-		sprite planet/mars
-		object
-			distance 147
-			period 23
-			sprite planet/callisto
-	object
-		distance 154
-		period 34
-		sprite planet/rock0
-	object
-		distance 351
-		period 119
-		sprite planet/forest5
-	object
-		distance 619
-		period 279
-		sprite planet/earth
-	object
-		period 10
-		sprite star/k0
-	pos 358 431
 system Serpentis
 	asteroids "large metal" 2 2
 	asteroids "large rock" 16 1
@@ -1966,48 +1801,6 @@ system Solum
 	trade Medical 499
 	trade Metal 932
 	trade Plastic 487
-system Stata
-	asteroids "large metal" 1 1
-	fleet "Large Remnant" 2200
-	fleet "Small Remnant" 2600
-	fleet "Remnant Transport" 2900
-	government "Uninhabited "
-	haze _menu/haze-red
-	link Arculus
-	link Promitor
-	link Rusor
-	object
-		distance 178
-		period 43
-		sprite planet/rock19
-	object
-		distance 2145
-		period 1801
-		sprite planet/gas16
-		object
-			distance 211
-			period 16
-			sprite planet/dust5
-		object
-			distance 317
-			period 29
-			sprite planet/rock3
-	object
-		distance 926
-		period 511
-		sprite planet/gas15
-		object
-			distance 225
-			period 17
-			sprite planet/miranda
-		object
-			distance 379
-			period 38
-			sprite planet/lava0
-	object
-		period 10
-		sprite star/k0
-	pos 375 384
 system Statina
 	asteroids "large metal" 3 5
 	asteroids "large rock" 1 4
