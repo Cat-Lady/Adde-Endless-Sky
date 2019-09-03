@@ -1,3 +1,5 @@
-galaxy cheat
+galaxy label_graveyard
+	pos -95 615
+galaxy omnis
 	pos 0 -10000
-	sprite sprite/cheat
+	sprite galaxy/omnis

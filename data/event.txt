@@ -418,6 +418,8 @@ event reveal_map
 	"visit planet" Winter
 	"visit planet" Zenith
 	"visit planet" Zug
+	galaxy label_graveyard
+		sprite label/graveyard
 	visit "1 Axis"
 	visit "10 Pole"
 	visit "11 Autumn Above"
