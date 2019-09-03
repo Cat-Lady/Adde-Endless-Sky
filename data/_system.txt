@@ -1,8 +1,5 @@
 system Aescolanus
 	government "Uninhabited "
-system Arculus
-	add link Promitor
-	add link Stata
 system Caeculus
 	add object barren_wormhole2
 		distance 2313
@@ -13,8 +10,6 @@ system Coluber
 	government "Uninhabited "
 system Edusa
 	government "Uninhabited "
-system Farinus
-	add link Decima
 system Levana
 	government "Uninhabited "
 system Lucina
@@ -23,15 +18,10 @@ system Lucina
 		period 389
 		sprite planet/wormhole-red
 	government "Uninhabited "
-system Pantica
-	add link Deverra
-	add link Rusor
 system Parca
 	government "Uninhabited "
 system Peragenor
 	government "Uninhabited "
-system Perfica
-	add link Decima
 system Segesta
 	government "Uninhabited "
 system Stercutus
