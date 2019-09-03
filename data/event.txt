@@ -418,6 +418,20 @@ event reveal_map
 	"visit planet" Winter
 	"visit planet" Zenith
 	"visit planet" Zug
+	galaxy "label arachi"
+		sprite "label/arachi"
+	galaxy "label hai"
+		sprite "label/hai"
+	galaxy "label kimek"
+		sprite "label/kimek"
+	galaxy "label korath"
+		sprite "label/korath"
+	galaxy "label saryds"
+		sprite "label/saryds"
+	galaxy "label wanderers"
+		sprite "label/wanderers"
+	galaxy "label waste"
+		sprite label/waste
 	galaxy label_graveyard
 		sprite label/graveyard
 	visit "1 Axis"
