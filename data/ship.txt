@@ -755,10 +755,10 @@ ship Hydra
 		Hyperdrive
 	sprite ship/hydra
 	thumbnail thumbnail/hydra
-	turret -15 -50 "Pulse Turret"
-	turret -28 10 "Heavy Anti-Missile Turret"
-	turret 15 -50 "Pulse Turret"
-	turret 28 10 "Heavy Anti-Missile Turret"
+	turret -18.5 -14 "Pulse Turret"
+	turret -62.5 99.5 "Heavy Anti-Missile Turret"
+	turret 18.5 -14 "Pulse Turret"
+	turret 62.5 99.5 "Heavy Anti-Missile Turret"
 ship Leviathan leviathan_plasma_repeater
 	outfits
 		"A375 Atomic Steering"
