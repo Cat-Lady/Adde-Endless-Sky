@@ -788,6 +788,14 @@ mission deprecated_remove
 		attributes content
 	to offer
 		has deprecated
+mission exile_drone_raid
+	invisible
+	landing
+	on offer
+		event exile_drone_raid
+		fail
+	to offer
+		has "event: wanderers: exiles have drones"
 mission fallen_activation
 	invisible
 	landing

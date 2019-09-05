@@ -8,6 +8,48 @@ event deprecated_remove
 		remove outfitter deprecated
 	planet Vanilla
 		remove outfitter deprecated
+event exile_drone_raid
+	fleet "Korath Raid"
+		add variant
+			"Kar Ik Vot 349 (Defense)"
+		add variant
+			"Kar Ik Vot 349 (Offense)"
+		add variant
+			"Kar Ik Vot 349 (Trapper)"
+		add variant
+			"Kar Ik Vot 349"
+		add variant 1
+			"Model 512"
+		add variant 2
+			"Far Lek 14" 4
+			"Tek Far 71 - Lek (Close Quarters)"
+		add variant 2
+			"Far Lek 14" 6
+			"Tek Far 71 - Lek"
+		add variant 2
+			"Far Osk 27" 2
+			"Tek Far 78 - Osk"
+		add variant 2
+			"Far Osk 27" 5
+			"Tek Far 78 - Osk (Close Quarters)"
+		add variant 2
+			"Met Par Tek 53 (Sniper)" 3
+		add variant 2
+			"Model 128" 2
+		add variant 2
+			"Model 256"
+		add variant 2
+			"Model 256"
+			"Model 512"
+		add variant 2
+			"Model 256"
+			"Model 64" 2
+		add variant 3
+			"Far Lek 14" 9
+			"Far Osk 27" 7
+			"Tek Far 109"
+		add variant 3
+			"Met Par Tek 53" 3
 event fallen_incursion
 	system "Zeta Centauri"
 		add fleet fallen 600
