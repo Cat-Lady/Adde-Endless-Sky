@@ -1,8 +1,13 @@
 event deprecated_add
 	planet Everything
-		add outfitter deprecated
+		add outfitter plugin_deprecated
+		add outfitter vanilla_deprecated
+		add shipyard plugin_deprecated
+	planet Plugin
+		add outfitter plugin_deprecated
+		add shipyard plugin_deprecated
 	planet Vanilla
-		add outfitter deprecated
+		add outfitter vanilla_deprecated
 event deprecated_remove
 	planet Everything
 		remove outfitter deprecated
