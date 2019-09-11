@@ -1051,7 +1051,7 @@ system Marati
 	object
 		period 13
 		sprite star/g5
-	pos 193 612
+	pos -106 572
 system Nona
 	asteroids "large metal" 1 3
 	asteroids "medium metal" 3 7
@@ -1134,7 +1134,7 @@ system Ottava
 		distance 743
 		period 243
 		sprite planet/dust3
-	pos 223 565
+	pos -76 525
 system Paeli
 	asteroids "large metal" 1 4
 	asteroids "large rock" 1 2
@@ -1240,6 +1240,10 @@ system Perima
 	object
 		period 10
 		sprite star/g5
+	object graveyard_wormhole3
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
 	pos -254 634
 system Polerius
 	government Uninhabited
@@ -1535,7 +1539,7 @@ system Remia
 	object
 		period 10
 		sprite star/m0
-	pos 165 659
+	pos -134 619
 system Relifer
 	asteroids "large metal" 2 3
 	asteroids "large rock" 1 2
@@ -1626,7 +1630,11 @@ system Resetus
 	object
 		period 10
 		sprite star/g5
-	pos 123 608
+	object graveyard_wormhole3
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
+	pos -176 568
 system Ritilas
 	asteroids "large metal" 4 4
 	asteroids "large rock" 18 2

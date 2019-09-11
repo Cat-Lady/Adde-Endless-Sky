@@ -44,6 +44,8 @@ planet graveyard_wormhole
 	description ``
 planet graveyard_wormhole2
 	description ``
+planet graveyard_wormhole3
+	description ``
 planet irm_gate
 	description ``
 planet link_wormhole
