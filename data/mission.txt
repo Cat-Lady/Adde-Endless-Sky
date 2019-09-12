@@ -792,8 +792,6 @@ mission drak_guarding_forsaken
 	invisible
 	landing
 	on enter Prima
-		log Factions Archons `Archons consider it to be their job to enforce peace and to prevent extinction. If they are unable to prevent a species from driving itself extinct, they will still try to preserve some of what that species created as a memorial to them.`
-			`They are capable of communicating telepathically.`
 		conversation
 			`A voice says, "This system is restricted. You should stay away."`
 			`	A moment goes by, with no reasonable explanation you wonder if that sound was just in your head. The words do however remain, as if burned into your mind.`
