@@ -489,7 +489,7 @@ system Esix
 		period 411
 		sprite planet/wormhole-red
 	pos 142 532
-system Everything
+system Omnis
 	government Unknown
 	object Arena
 		distance 444

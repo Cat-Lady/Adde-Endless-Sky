@@ -67,7 +67,7 @@ event fallen_incursion
 	system Serpentis
 		add fleet fallen 1200
 event incursion_clear
-	system Everything
+	system Omnis
 		remove fleet coalition
 		remove fleet drak
 		remove fleet hai
@@ -80,37 +80,37 @@ event incursion_clear
 		remove fleet sestor
 		remove fleet wanderer
 event incursion_coalition
-	system Everything
+	system Omnis
 		add fleet coalition 400
 event incursion_drak
-	system Everything
+	system Omnis
 		add fleet drak 400
 event incursion_hai
-	system Everything
+	system Omnis
 		add fleet hai 400
 event incursion_human
-	system Everything
+	system Omnis
 		add fleet human 400
 event incursion_korath
-	system Everything
+	system Omnis
 		add fleet korath 400
 event incursion_mereti
-	system Everything
+	system Omnis
 		add fleet mereti 400
 event incursion_pug
-	system Everything
+	system Omnis
 		add fleet pug 400
 event incursion_quarg
-	system Everything
+	system Omnis
 		add fleet quarg 400
 event incursion_remnant
-	system Everything
+	system Omnis
 		add fleet remnant 400
 event incursion_sestor
-	system Everything
+	system Omnis
 		add fleet sestor 400
 event incursion_wanderer
-	system Everything
+	system Omnis
 		add fleet wanderer 400
 event plasma_repeater_available
 	outfitter "Kraz Advanced"
@@ -332,7 +332,6 @@ event reveal_map
 	"visit planet" Earth
 	"visit planet" Echo
 	"visit planet" Everything
-	"visit planet" Everything
 	"visit planet" Farpoint
 	"visit planet" Farseer
 	"visit planet" Farwater
@@ -410,7 +409,6 @@ event reveal_map
 	"visit planet" Pilot
 	"visit planet" Placer
 	"visit planet" Plugins
-	"visit planet" Plugins
 	"visit planet" Poisonwood
 	"visit planet" Poseidos
 	"visit planet" Prime
@@ -453,7 +451,6 @@ event reveal_map
 	"visit planet" Twinstar
 	"visit planet" Vail
 	"visit planet" Valhalla
-	"visit planet" Vanilla
 	"visit planet" Vanilla
 	"visit planet" Variants
 	"visit planet" Viminal
@@ -689,8 +686,7 @@ event reveal_map
 	visit Eshkoshtar
 	visit Esix
 	visit Eteron
-	visit Everything
-	visit Everything
+	visit Omnis
 	visit Fala
 	visit Farbutero
 	visit Farinus
