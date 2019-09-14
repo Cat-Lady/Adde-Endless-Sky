@@ -579,7 +579,7 @@ system Omnis
 		offset 225
 		sprite sprite/station8
 	object gateway
-		sprite planet/wormhole
+		sprite planet/wisp
 	pos -10 -10016
 system Fearis
 	asteroids "large metal" 1 1
