@@ -810,7 +810,6 @@ mission drak_guarding_forsaken
 			choice
 				`	"What do you mean, 'tend to the minds of the Forsaken'?"`
 				`	"What happened to the Forsaken?"`
-					goto swarm
 			`	"A great calamity befell this species long ago, they regressed to a state of disrepair that rendered them helpless to the challenges they would otherwise find trivial." As the voice says this, a pain reveals itself within your mind, as if a cancer is spreading at an unprecedented rate, you feel as though all your past experiences are fading with it's presence.`
 			choice
 				`	"What is happening?!"`
@@ -1181,7 +1180,7 @@ mission remnant_colonisation
 				`	"Yes. That's me."`
 					goto thatsme
 				`	"I'm sorry, who are you?"`
-			`	"I am prefect Kier and this is prefect Yann, we represent the branch of the Remnant responsible for expansion and population management."
+			`	"I am prefect Kier and this is prefect Yann, we represent the branch of the Remnant responsible for expansion and population management."`
 			choice
 				`	"Alright. Well, that's me."`
 			label thatsme
