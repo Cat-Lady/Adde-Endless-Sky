@@ -24,6 +24,7 @@ outfit "Apotropaic Anti-Missile"
 	thumbnail outfit/unknown
 	weapon
 		"firing energy" 62
+		"firing heat" -982
 		"hit effect" "quarg anti-missile"
 		anti-missile 85
 		lifetime 1
@@ -544,29 +545,34 @@ outfit Deterrence
 		reload 1
 		velocity 100000
 outfit Devastator
-	"apocalypse spine" 1
+	"apocalypse spine" -1
+	"energy capacity" 34050
+	"fuel capacity" 350
 	"gun ports" -1
-	"outfit space" -143
-	"weapon capacity" -143
+	"heat generation" 7.1
+	"outfit space" -343
+	"required crew" 21
+	"weapon capacity" -343
 	category Guns
-	cost 2690000
-	mass 143
+	cost 29590000
+	mass 343
 	thumbnail outfit/unknown
 	weapon
 		"blast radius" 400
 		"die effect" devastator_die
 		"fire effect" devastator_fire1 2
 		"fire effect" devastator_fire2
-		"firing energy" 13
-		"firing heat" 11
+		"firing energy" 27
+		"firing fuel" .09
+		"firing heat" 239
 		"heat damage" 140
 		"hit effect" devastator_hit1
 		"hit effect" devastator_hit2 4
 		"hit effect" devastator_hit3
 		"hit force" 10
-		"hull damage" 17
+		"hull damage" 36
 		"random velocity" 80 120
-		"shield damage" 26
+		"shield damage" 57
 		inaccuracy 2
 		lifetime 30
 		safe
