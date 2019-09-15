@@ -5,9 +5,9 @@ government Aben
 government Fallen
 	"attitude toward"
 		"Free Worlds" -1
-		"Merchant" -1
-		"Militia" -1
-		"Pirate" -1
+		Merchant -1
+		Militia -1
+		Pirate -1
 	"player reputation" -1
 	color .3 .2 .2
 	fine 0
