@@ -797,7 +797,7 @@ ship Revelation
 		"shield generation" 3.7
 		"shield energy" 4.1
 		automaton 1
-		category Interceptor
+		category Drone
 		cost 3410000
 		drag 1.4
 		hull 2200

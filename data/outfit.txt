@@ -5,9 +5,6 @@ outfit "Alpha Hermes Frame"
 		"frame rate" 2
 	"module capacity" 35
 	"outfit space" -15
-	"reverse thrust energy" 300
-	"reverse thrust heat" 300
-	"reverse thrust" 5
 	category Engines
 	cost 250000
 	description "This is a small frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
@@ -38,9 +35,6 @@ outfit "B-1 Achilles Frame"
 		rewind
 	"module capacity" 55
 	"outfit space" -30
-	"reverse thrust" 10
-	"reverse thrusting energy" 5
-	"reverse thrusting heat" 5
 	category Engines
 	cost 500000
 	description "This is a medium frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
@@ -103,9 +97,6 @@ outfit "C-3 Nimbus Frame"
 		"frame rate" 26
 	"module capacity" 100
 	"outfit space" -50
-	"reverse thrust" 20
-	"reverse thrusting energy" 15
-	"reverse thrusting heat" 15
 	category Engines
 	cost 1500000
 	description "The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships."
@@ -279,16 +270,19 @@ outfit "Irm Large Engines"
 	"flare sprite" flare_sprite/irm_large_engines
 		"frame rate" 3
 	"outfit space" -139
+	"reverse thrust energy" 6.4
+	"reverse thrust heat" 9.3
+	"reverse thrust" 52.4
 	"thrusting energy" 7.2
 	"thrusting heat" 6.1
-	"turning energy" 4.3
-	"turning heat" 3.7
+	"turning energy" 3.8
+	"turning heat" 2.6
 	category Engines
 	cost 1960000
 	mass 139
 	thrust 65.9
 	thumbnail outfit/unknown
-	turn 1790
+	turn 677
 outfit "Katabatic Scanner"
 	"outfit scan power" 21
 	"outfit scan speed" 2
@@ -494,20 +488,26 @@ outfit "Tekina Engine"
 	"flare sprite" flare_sprite/tekina_engine
 		"frame rate" 3
 	"outfit space" -76
+	"reverse thrust energy" 0.7
+	"reverse thrust heat" 0.5
+	"reverse thrust" 2.3
 	"thrusting energy" 2.6
 	"thrusting heat" 1.8
-	"turning energy" 1.7
-	"turning heat" 1.1
+	"turning energy" 1.6
+	"turning heat" 0.9
 	category Engines
 	cost 940000
 	mass 76
 	thrust 12.5
 	thumbnail outfit/tekina_engine
-	turn 430
+	turn 330
 outfit "Thrust Module"
 	"engine capacity" -2
 	"module capacity" -1
 	"outfit space" -2
+	"reverse thrust energy" .081
+	"reverse thrust heat" .244
+	"reverse thrust" 0.8
 	"thrusting energy" .105
 	"thrusting heat" .229
 	"turning energy" .072
