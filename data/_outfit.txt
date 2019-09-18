@@ -1,0 +1,160 @@
+outfit "A125 Atomic Steering"
+	"turning energy" 0.9
+	"turning heat" 2.2
+	turn 305.8
+outfit "A255 Atomic Steering"
+	"turning energy" 1.5
+	"turning heat" 3.7
+	turn 535.9
+outfit "A375 Atomic Steering"
+	"turning energy" 2.5
+	"turning heat" 6.3
+	turn 929.8
+outfit "A525 Atomic Steering"
+	"turning energy" 4.1
+	"turning heat" 10.5
+	turn 1599
+outfit "A865 Atomic Steering"
+	"turning energy" 6.6
+	"turning heat" 17.5
+	turn 2737
+outfit "Chipmunk Plasma Steering"
+	"turning energy" .5
+	"turning heat" 1.1
+	turn 200
+outfit "Crucible-Class Steering"
+	"turning energy" 1.32
+	"turning heat" 1.4
+	turn 349.4
+outfit "Forge-Class Steering"
+	"turning energy" 2.64
+	"turning heat" 3.0
+	turn 742.6
+outfit "Greyhound Plasma Steering"
+	"turning energy" 0.9
+	"turning heat" 2.1
+	turn 384
+outfit "Impala Plasma Steering"
+	"turning energy" 1.6
+	"turning heat" 4.1
+	turn 925.1
+outfit "Large Steering Module"
+	"turning energy" 1.0
+	"turning heat" 8.2
+	turn 555.3
+outfit "Medium Graviton Steering"
+	"turning energy" 10
+	"turning heat" 5
+	turn 1152
+outfit "Orca Plasma Steering"
+	"turning energy" 2.9
+	"turning heat" 7.7
+	turn 1413.4
+outfit "Pug Akfar Steering"
+	"turning energy" 1.3
+	"turning heat" 2.1
+	turn 645
+outfit "Pug Cormet Steering"
+	"turning energy" 1.9
+	"turning heat" 3.1
+	turn 937.9
+outfit "Pug Lohmar Steering"
+	"turning energy" 2.8
+	"turning heat" 4.7
+	turn 1428
+outfit "Small Steering Module"
+	"turning energy" 0.26
+	"turning heat" 2.3
+	turn 139.5
+outfit "Smelter-Class Steering"
+	"turning energy" 5.21
+	"turning heat" 6.2
+	turn 1544.4
+outfit "Steering (Asteroid Class)"
+	"turning energy" 0.7
+	"turning heat" 2.1
+	turn 218.4
+outfit "Steering (Comet Class)"
+	"turning energy" 1.4
+	"turning heat" 4.1
+	turn 443.6
+outfit "Steering (Lunar Class)"
+	"turning energy" 2.5
+	"turning heat" 7.4
+	turn 824.3
+outfit "Steering (Planetary Class)"
+	"turning energy" 4.6
+	"turning heat" 14.2
+	turn 1613.8
+outfit "Steering (Stellar Class)"
+	"turning energy" 8.2
+	"turning heat" 26.7
+	turn 3123.9
+outfit "Type 1 Radiant Steering"
+	"turning energy" .3
+	"turning heat" 0.6
+	turn 134.7
+outfit "Type 2 Radiant Steering"
+	"turning energy" .7
+	"turning heat" 1.5
+	turn 354.1
+outfit "Type 3 Radiant Steering"
+	"turning energy" 1.2
+	"turning heat" 2.6
+	turn 613.1
+outfit "Type 4 Radiant Steering"
+	"turning energy" 2.0
+	"turning heat" 4.5
+	turn 1088.8
+outfit "Tyrant Plasma Steering"
+	"turning energy" 5.2
+	"turning heat" 14.7
+	turn 2713.6
+outfit "X1050 Ion Engines"
+	"turning energy" .25
+	"turning heat" .5
+	turn 85.8
+outfit "X1200 Ion Steering"
+	"turning energy" .3
+	"turning heat" .6
+	turn 124.8
+outfit "X2200 Ion Steering"
+	"turning energy" .6
+	"turning heat" 1.1
+	turn 239.5
+outfit "X3200 Ion Steering"
+	"turning energy" 1.1
+	"turning heat" 2.0
+	turn 460.2
+outfit "X4200 Ion Steering"
+	"turning energy" 1.9
+	"turning heat" 3.9
+	turn 883
+outfit "X5200 Ion Steering"
+	"turning energy" 3.5
+	"turning heat" 7.3
+	turn 1695.7
+outfit `"Baellie" Atomic Engines`
+	"turning energy" .6
+	"turning heat" 1.3
+	turn 195
+outfit `"Basrem" Atomic Steering`
+	"turning energy" .7
+	"turning heat" 1.6
+	turn 241
+outfit `"Benga" Atomic Steering`
+	"turning energy" 1.1
+	"turning heat" 2.8
+	turn 450.1
+outfit `"Biroo" Atomic Steering`
+	"turning energy" 2.0
+	"turning heat" 5.1
+	turn 822.1
+outfit `"Bondir" Atomic Steering`
+	"turning energy" 3.2
+	"turning heat" 8.2
+	turn 1371.2
+outfit `"Bufaer" Atomic Steering`
+	"turning energy" 5.2
+	"turning heat" 13.8
+	turn 2373.5
