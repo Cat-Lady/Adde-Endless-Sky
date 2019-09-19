@@ -55,6 +55,16 @@ event exile_drone_raid
 			"Tek Far 109"
 		add variant 3
 			"Met Par Tek 53" 3
+	system "Alpha Hydri"
+		add fleet "Korath Raid" 30000
+	system Almach
+		add fleet "Korath Raid" 15000
+	system Durax
+		add fleet "Korath Raid" 3750
+	system Polaris
+		add fleet "Korath Raid" 37500
+	system Sheratan
+		add fleet "Korath Raid" 22500
 event fallen_incursion
 	system "Zeta Centauri"
 		add fleet fallen 600
