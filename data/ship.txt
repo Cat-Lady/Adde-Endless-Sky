@@ -317,6 +317,46 @@ ship "Model 8" model_8_minelayer
 		"Systems Core (Small)"
 		"Thruster (Comet Class)"
 		Hyperdrive
+ship "Paltry Freighter"
+	"final explode" "final explosion medium"
+	attributes
+		"cargo space" 100
+		"engine capacity" 70
+		"fuel capacity" 300
+		"heat dissipation" .7
+		"outfit space" 210
+		"required crew" 2
+		"weapon capacity" 60
+		bunks 9
+		category "Light Freighter"
+		cost 1900000
+		drag 9.8
+		hull 5200
+		mass 310
+		shields 2700
+		weapon
+			"blast radius" 110
+			"hit force" 1100
+			"hull damage" 250
+			"shield damage" 650
+	outfits
+		"Fuel Pod"
+		"Scram Drive"
+		"LP072a Battery Pack"
+		"nGVF-CC Fuel Cell"
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"D23-QP Shield Generator"
+	engine -22 198
+	engine 22 198
+	explode "large explosion" 14
+	explode "medium explosion" 24
+	explode "small explosion" 22
+	leak "big leak" 50 30
+	leak "flame" 30 80
+	leak "leak" 40 50
+	sprite ship/paltry_freighter
+	thumbnail thumbnail/paltry_freighter
 ship Adel
 	attributes
 		"cargo space" 12

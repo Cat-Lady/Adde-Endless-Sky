@@ -9,6 +9,7 @@ shipyard plugin
 	"Kar Ik Vot 637"
 	"Korath Stalker"
 	"Model 1024"
+	"Paltry Freighter"
 	Adel
 	Aesalon
 	Apocalypse
