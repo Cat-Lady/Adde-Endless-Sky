@@ -339,24 +339,29 @@ ship "Paltry Freighter"
 			"hit force" 1100
 			"hull damage" 250
 			"shield damage" 650
-	outfits
-		"Fuel Pod"
-		"Scram Drive"
-		"LP072a Battery Pack"
-		"nGVF-CC Fuel Cell"
-		"X2700 Ion Thruster"
-		"X3200 Ion Steering"
-		"D23-QP Shield Generator"
-	engine -22 198
-	engine 22 198
+	engine -19 63
+	engine 19 63
 	explode "large explosion" 14
 	explode "medium explosion" 24
 	explode "small explosion" 22
+	gun 0 -73 "Sidewinder Missile Launcher"
 	leak "big leak" 50 30
 	leak "flame" 30 80
 	leak "leak" 40 50
+	outfits
+		"Anti-Missile Turret" 2
+		"D23-QP Shield Generator"
+		"LP072a Battery Pack"
+		"nGVF-CC Fuel Cell"
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		Hyperdrive
 	sprite ship/paltry_freighter
 	thumbnail thumbnail/paltry_freighter
+	turret -9 -33 "Anti-Missile Turret"
+	turret 9 -33 "Anti-Missile Turret"
 ship Adel
 	attributes
 		"cargo space" 12
