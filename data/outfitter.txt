@@ -21,6 +21,7 @@ outfitter plugin
 	"Knockout Gas"
 	"Korath Disruptor Gun"
 	"Korath Fire-Lance Turret"
+	"Mass Driver"
 	"Plasma Repeater"
 	"Quad Plasma Turret"
 	"Regional Map"

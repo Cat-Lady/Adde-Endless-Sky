@@ -380,6 +380,23 @@ outfit "Korath Fire-Lance Turret"
 			"frame rate" 12
 			"random start frame"
 		velocity 350
+outfit "Mass Driver"
+	"gun ports" -1
+	"outfit space" -54
+	"weapon capacity" -54
+	category Guns
+	cost 558000
+	mass 54
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 43
+		"firing heat" 187
+		"hull damage" 398
+		"shield damage" 272
+		inaccuracy .2
+		lifetime 115
+		reload 75
+		velocity 19
 outfit "Plasma Repeater"
 	"gun ports" -1
 	"outfit space" -32
