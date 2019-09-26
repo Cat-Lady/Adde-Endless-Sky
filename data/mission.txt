@@ -1075,7 +1075,7 @@ mission irm_first_contact
 			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
 				decline
 			label traveler
-			`	"That is pleasing to hear, yet regrettable, casting off your own will only lead to hardships. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
+			`	"That is pleasing to hear, yet regrettable, casting off your own will lead only to hardship. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
 			label where
 			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
 			choice
