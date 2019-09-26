@@ -9,6 +9,7 @@ outfitter plugin
 	"Capacitor Rack"
 	"Chain Blaster Turret"
 	"Denial Turret"
+	"Deuterium Culture Tanks"
 	"Dual Electron Beam"
 	"Energy Cube"
 	"Flame Thrower"

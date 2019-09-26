@@ -171,6 +171,15 @@ outfit "Denial Turret"
 		lifetime 1
 		reload 8
 		velocity 280
+outfit "Deuterium Culture Tanks"
+	"energy consumption" .9
+	"fuel generation" 7
+	"outfit space" -16
+	category Systems
+	cost 110000
+	description "Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate."
+	mass 16
+	thumbnail outfit/unknown
 outfit "Dual Electron Beam"
 	"gun ports" -1
 	"outfit space" -41
