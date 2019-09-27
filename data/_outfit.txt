@@ -38,6 +38,8 @@ outfit "Impala Plasma Steering"
 	"turning energy" 1.6
 	"turning heat" 4.1
 	turn 925.1
+outfit "Large Collector Module"
+	"ion resistance" .3
 outfit "Large Steering Module"
 	"turning energy" 1.0
 	"turning heat" 8.2
@@ -62,6 +64,8 @@ outfit "Pug Lohmar Steering"
 	"turning energy" 2.8
 	"turning heat" 4.7
 	turn 1428
+outfit "Small Collector Module"
+	"ion resistance" .1
 outfit "Small Steering Module"
 	"turning energy" 0.26
 	"turning heat" 2.3
