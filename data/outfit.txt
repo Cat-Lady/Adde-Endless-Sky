@@ -483,6 +483,17 @@ outfit "Shipwright Gear"
 	cost 8400
 	description "As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship."
 	thumbnail outfit/shipwright_gear
+outfit "Small Ramscoop Module"
+	"energy consumption" 0.3
+	"outfit space" -6
+	category Systems
+	cost 96000
+	description "This ramscoop is extremely compact and is used to function as a back up in case a Coalition ship gets stranded in an empty system. However, it draws a small amount of energy."
+	licenses
+		Coalition
+	mass 6
+	ramscoop 3.5
+	thumbnail outfit/unknown
 outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8

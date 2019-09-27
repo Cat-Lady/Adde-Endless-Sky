@@ -28,6 +28,7 @@ outfitter plugin
 	"Regional Map"
 	"Shield Modulator"
 	"Shipwright Gear"
+	"Small Ramscoop Module"
 	"Smugglers Fittings"
 	"Storage Cell"
 	"Storage Lockers"
