@@ -172,8 +172,8 @@ outfit "Denial Turret"
 		reload 8
 		velocity 280
 outfit "Deuterium Culture Tanks"
-	"energy consumption" .9
-	"fuel generation" 7
+	"energy consumption" .45
+	"fuel generation" .15
 	"outfit space" -16
 	category Systems
 	cost 110000
