@@ -363,6 +363,7 @@ event reveal_map
 	"visit planet" Grakhord
 	"visit planet" graveyard_wormhole
 	"visit planet" graveyard_wormhole2
+	"visit planet" graveyard_wormhole3
 	"visit planet" Greenbloom
 	"visit planet" Greenrock
 	"visit planet" Greenwater
