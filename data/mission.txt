@@ -764,29 +764,6 @@ mission aben_retrieval_wanderer_shield_small
 	on accept
 		outfit "Bright Cloud Shielding" -2
 		payment 1924000
-mission deprecated_add
-	description "Add deprecated content to outfitters. Effects will not show immediately, take off and land again to see effects take place."
-	name "Deprecated- Show"
-	on accept
-		event deprecated_add
-		set deprecated
-	repeat
-	source
-		attributes content
-	to offer
-		not deprecated
-mission deprecated_remove
-	description "Remove deprecated content from outfitters. Effects will not show immediately, take off and land again to see effects take place."
-	job
-	name "Deprecated- Hide"
-	on accept
-		event deprecated_remove
-		clear deprecated
-	repeat
-	source
-		attributes content
-	to offer
-		has deprecated
 mission drak_guarding_forsaken
 	invisible
 	landing
@@ -994,7 +971,7 @@ mission licenses_give
 		set all_licenses
 	repeat
 	source
-		attributes content
+		system Omnis
 	to offer
 		not all_licenses
 mission licenses_take
@@ -1020,7 +997,7 @@ mission licenses_take
 		clear all_licenses
 	repeat
 	source
-		attributes content
+		system Omnis
 	to offer
 		has all_licenses
 mission money
@@ -1118,7 +1095,7 @@ mission reveal_map
 		event reveal_map
 		set revealed_map
 	source
-		attributes content
+		system Omnis
 	to fail
 		has "reveal_map: Active"
 mission swizzle_0
@@ -1129,7 +1106,7 @@ mission swizzle_0
 		event swizzle_0
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_1
 	description "Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink."
 	job
@@ -1138,7 +1115,7 @@ mission swizzle_1
 		event swizzle_1
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_2
 	description "Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green."
 	job
@@ -1147,7 +1124,7 @@ mission swizzle_2
 		event swizzle_2
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_3
 	description "Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green."
 	job
@@ -1156,7 +1133,7 @@ mission swizzle_3
 		event swizzle_3
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_4
 	description "Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple."
 	job
@@ -1165,7 +1142,7 @@ mission swizzle_4
 		event swizzle_4
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_5
 	description "Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue."
 	job
@@ -1174,7 +1151,7 @@ mission swizzle_5
 		event swizzle_5
 	repeat
 	source
-		attributes content
+		system Omnis
 mission swizzle_6
 	description "Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black."
 	job
@@ -1183,7 +1160,7 @@ mission swizzle_6
 		event swizzle_6
 	repeat
 	source
-		attributes content
+		system Omnis
 mission syndicate_target_practice_4
 	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
 	destination

@@ -24,9 +24,15 @@ planet barren_wormhole
 	description ``
 planet barren_wormhole2
 	description ``
+planet Deprecated
+	"required reputation" -1
+	description ""
+	landscape landscape/station6
+	outfitter deprecated
+	shipyard deprecated
+	spaceport ""
 planet Everything
 	"required reputation" -1
-	attributes content
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter plugin
@@ -59,7 +65,6 @@ planet Pesek
 	spaceport "A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel."
 planet Plugins
 	"required reputation" -1
-	attributes content
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter plugin
@@ -67,7 +72,6 @@ planet Plugins
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
 planet Vanilla
 	"required reputation" -1
-	attributes content
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter vanilla
@@ -75,7 +79,6 @@ planet Vanilla
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 planet Variants
 	"required reputation" -1
-	attributes content
 	description ""
 	landscape landscape/station6
 	shipyard variants
