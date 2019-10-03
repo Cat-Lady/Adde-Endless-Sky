@@ -564,10 +564,11 @@ outfit "Tool Rack"
 	thumbnail outfit/tool_rack
 outfit "Transparency Plating"
 	"cloaking energy" 18
-	"outfit space" -3
+	"outfit space" -61
 	category Systems
 	cloak .002
 	cost 750000
+	mass 96
 	thumbnail outfit/transparency_plating
 	unplunderable 1
 outfit Deterrence
