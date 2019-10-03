@@ -1,8 +1,18 @@
+fleet albatross
+	government Unknown
+	personality heroic
+	variant
+		Albatross
 fleet archon
 	government Unknown
 	personality heroic
 	variant
 		Archon
+fleet arfecta
+	government Unknown
+	personality heroic
+	variant
+		"Pug Arfecta"
 fleet carrier
 	government Unknown
 	personality heroic
@@ -19,6 +29,16 @@ fleet fallen
 		mute
 	variant
 		"A-3 Lexel" 2
+fleet heliarch_punisher
+	government Unknown
+	personality heroic
+	variant
+		"Heliarch Punisher"
+fleet hurricane
+	government Unknown
+	personality heroic
+	variant
+		Hurricane
 fleet irm_defense
 	cargo 3
 	government Irm
@@ -46,3 +66,8 @@ fleet quarg_wardragon
 	personality heroic
 	variant
 		"Quarg Wardragon"
+fleet shield_beetle
+	government Unknown
+	personality heroic
+	variant
+		"Shield Beetle"

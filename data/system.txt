@@ -491,18 +491,34 @@ system Esix
 	pos 142 532
 system Omnis
 	government Unknown
+	object "Albatross "
+		distance 1860
+		offset 40
+		sprite "ship/albatross"
+	object "Heliarch Punisher"
+		distance 1860
+		offset 200
+		sprite "ship/heliarch punisher"
 	object "Korath Raider"
 		distance 1860
-		offset 90
+		offset 120
 		sprite ship/raider
 	object "Quarg Wardragon"
 		distance 1860
-		offset 180
+		offset 240
 		sprite ship/wardragon
+	object "Shield Beetle"
+		distance 1860
+		offset 80
+		sprite "ship/hai shield beetle"
 	object Archon
 		distance 1860
-		offset 270
+		offset 320
 		sprite ship/archon
+	object Arfecta
+		distance 1860
+		offset 280
+		sprite "ship/pug arfecta"
 	object Carrier
 		distance 1860
 		sprite ship/carrier
@@ -583,6 +599,10 @@ system Omnis
 		sprite sprite/everything
 	object gateway
 		sprite planet/wisp
+	object Hurricane
+		distance 1860
+		offset 160
+		sprite ship/hurricane
 	object Plugins
 		distance 444
 		offset 45

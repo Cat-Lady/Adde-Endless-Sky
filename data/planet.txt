@@ -1,3 +1,15 @@
+planet "Albatross "
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet albatross 1
+planet "Heliarch Punisher"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet heliarch_punisher 1
 planet "Korath Raider"
 	"required reputation" 1
 	bribe 0
@@ -10,6 +22,12 @@ planet "Quarg Wardragon"
 	tribute 1
 		threshold 0
 		fleet quarg_wardragon 1
+planet "Shield Beetle"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet shield_beetle 1
 planet "Pug Kaelin"
 	"required reputation" 2
 	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
@@ -28,6 +46,12 @@ planet Archon
 	tribute 1
 		threshold 0
 		fleet archon 1
+planet Arfecta
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet arfecta 1
 planet Arx
 	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
 	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."
@@ -70,6 +94,12 @@ planet graveyard_wormhole2
 	description ``
 planet graveyard_wormhole3
 	description ``
+planet Hurricane
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet hurricane 1
 planet irm_gate
 	description ``
 planet link_wormhole
