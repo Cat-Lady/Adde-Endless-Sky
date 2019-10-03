@@ -76,52 +76,6 @@ event fallen_incursion
 		add fleet fallen 700
 	system Serpentis
 		add fleet fallen 1200
-event incursion_clear
-	system Omnis
-		remove fleet coalition
-		remove fleet drak
-		remove fleet hai
-		remove fleet human
-		remove fleet korath
-		remove fleet mereti
-		remove fleet pug
-		remove fleet quarg
-		remove fleet remnant
-		remove fleet sestor
-		remove fleet wanderer
-event incursion_coalition
-	system Omnis
-		add fleet coalition 400
-event incursion_drak
-	system Omnis
-		add fleet drak 400
-event incursion_hai
-	system Omnis
-		add fleet hai 400
-event incursion_human
-	system Omnis
-		add fleet human 400
-event incursion_korath
-	system Omnis
-		add fleet korath 400
-event incursion_mereti
-	system Omnis
-		add fleet mereti 400
-event incursion_pug
-	system Omnis
-		add fleet pug 400
-event incursion_quarg
-	system Omnis
-		add fleet quarg 400
-event incursion_remnant
-	system Omnis
-		add fleet remnant 400
-event incursion_sestor
-	system Omnis
-		add fleet sestor 400
-event incursion_wanderer
-	system Omnis
-		add fleet wanderer 400
 event plasma_repeater_available
 	outfitter "Kraz Advanced"
 		"Plasma Repeater"

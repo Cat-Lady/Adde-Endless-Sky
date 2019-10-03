@@ -766,7 +766,6 @@ mission aben_retrieval_wanderer_shield_small
 		payment 1924000
 mission deprecated_add
 	description "Add deprecated content to outfitters. Effects will not show immediately, take off and land again to see effects take place."
-	job
 	name "Deprecated- Show"
 	on accept
 		event deprecated_add
@@ -937,127 +936,6 @@ mission hai_enlisted_3
 	source Hai-home
 	to offer
 		has "hai_enlisted_2: offered"
-mission incursion_coalition
-	description "Summon unrelenting waves of coalition ships."
-	job
-	name "Incursion- Coalition"
-	on accept
-		event incursion_coalition
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_drak
-	description "Summon unrelenting waves of drak ships."
-	job
-	name "Incursion- Drak"
-	on accept
-		event incursion_drak
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_hai
-	description "Summon unrelenting waves of hai ships."
-	job
-	name "Incursion- Hai"
-	on accept
-		event incursion_hai
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_human
-	description "Summon unrelenting waves of human ships."
-	job
-	name "Incursion- Human"
-	on accept
-		event incursion_human
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_korath
-	description "Summon unrelenting waves of korath ships."
-	job
-	name "Incursion- Korath"
-	on accept
-		event incursion_korath
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_mereti
-	description "Summon unrelenting waves of mereti ships."
-	job
-	name "Incursion- Mereti"
-	on accept
-		event incursion_mereti
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_pug
-	description "Summon unrelenting waves of pug ships."
-	job
-	name "Incursion- Pug"
-	on accept
-		event incursion_pug
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_quarg
-	description "Summon unrelenting waves of quarg ships."
-	job
-	name "Incursion- Quarg"
-	on accept
-		event incursion_quarg
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_remnant
-	description "Summon unrelenting waves of remnant ships."
-	job
-	name "Incursion- Remnant"
-	on accept
-		event incursion_remnant
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_sestor
-	description "Summon unrelenting waves of sestor ships."
-	job
-	name "Incursion- Sestor"
-	on accept
-		event incursion_sestor
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
-mission incursion_wanderer
-	description "Summon unrelenting waves of wanderer ships."
-	job
-	name "Incursion- Wanderer"
-	on accept
-		event incursion_wanderer
-	on complete
-		event incursion_clear
-	repeat
-	source
-		planet Arena
 mission irm_first_contact
 	landing
 	on offer

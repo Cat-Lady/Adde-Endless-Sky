@@ -11,11 +11,6 @@ planet "Relic Station"
 	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
 	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
 	landscape land/space6
-planet Arena
-	"required reputation" -1
-	description "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
-	landscape landscape/station6
-	spaceport "The arena is strictly for running battle simulations, fight wave after wave of random foes from any species in the galaxy. The waves are slow and enemies trickle in over time, are you able to defeat them before too many opponents build up and blow you out of the sky?"
 planet Arx
 	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
 	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."

@@ -491,10 +491,6 @@ system Esix
 	pos 142 532
 system Omnis
 	government Unknown
-	object Arena
-		distance 444
-		offset 135
-		sprite sprite/station8
 	object Everything
 		distance 1218
 		sprite sprite/everything
