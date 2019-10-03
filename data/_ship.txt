@@ -11,6 +11,10 @@ ship "Korath World-Ship"
 	attributes
 		"required crew" 277
 		category Transport
+ship "Lightning Bug"
+	attributes
+		licenses
+			"Hai Trust"
 ship "Met Par Tek 53"
 	attributes
 		"self destruct" .325
