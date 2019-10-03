@@ -1,3 +1,3 @@
 star planet/wisp
-	power 1000000
-	wind 1000000
+	power 1
+	wind 1
