@@ -43,6 +43,9 @@ ship "Shield Beetle"
 	attributes
 		licenses
 			"Hai Trust"
+ship "Star Queen"
+	attributes
+		"required crew" 25
 ship "Tek Far 109"
 	attributes
 		"self destruct" .35
