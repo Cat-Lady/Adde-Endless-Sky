@@ -491,6 +491,21 @@ system Esix
 	pos 142 532
 system Omnis
 	government Unknown
+	object "Korath Raider"
+		distance 1860
+		offset 90
+		sprite ship/raider
+	object "Quarg Wardragon"
+		distance 1860
+		offset 180
+		sprite ship/wardragon
+	object Archon
+		distance 1860
+		offset 270
+		sprite ship/archon
+	object Carrier
+		distance 1860
+		sprite ship/carrier
 	object Deprecated
 		distance 444
 		offset 135
@@ -566,6 +581,8 @@ system Omnis
 		distance 1218
 		offset 340
 		sprite sprite/everything
+	object gateway
+		sprite planet/wisp
 	object Plugins
 		distance 444
 		offset 45
@@ -578,8 +595,6 @@ system Omnis
 		distance 444
 		offset 225
 		sprite sprite/station8
-	object gateway
-		sprite planet/wisp
 	pos -10 -10016
 system Fearis
 	asteroids "large metal" 1 1

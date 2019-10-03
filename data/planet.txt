@@ -1,3 +1,15 @@
+planet "Korath Raider"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet korath_raider 1
+planet "Quarg Wardragon"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet quarg_wardragon 1
 planet "Pug Kaelin"
 	"required reputation" 2
 	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
@@ -6,11 +18,16 @@ planet "Pug Kaelin"
 	spaceport `The spaceport here can be described no other way than impressive, it is the largest tower, placed directly central of the gargantuan city. With a base almost looking big enough to pass as a sizable village, very quickly getting thinner as it raises into the cities airspace.`
 	spaceport `Reaching unimaginable heights many would consider impossible, the tower is more than the planets spaceport, it is quite literally the epicenter for everything from logistics to residence.`
 planet "Relic Station"
-	"required reputation" -1
 	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
 	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
 	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
 	landscape land/space6
+planet Archon
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet archon 1
 planet Arx
 	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
 	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."
@@ -24,15 +41,21 @@ planet barren_wormhole
 	description ``
 planet barren_wormhole2
 	description ``
+planet Carrier
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet carrier 1
 planet Deprecated
-	"required reputation" -1
+	bribe 0
 	description ""
 	landscape landscape/station6
 	outfitter deprecated
 	shipyard deprecated
 	spaceport ""
 planet Everything
-	"required reputation" -1
+	bribe 0
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter plugin
@@ -64,21 +87,21 @@ planet Pesek
 	spaceport "The spaceport contains all of two landing pads, if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony."
 	spaceport "A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel."
 planet Plugins
-	"required reputation" -1
+	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter plugin
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
 planet Vanilla
-	"required reputation" -1
+	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
 	outfitter vanilla
 	shipyard vanilla
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 planet Variants
-	"required reputation" -1
+	bribe 0
 	description ""
 	landscape landscape/station6
 	shipyard variants

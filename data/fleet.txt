@@ -1,3 +1,15 @@
+fleet archon
+	government Unknown
+	personality heroic
+	variant
+		Archon
+fleet carrier
+	government Unknown
+	personality heroic
+	variant
+		"Combat Drone" 6
+		Carrier
+		Lance 4
 fleet fallen
 	government Fallen
 	personality
@@ -20,3 +32,17 @@ fleet irm_defense
 		Revelation 3
 	variant
 		Revelation 8
+fleet korath_raider
+	government Unknown
+	personality heroic
+	variant
+		"Korath Chaser" 2
+		"Korath Raider"
+	variant
+		"Korath Raider"
+		"Korath Stalker" 2
+fleet quarg_wardragon
+	government Unknown
+	personality heroic
+	variant
+		"Quarg Wardragon"
