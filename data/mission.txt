@@ -1003,9 +1003,17 @@ mission licenses_take
 mission money
 	invisible
 	landing
+	on accept
+		payment 922e16
 	on offer
-		payment 1000000000
-	repeat
+		conversation
+			`On landing you are greeted only by an empty hanger, not a soul in sight. After hours of exploring, trying to determine the exact purpose of this place, you come across a console with only an eerie circle faintly glowing brighter and dimming over again, like calm breathing. Cautiously, you place your hand onto the circle and it fades away. Seconds later, text in an unrecognizable language is displayed, then another, it seems as if the text is cycling languages in hopes that one could be read by you. ORY'HARA it reads.`
+			`	Unsure of what to make of the writing, you turn to leave but are interrupted by a sharp click from the console. It's a credit chip for unimaginable fortune, if you take the money you will never toil for wealth again, but there must be consequences...`
+			choice
+				`	[Take the chip]`
+					accept
+				`	[Leave this room]`
+					decline
 	source
 		government Unknown
 mission remnant_colonisation
