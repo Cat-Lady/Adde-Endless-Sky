@@ -16,6 +16,36 @@ planet "Korath Raider"
 	tribute 1
 		threshold 0
 		fleet korath_raider 1
+planet "Pug Arfecta"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet pug_arfecta 1
+planet "Pug Enfolta"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet pug_enfolta 1
+planet "Pug Maboro"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet pug_maboro 1
+planet "Pug Zibruka"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet pug_zibruka 1
+planet "Quarg Skylark"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet quarg_skylark 1
 planet "Quarg Wardragon"
 	"required reputation" 1
 	bribe 0
@@ -46,12 +76,6 @@ planet Archon
 	tribute 1
 		threshold 0
 		fleet archon 1
-planet Arfecta
-	"required reputation" 1
-	bribe 0
-	tribute 1
-		threshold 0
-		fleet arfecta 1
 planet Arx
 	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
 	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."
@@ -65,6 +89,12 @@ planet barren_wormhole
 	description ``
 planet barren_wormhole2
 	description ``
+planet Bastion
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet bastion 1
 planet Carrier
 	"required reputation" 1
 	bribe 0
@@ -88,6 +118,12 @@ planet Everything
 	shipyard vanilla
 	shipyard variants
 	spaceport "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
+planet Falcon
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet falcon 1
 planet graveyard_wormhole
 	description ``
 planet graveyard_wormhole2
@@ -102,6 +138,12 @@ planet Hurricane
 		fleet hurricane 1
 planet irm_gate
 	description ``
+planet Leviathan
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet leviathan 1
 planet link_wormhole
 	description ``
 planet Nis
@@ -123,6 +165,12 @@ planet Plugins
 	outfitter plugin
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
+planet Sarkic
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet sarkic 1
 planet Vanilla
 	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"

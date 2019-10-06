@@ -503,24 +503,43 @@ system Omnis
 		distance 1860
 		offset 120
 		sprite ship/raider
+	object "Pug Arfecta"
+		distance 2260
+		offset 278
+		sprite "ship/pug arfecta"
+	object "Pug Enfolta"
+		distance 1880
+		offset 275
+		sprite "ship/pug enfolta"
+	object "Pug Maboro"
+		distance 1940
+		offset 285
+		sprite "ship/pug maboro"
+	object "Pug Zibruka"
+		distance 1940
+		offset 279
+		sprite "ship/pug zibruka"
+	object "Quarg Skylark"
+		distance 1860
+		offset 235
+		sprite ship/skylark
 	object "Quarg Wardragon"
 		distance 1860
-		offset 240
+		offset 245
 		sprite ship/wardragon
 	object "Shield Beetle"
 		distance 1860
 		offset 80
 		sprite "ship/hai shield beetle"
 	object Archon
-		distance 1860
-		offset 320
+		distance 1920
+		offset 323
 		sprite ship/archon
-	object Arfecta
+	object Bastion
 		distance 1860
-		offset 280
-		sprite "ship/pug arfecta"
+		sprite ship/bastion
 	object Carrier
-		distance 1860
+		distance 2340
 		sprite ship/carrier
 	object Deprecated
 		distance 444
@@ -597,16 +616,28 @@ system Omnis
 		distance 1218
 		offset 340
 		sprite sprite/everything
+	object Falcon
+		distance 2080
+		offset 355
+		sprite ship/falcon
 	object gateway
 		sprite planet/wisp
 	object Hurricane
 		distance 1860
 		offset 160
 		sprite ship/hurricane
+	object Leviathan
+		distance 2080
+		offset 5
+		sprite ship/leviathan
 	object Plugins
 		distance 444
 		offset 45
 		sprite sprite/station8
+	object Sarkic
+		distance 1860
+		offset 317
+		sprite ship/sarkic
 	object Vanilla
 		distance 444
 		offset 315

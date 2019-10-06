@@ -8,11 +8,11 @@ fleet archon
 	personality heroic
 	variant
 		Archon
-fleet arfecta
+fleet bastion
 	government Unknown
 	personality heroic
 	variant
-		"Pug Arfecta"
+		Bastion
 fleet carrier
 	government Unknown
 	personality heroic
@@ -20,6 +20,11 @@ fleet carrier
 		"Combat Drone" 6
 		Carrier
 		Lance 4
+fleet falcon
+	government Unknown
+	personality heroic
+	variant
+		Falcon
 fleet fallen
 	government Fallen
 	personality
@@ -61,11 +66,46 @@ fleet korath_raider
 	variant
 		"Korath Raider"
 		"Korath Stalker" 2
+fleet leviathan
+	government Unknown
+	personality heroic
+	variant
+		Leviathan
+fleet pug_arfecta
+	government Unknown
+	personality heroic
+	variant
+		"Pug Arfecta"
+fleet pug_enfolta
+	government Unknown
+	personality heroic
+	variant
+		"Pug Enfolta"
+fleet pug_maboro
+	government Unknown
+	personality heroic
+	variant
+		"Pug Maboro"
+fleet pug_zibruka
+	government Unknown
+	personality heroic
+	variant
+		"Pug Zibruka"
+fleet quarg_skylark
+	government Unknown
+	personality heroic
+	variant
+		"Quarg Skylark"
 fleet quarg_wardragon
 	government Unknown
 	personality heroic
 	variant
 		"Quarg Wardragon"
+fleet sarkic
+	government Unknown
+	personality heroic
+	variant
+		Sarkic
 fleet shield_beetle
 	government Unknown
 	personality heroic
