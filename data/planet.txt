@@ -4,6 +4,18 @@ planet "Albatross "
 	tribute 1
 		threshold 0
 		fleet albatross 1
+planet "Heliarch Interdictor"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet heliarch_interdictor 1
+planet "Heliarch Neutralizer"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet heliarch_neutralizer 1
 planet "Heliarch Punisher"
 	"required reputation" 1
 	bribe 0

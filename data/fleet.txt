@@ -34,6 +34,16 @@ fleet fallen
 		mute
 	variant
 		"A-3 Lexel" 2
+fleet heliarch_interdictor
+	government Unknown
+	personality heroic
+	variant
+		"Heliarch Interdictor"
+fleet heliarch_neutralizor
+	government Unknown
+	personality heroic
+	variant
+		"Heliarch Neutralizor"
 fleet heliarch_punisher
 	government Unknown
 	personality heroic

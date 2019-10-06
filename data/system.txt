@@ -495,8 +495,16 @@ system Omnis
 		distance 1860
 		offset 40
 		sprite "ship/albatross"
-	object "Heliarch Punisher"
+	object "Heliarch Interdictor"
 		distance 1860
+		offset 205
+		sprite "ship/heliarch interdictor"
+	object "Heliarch Neutralizer"
+		distance 1860
+		offset 195
+		sprite "ship/heliarch neutralizer"
+	object "Heliarch Punisher"
+		distance 2220
 		offset 200
 		sprite "ship/heliarch punisher"
 	object "Korath Raider"
