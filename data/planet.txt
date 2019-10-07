@@ -1,96 +1,96 @@
 planet "Albatross "
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet albatross 1
 planet "Autumn Leaf"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet autumn_leaf 1
 planet "Cool Breeze"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet cool_breeze 1
 planet "Heliarch Interdictor"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet heliarch_interdictor 1
 planet "Heliarch Neutralizer"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet heliarch_neutralizer 1
 planet "Heliarch Punisher"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet heliarch_punisher 1
 planet "Korath Raider"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet korath_raider 1
 planet "Pug Arfecta"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet pug_arfecta 1
 planet "Pug Enfolta"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet pug_enfolta 1
 planet "Pug Maboro"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet pug_maboro 1
 planet "Pug Zibruka"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet pug_zibruka 1
 planet "Quarg Skylark"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet quarg_skylark 1
 planet "Quarg Wardragon"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet quarg_wardragon 1
 planet "Shield Beetle"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet shield_beetle 1
 planet "Strong Wind"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet strong_wind 1
 planet "Summer Leaf"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet summer_leaf 1
@@ -107,14 +107,14 @@ planet "Relic Station"
 	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
 	landscape land/space6
 planet "Winter Gale"
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet winter_gale 1
 planet Archon
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet archon 1
@@ -132,14 +132,14 @@ planet barren_wormhole
 planet barren_wormhole2
 	description ``
 planet Bastion
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet bastion 1
 planet Carrier
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet carrier 1
@@ -151,8 +151,8 @@ planet Deprecated
 	shipyard deprecated
 	spaceport ""
 planet Derecho
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet derecho 1
@@ -167,8 +167,8 @@ planet Everything
 	shipyard variants
 	spaceport "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
 planet Falcon
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet falcon 1
@@ -179,16 +179,16 @@ planet graveyard_wormhole2
 planet graveyard_wormhole3
 	description ``
 planet Hurricane
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet hurricane 1
 planet irm_gate
 	description ``
 planet Leviathan
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet leviathan 1
@@ -214,14 +214,14 @@ planet Plugins
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
 planet Sarkic
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet sarkic 1
 planet Tempest
-	"required reputation" 1
 	bribe 0
+	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet tempest 1

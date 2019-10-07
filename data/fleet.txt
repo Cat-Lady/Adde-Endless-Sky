@@ -1,42 +1,42 @@
 fleet albatross
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Albatross
 fleet archon
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Archon
 fleet autumn_leaf
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Autumn Leaf"
 fleet bastion
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Bastion
 fleet carrier
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Combat Drone" 6
 		Carrier
 		Lance 4
 fleet cool_breeze
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Cool Breeze"
 fleet derecho
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Derecho
 fleet falcon
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Falcon
@@ -50,22 +50,22 @@ fleet fallen
 	variant
 		"A-3 Lexel" 2
 fleet heliarch_interdictor
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Heliarch Interdictor"
 fleet heliarch_neutralizor
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Heliarch Neutralizor"
 fleet heliarch_punisher
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Heliarch Punisher"
 fleet hurricane
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Hurricane
@@ -83,7 +83,7 @@ fleet irm_defense
 	variant
 		Revelation 8
 fleet korath_raider
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Korath Chaser" 2
@@ -92,67 +92,67 @@ fleet korath_raider
 		"Korath Raider"
 		"Korath Stalker" 2
 fleet leviathan
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Leviathan
 fleet pug_arfecta
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Pug Arfecta"
 fleet pug_enfolta
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Pug Enfolta"
 fleet pug_maboro
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Pug Maboro"
 fleet pug_zibruka
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Pug Zibruka"
 fleet quarg_skylark
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Quarg Skylark"
 fleet quarg_wardragon
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Quarg Wardragon"
 fleet sarkic
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Sarkic
 fleet shield_beetle
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Shield Beetle"
 fleet strong_wind
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Strong Wind"
 fleet summer_leaf
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Summer Leaf"
 fleet tempest
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		Tempest
 fleet winter_gale
-	government Unknown
+	government "Unknown "
 	personality heroic
 	variant
 		"Winter Gale"
