@@ -4,6 +4,18 @@ planet "Albatross "
 	tribute 1
 		threshold 0
 		fleet albatross 1
+planet "Autumn Leaf"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet autumn_leaf 1
+planet "Cool Breeze"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet cool_breeze 1
 planet "Heliarch Interdictor"
 	"required reputation" 1
 	bribe 0
@@ -70,6 +82,18 @@ planet "Shield Beetle"
 	tribute 1
 		threshold 0
 		fleet shield_beetle 1
+planet "Strong Wind"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet strong_wind 1
+planet "Summer Leaf"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet summer_leaf 1
 planet "Pug Kaelin"
 	"required reputation" 2
 	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
@@ -82,6 +106,12 @@ planet "Relic Station"
 	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
 	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
 	landscape land/space6
+planet "Winter Gale"
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet winter_gale 1
 planet Archon
 	"required reputation" 1
 	bribe 0
@@ -120,6 +150,12 @@ planet Deprecated
 	outfitter deprecated
 	shipyard deprecated
 	spaceport ""
+planet Derecho
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet derecho 1
 planet Everything
 	bribe 0
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
@@ -183,6 +219,12 @@ planet Sarkic
 	tribute 1
 		threshold 0
 		fleet sarkic 1
+planet Tempest
+	"required reputation" 1
+	bribe 0
+	tribute 1
+		threshold 0
+		fleet tempest 1
 planet Vanilla
 	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"

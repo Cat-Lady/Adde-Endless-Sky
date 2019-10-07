@@ -8,6 +8,11 @@ fleet archon
 	personality heroic
 	variant
 		Archon
+fleet autumn_leaf
+	government Unknown
+	personality heroic
+	variant
+		"Autumn Leaf"
 fleet bastion
 	government Unknown
 	personality heroic
@@ -20,6 +25,16 @@ fleet carrier
 		"Combat Drone" 6
 		Carrier
 		Lance 4
+fleet cool_breeze
+	government Unknown
+	personality heroic
+	variant
+		"Cool Breeze"
+fleet derecho
+	government Unknown
+	personality heroic
+	variant
+		Derecho
 fleet falcon
 	government Unknown
 	personality heroic
@@ -121,3 +136,23 @@ fleet shield_beetle
 	personality heroic
 	variant
 		"Shield Beetle"
+fleet strong_wind
+	government Unknown
+	personality heroic
+	variant
+		"Strong Wind"
+fleet summer_leaf
+	government Unknown
+	personality heroic
+	variant
+		"Summer Leaf"
+fleet tempest
+	government Unknown
+	personality heroic
+	variant
+		Tempest
+fleet winter_gale
+	government Unknown
+	personality heroic
+	variant
+		"Winter Gale"

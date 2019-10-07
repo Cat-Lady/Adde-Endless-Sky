@@ -495,6 +495,14 @@ system Omnis
 		distance 1860
 		offset 40
 		sprite "ship/albatross"
+	object "Autumn Leaf"
+		distance 1860
+		offset 164
+		sprite "ship/autumn leaf"
+	object "Cool Breeze"
+		distance 1940
+		offset 160
+		sprite "ship/cool breeze"
 	object "Heliarch Interdictor"
 		distance 1860
 		offset 205
@@ -539,6 +547,18 @@ system Omnis
 		distance 1860
 		offset 80
 		sprite "ship/hai shield beetle"
+	object "Strong Wind"
+		distance 2140
+		offset 154
+		sprite "ship/strong wind"
+	object "Summer Leaf"
+		distance 1860
+		offset 156
+		sprite "ship/summer leaf"
+	object "Winter Gale"
+		distance 2200
+		offset 160
+		sprite "ship/winter gale"
 	object Archon
 		distance 1920
 		offset 323
@@ -553,6 +573,10 @@ system Omnis
 		distance 444
 		offset 135
 		sprite sprite/station8
+	object Derecho
+		distance 2540
+		offset 156
+		sprite ship/derecho
 	object Everything
 		distance 1218
 		sprite sprite/everything
@@ -631,8 +655,8 @@ system Omnis
 	object gateway
 		sprite planet/wisp
 	object Hurricane
-		distance 1860
-		offset 160
+		distance 2540
+		offset 164
 		sprite ship/hurricane
 	object Leviathan
 		distance 2080
@@ -646,6 +670,10 @@ system Omnis
 		distance 1860
 		offset 317
 		sprite ship/sarkic
+	object Tempest
+		distance 2140
+		offset 166
+		sprite ship/tempest
 	object Vanilla
 		distance 444
 		offset 315
