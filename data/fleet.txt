@@ -82,6 +82,18 @@ fleet irm_defense
 		Revelation 3
 	variant
 		Revelation 8
+fleet kar_ik_vot_349
+	government "Unknown "
+	personality heroic
+	variant
+		"Kar Ik Vot 349"
+fleet kar_ik_vot_637
+	government "Unknown "
+	personality heroic
+	variant
+		"Far Lek 14" 3
+		"Far Osk 27" 2
+		"Kar Ik Vot 637"
 fleet korath_raider
 	government "Unknown "
 	personality heroic
@@ -91,11 +103,21 @@ fleet korath_raider
 	variant
 		"Korath Raider"
 		"Korath Stalker" 2
+fleet korath_world-ship_a
+	government "Unknown "
+	personality heroic
+	variant
+		"Korath World-Ship"
 fleet leviathan
 	government "Unknown "
 	personality heroic
 	variant
 		Leviathan
+fleet met_par_tek_53
+	government "Unknown "
+	personality heroic
+	variant
+		"Met Par Tek 53"
 fleet pug_arfecta
 	government "Unknown "
 	personality heroic
@@ -146,6 +168,25 @@ fleet summer_leaf
 	personality heroic
 	variant
 		"Summer Leaf"
+fleet tek_far_109
+	government "Unknown "
+	personality heroic
+	variant
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+		"Tek Far 109"
+fleet tek_far_71_lek
+	government "Unknown "
+	personality heroic
+	variant
+		"Far Lek 14" 10
+		"Tek Far 71 - Lek"
+fleet tek_far_78_osk
+	government "Unknown "
+	personality heroic
+	variant
+		"Far Osk 27" 9
+		"Tek Far 78 - Osk"
 fleet tempest
 	government "Unknown "
 	personality heroic

@@ -515,10 +515,26 @@ system Omnis
 		distance 2220
 		offset 200
 		sprite "ship/heliarch punisher"
+	object "Kar Ik Vot 349"
+		distance 3260
+		offset 130
+		sprite "ship/kar ik vot 349"
+	object "Kar Ik Vot 637"
+		distance 3980
+		offset 130
+		sprite ship/kar_ik_vot_637
 	object "Korath Raider"
 		distance 1860
 		offset 120
 		sprite ship/raider
+	object "Korath World-Ship A"
+		distance 2480
+		offset 120
+		sprite "ship/world-ship a"
+	object "Met Par Tek 53"
+		distance 1860
+		offset 130
+		sprite "ship/met par tek 53"
 	object "Pug Arfecta"
 		distance 2260
 		offset 278
@@ -555,6 +571,18 @@ system Omnis
 		distance 1860
 		offset 156
 		sprite "ship/summer leaf"
+	object "Tek Far 109"
+		distance 2700
+		offset 130
+		sprite "ship/tek far 109"
+	object "Tek Far 71 - Lek"
+		distance 2280
+		offset 127
+		sprite "ship/tek far 71 lek"
+	object "Tek Far 78 - Osk"
+		distance 2280
+		offset 133
+		sprite "ship/tek far 78 osk"
 	object "Winter Gale"
 		distance 2200
 		offset 160

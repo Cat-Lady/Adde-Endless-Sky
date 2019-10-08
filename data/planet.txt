@@ -34,12 +34,36 @@ planet "Heliarch Punisher"
 	tribute 1
 		threshold 0
 		fleet heliarch_punisher 1
+planet "Kar Ik Vot 349"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet kar_ik_vot_349 1
+planet "Kar Ik Vot 637"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet kar_ik_vot_637 1
 planet "Korath Raider"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet korath_raider 1
+planet "Korath World-Ship A"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet korath_world-ship_a 1
+planet "Met Par Tek 53"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet met_par_tek_53 1
 planet "Pug Arfecta"
 	bribe 0
 	government "Unknown "
@@ -52,6 +76,13 @@ planet "Pug Enfolta"
 	tribute 1
 		threshold 0
 		fleet pug_enfolta 1
+planet "Pug Kaelin"
+	"required reputation" 2
+	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
+	landscape land/myrabella5
+	security 1
+	spaceport `The spaceport here can be described no other way than impressive, it is the largest tower, placed directly central of the gargantuan city. With a base almost looking big enough to pass as a sizable village, very quickly getting thinner as it raises into the cities airspace.`
+	spaceport `Reaching unimaginable heights many would consider impossible, the tower is more than the planets spaceport, it is quite literally the epicenter for everything from logistics to residence.`
 planet "Pug Maboro"
 	bribe 0
 	government "Unknown "
@@ -76,6 +107,11 @@ planet "Quarg Wardragon"
 	tribute 1
 		threshold 0
 		fleet quarg_wardragon 1
+planet "Relic Station"
+	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
+	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
+	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
+	landscape land/space6
 planet "Shield Beetle"
 	bribe 0
 	government "Unknown "
@@ -94,18 +130,24 @@ planet "Summer Leaf"
 	tribute 1
 		threshold 0
 		fleet summer_leaf 1
-planet "Pug Kaelin"
-	"required reputation" 2
-	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
-	landscape land/myrabella5
-	security 1
-	spaceport `The spaceport here can be described no other way than impressive, it is the largest tower, placed directly central of the gargantuan city. With a base almost looking big enough to pass as a sizable village, very quickly getting thinner as it raises into the cities airspace.`
-	spaceport `Reaching unimaginable heights many would consider impossible, the tower is more than the planets spaceport, it is quite literally the epicenter for everything from logistics to residence.`
-planet "Relic Station"
-	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
-	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
-	spaceport "The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning."
-	landscape land/space6
+planet "Tek Far 109"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet tek_far_109 1
+planet "Tek Far 71 - Lek"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet tek_far_71_lek 1
+planet "Tek Far 78 - Osk"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet tek_far_78_osk 1
 planet "Winter Gale"
 	bribe 0
 	government "Unknown "
