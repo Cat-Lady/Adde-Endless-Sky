@@ -265,7 +265,7 @@ ship "Model 1024"
 			"hit force" 8400
 			"hull damage" 2800
 			"shield damage" 5600
-	description "The next step in the evolution of the Kor Mereti automations comes the model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sentience and started focusing on less warlike endeavors."
+	description "The next step in the evolution of the Kor Mereti war-machine is the Model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sapience and diverted their focus to less self-destructive endeavors."
 	engine -149 97
 	engine 149 97
 	explode "large explosion" 35
