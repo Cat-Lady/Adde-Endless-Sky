@@ -118,6 +118,46 @@ fleet met_par_tek_53
 	personality heroic
 	variant
 		"Met Par Tek 53"
+fleet model_1024
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 1024"
+fleet model_128
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 128"
+fleet model_16
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 16"
+fleet model_256
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 256"
+fleet model_32
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 32"
+fleet model_512
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 512"
+fleet model_64
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 64"
+fleet model_8
+	government "Unknown "
+	personality heroic
+	variant
+		"Model 8"
 fleet pug_arfecta
 	government "Unknown "
 	personality heroic

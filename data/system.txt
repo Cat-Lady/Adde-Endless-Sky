@@ -535,6 +535,38 @@ system Omnis
 		distance 1860
 		offset 130
 		sprite "ship/met par tek 53"
+	object "Model 1024"
+		distance 4740
+		offset 112
+		sprite ship/model_1024
+	object "Model 128"
+		distance 3300
+		offset 112
+		sprite "ship/model 128"
+	object "Model 16"
+		distance 2100
+		offset 112
+		sprite "ship/model 16"
+	object "Model 256"
+		distance 3780
+		offset 112
+		sprite "ship/model 256"
+	object "Model 32"
+		distance 2440
+		offset 112
+		sprite "ship/model 32"
+	object "Model 512"
+		distance 4260
+		offset 112
+		sprite "ship/model 512"
+	object "Model 64"
+		distance 2840
+		offset 112
+		sprite "ship/model 64"
+	object "Model 8"
+		distance 1860
+		offset 112
+		sprite "ship/model 8"
 	object "Pug Arfecta"
 		distance 2260
 		offset 278

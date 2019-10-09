@@ -64,6 +64,54 @@ planet "Met Par Tek 53"
 	tribute 1
 		threshold 0
 		fleet met_par_tek_53 1
+planet "Model 1024"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_1024 1
+planet "Model 128"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_128 1
+planet "Model 16"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_16 1
+planet "Model 256"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_256 1
+planet "Model 32"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_32 1
+planet "Model 512"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_512 1
+planet "Model 64"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_64 1
+planet "Model 8"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet model_8 1
 planet "Pug Arfecta"
 	bribe 0
 	government "Unknown "
