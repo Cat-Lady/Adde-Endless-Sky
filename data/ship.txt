@@ -245,7 +245,7 @@ ship "Korath Stalker"
 ship "Model 1024"
 	"final explode" "final explosion large"
 	attributes
-		"cargo space" 379
+		"cargo space" 669
 		"engine capacity" 192
 		"fuel capacity" 500
 		"heat dissipation" .8
