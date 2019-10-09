@@ -4,7 +4,7 @@ mission aben_first_contact
 	on offer
 		conversation
 			`On the descent down into the crater the great shimmering spire casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings are all well maintained, with ease of access by air, or ground. The swarming layers of hover vehicles above it all is incredible, they must run autonomously as they all traverse the airspace fluidly and with hardly any clearance.`
-			`	On the only active comms channel there are repeating instructions on where to land depending on what classification you qualify, 14A for visiting parties. Upon landing your ship within the hanger, a party of 4 approach your ship, what appears at first glance to be naked human men. On closer inspection it's clear that these beings bear no obvious reproductive organs, and a flat stretch of skin where a nose would normally sit, additionally none of these men have any hair across their bodies.`
+			`	On the only active comms channel there are repeating instructions on where to land depending on what classification you qualify, 14A for visiting parties. Upon landing your ship within the hangar, a party of 4 approach your ship, what appears at first glance to be naked human men. On closer inspection it's clear that these beings bear no obvious reproductive organs, and a flat stretch of skin where a nose would normally sit, additionally none of these men have any hair across their bodies.`
 			`	As they draw nearer you notice that the two adjacent to the center man bear an unusual build, they are wearing body armor designed to blend in with the others. The last Aben appears to be female, again with no obvious reproductive organs, she is prepared to write down the conversation that is about to take place. "Wonderful day isn't it sir, or ma'am, of course." the spokesperson opens with, he sounds almost cautious when pronouncing. "How do you know how to speak to me?" you reply. He plainly explains, as if it were procedure, "We have met travelers from your people before, they were kind enough to lend us multiple databases of text and literature in your native tongue." he tries to find a way to phrase as to not lead in circles, "We are a modest race, we can not reign supreme or live in peace with the feeble tools we have to defend our way of living. So, to gain power as other great civilizations have, we adapt the tools of others for our use. Many oblige us with their favor, we have received a great many deliveries of new and exotic technology, and they of course get their return, we pay generously so that we may reach great heights in time."`
 			choice
 				`	"What do you mean travelers? You've met us before?"`
@@ -280,7 +280,7 @@ mission aben_reconnaissance_1
 		set "license: Aben Technology"
 	on offer
 		conversation
-			`On return to the hanger to leave, you are confronted by a pair of figures waiting beside your ship, Saed and the scribe that accompanies him. He seems relieved when you show up, who knows how long they've been waiting for you. He walks up to meet you half way, and says "Hello captain <last>, would you be interested in helping the aben on a more formal assignment? It would be merely a reconnaissance task."`
+			`On return to the hangar to leave, you are confronted by a pair of figures waiting beside your ship, Saed and the scribe that accompanies him. He seems relieved when you show up, who knows how long they've been waiting for you. He walks up to meet you half way, and says "Hello captain <last>, would you be interested in helping the aben on a more formal assignment? It would be merely a reconnaissance task."`
 			choice
 				`	"What sort of reconnaissance do you need from me?"`
 					goto where
@@ -818,13 +818,13 @@ mission fallen_activation
 	on offer
 		conversation
 			`Upon arrival to the space station you think back on your preliminary scans of the entire station, no signatures of life, must be a derelict station. The metals that the station is made up of is like nothing you've seen before.`
-			`	You enter the station through an airlock that automatically pressurized the large hanger once you are clear of the hanger doors and are landed. Long winding hallways lead you to a bare room with a console on the far wall with a single button with text in some strange alien language.`
+			`	You enter the station through an airlock that automatically pressurized the large hangar once you are clear of the hangar doors and are landed. Long winding hallways lead you to a bare room with a console on the far wall with a single button with text in some strange alien language.`
 			choice
 				`	(Press the button.)`
 				`	(Depart from the station.)`
 					flee
 			`	As soon as the consoles button was pressed, long stretches of blinding lights crawl across the floors and illuminates the console room and passageways. The lights outline pathways on the floor and lead you to doorways on each of the other walls of the room, doorways you previously didn't notice, or perhaps they only just opened up once the console was activated.`
-			`	You cautiously check each doorway and it turns out that they conjoin behind the console room and leads to a hanger bay of sorts, multiple large and hefty mechanical arms are busily working to move around massive plates of scrap metal. You seem to have activated what seems to be a ship manufacturing station.`
+			`	You cautiously check each doorway and it turns out that they conjoin behind the console room and leads to a hangar bay of sorts, multiple large and hefty mechanical arms are busily working to move around massive plates of scrap metal. You seem to have activated what seems to be a ship manufacturing station.`
 			`	With nothing left to do here you decide it would be best to depart, else you might activate some other unsavory section of this strange alien station.`
 				launch
 	source
@@ -1007,7 +1007,7 @@ mission money
 		payment 922e16
 	on offer
 		conversation
-			`On landing you are greeted only by an empty hanger, not a soul in sight. After hours of exploring, trying to determine the exact purpose of this place, you come across a console with only an eerie circle faintly glowing brighter and dimming over again, like calm breathing. Cautiously, you place your hand onto the circle and it fades away. Seconds later, text in an unrecognizable language is displayed, then another, it seems as if the text is cycling languages in hopes that one could be read by you. ORY'HARA it reads.`
+			`On landing you are greeted only by an empty hangar, not a soul in sight. After hours of exploring, trying to determine the exact purpose of this place, you come across a console with only an eerie circle faintly glowing brighter and dimming over again, like calm breathing. Cautiously, you place your hand onto the circle and it fades away. Seconds later, text in an unrecognizable language is displayed, then another, it seems as if the text is cycling languages in hopes that one could be read by you. ORY'HARA it reads.`
 			`	Unsure of what to make of the writing, you turn to leave but are interrupted by a sharp click from the console. It's a credit chip for unimaginable fortune, if you take the money you will never toil for wealth again, but there must be consequences...`
 			choice
 				`	[Take the chip]`
