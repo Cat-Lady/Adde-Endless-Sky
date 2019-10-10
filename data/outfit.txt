@@ -597,22 +597,23 @@ outfit Devastator
 	thumbnail outfit/unknown
 	weapon
 		"blast radius" 400
-		"die effect" devastator_die
+		"die effect" devastator_fire1 3
 		"fire effect" devastator_fire1 2
 		"fire effect" devastator_fire2
-		"firing energy" 27
-		"firing fuel" .09
-		"firing heat" 239
-		"heat damage" 140
+		"firing energy" 38
+		"firing fuel" .13
+		"firing heat" 329
+		"heat damage" 260
 		"hit effect" devastator_hit1
 		"hit effect" devastator_hit2 4
 		"hit effect" devastator_hit3
 		"hit force" 10
-		"hull damage" 36
-		"random velocity" 80 120
-		"shield damage" 57
-		inaccuracy 2
-		lifetime 30
+		"hull damage" 116
+		"random lifetime" 70 20
+		"random velocity" 50 30
+		"shield damage" 87
+		inaccuracy 3.5
+		reload 2
 		safe
 		sound "final explosion small"
 		sprite sprite/devastator
