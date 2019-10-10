@@ -3,6 +3,12 @@ fleet albatross
 	personality heroic
 	variant
 		Albatross
+fleet apocalypse
+	government "Unknown "
+	personality heroic
+	variant
+		Apocalypse
+		Revelation 16
 fleet archon
 	government "Unknown "
 	personality heroic
@@ -69,6 +75,11 @@ fleet heliarch_punisher
 	personality heroic
 	variant
 		"Heliarch Punisher"
+fleet hobby
+	government "Unknown "
+	personality heroic
+	variant
+		Hobby
 fleet hurricane
 	government "Unknown "
 	personality heroic

@@ -214,6 +214,12 @@ planet "Winter Gale"
 	tribute 1
 		threshold 0
 		fleet winter_gale 1
+planet Apocalypse
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet apocalypse 1
 planet Archon
 	bribe 0
 	government "Unknown "
@@ -286,6 +292,12 @@ planet graveyard_wormhole2
 	description ``
 planet graveyard_wormhole3
 	description ``
+planet Hobby
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet hobby 1
 planet Hurricane
 	bribe 0
 	government "Unknown "
