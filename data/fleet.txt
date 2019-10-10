@@ -49,6 +49,11 @@ fleet fallen
 		mute
 	variant
 		"A-3 Lexel" 2
+fleet grasshopper
+	government "Unknown "
+	personality heroic
+	variant
+		Grasshopper
 fleet heliarch_interdictor
 	government "Unknown "
 	personality heroic
@@ -113,6 +118,11 @@ fleet leviathan
 	personality heroic
 	variant
 		Leviathan
+fleet lightning_bug
+	government "Unknown "
+	personality heroic
+	variant
+		"Lightning Bug"
 fleet met_par_tek_53
 	government "Unknown "
 	personality heroic
@@ -158,6 +168,12 @@ fleet model_8
 	personality heroic
 	variant
 		"Model 8"
+fleet pond_strider
+	government "Unknown "
+	personality heroic
+	variant
+		Flea 8
+		"Pond Strider"
 fleet pug_arfecta
 	government "Unknown "
 	personality heroic
@@ -198,6 +214,17 @@ fleet shield_beetle
 	personality heroic
 	variant
 		"Shield Beetle"
+fleet solifuge
+	government "Unknown "
+	personality heroic
+	variant
+		"Violin Spider" 6
+		Solifuge
+fleet starling
+	government "Unknown "
+	personality heroic
+	variant
+		Starling
 fleet strong_wind
 	government "Unknown "
 	personality heroic

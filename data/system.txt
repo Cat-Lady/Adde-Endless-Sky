@@ -493,8 +493,8 @@ system Omnis
 	government Unknown
 	object "Albatross "
 		distance 1860
-		offset 40
-		sprite "ship/albatross"
+		offset 43
+		sprite ship/albatross
 	object "Autumn Leaf"
 		distance 1860
 		offset 164
@@ -531,6 +531,10 @@ system Omnis
 		distance 2480
 		offset 120
 		sprite "ship/world-ship a"
+	object "Lightning Bug"
+		distance 1860
+		offset 86
+		sprite "ship/hai lightning bug"
 	object "Met Par Tek 53"
 		distance 1860
 		offset 130
@@ -567,6 +571,10 @@ system Omnis
 		distance 1860
 		offset 112
 		sprite "ship/model 8"
+	object "Pond Strider"
+		distance 1880
+		offset 80
+		sprite "ship/hai pond strider"
 	object "Pug Arfecta"
 		distance 2260
 		offset 278
@@ -592,8 +600,8 @@ system Omnis
 		offset 245
 		sprite ship/wardragon
 	object "Shield Beetle"
-		distance 1860
-		offset 80
+		distance 2160
+		offset 84
 		sprite "ship/hai shield beetle"
 	object "Strong Wind"
 		distance 2140
@@ -714,6 +722,10 @@ system Omnis
 		sprite ship/falcon
 	object gateway
 		sprite planet/wisp
+	object Grasshopper
+		distance 1860
+		offset 74
+		sprite "ship/hai grasshopper"
 	object Hurricane
 		distance 2540
 		offset 164
@@ -730,6 +742,14 @@ system Omnis
 		distance 1860
 		offset 317
 		sprite ship/sarkic
+	object Solifuge
+		distance 2160
+		offset 76
+		sprite "ship/hai solifuge"
+	object Starling
+		distance 1980
+		offset 38
+		sprite ship/starling
 	object Tempest
 		distance 2140
 		offset 166

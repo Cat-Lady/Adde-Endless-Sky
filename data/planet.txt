@@ -58,6 +58,12 @@ planet "Korath World-Ship A"
 	tribute 1
 		threshold 0
 		fleet korath_world-ship_a 1
+planet "Lightning Bug"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet lightning_bug 1
 planet "Met Par Tek 53"
 	bribe 0
 	government "Unknown "
@@ -112,6 +118,12 @@ planet "Model 8"
 	tribute 1
 		threshold 0
 		fleet model_8 1
+planet "Pond Strider"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet pond_strider 1
 planet "Pug Arfecta"
 	bribe 0
 	government "Unknown "
@@ -262,6 +274,12 @@ planet Falcon
 	tribute 1
 		threshold 0
 		fleet falcon 1
+planet Grasshopper
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet grasshopper 1
 planet graveyard_wormhole
 	description ``
 planet graveyard_wormhole2
@@ -309,6 +327,18 @@ planet Sarkic
 	tribute 1
 		threshold 0
 		fleet sarkic 1
+planet Solifuge
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet solifuge 1
+planet Starling
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet starling 1
 planet Tempest
 	bribe 0
 	government "Unknown "
