@@ -1,4 +1,8 @@
 outfit "Large Collector Module"
 	"ion resistance" .3
+outfit "Medium Graviton Thruster"
+	"reverse thrust" 80
+	"reverse thrusting energy" 20
+	"reverse thrusting heat" 10
 outfit "Small Collector Module"
 	"ion resistance" .1
