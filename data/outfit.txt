@@ -279,19 +279,16 @@ outfit "Irm Large Engines"
 	"flare sprite" flare_sprite/irm_large_engines
 		"frame rate" 3
 	"outfit space" -139
-	"reverse thrust energy" 6.4
-	"reverse thrust heat" 9.3
-	"reverse thrust" 52.4
 	"thrusting energy" 7.2
 	"thrusting heat" 6.1
-	"turning energy" 3.8
-	"turning heat" 2.6
+	"turning energy" 4.3
+	"turning heat" 3.7
 	category Engines
 	cost 1960000
 	mass 139
-	thrust 65.9
+	thrust 73.9
 	thumbnail outfit/unknown
-	turn 677
+	turn 1790
 outfit "Katabatic Scanner"
 	"outfit scan power" 21
 	"outfit scan speed" 2
@@ -530,14 +527,14 @@ outfit "Tekina Engine"
 	"reverse thrust" 2.3
 	"thrusting energy" 2.6
 	"thrusting heat" 1.8
-	"turning energy" 1.6
-	"turning heat" 0.9
+	"turning energy" 1.7
+	"turning heat" 1.1
 	category Engines
 	cost 940000
 	mass 76
 	thrust 12.5
 	thumbnail outfit/tekina_engine
-	turn 330
+	turn 430
 outfit "Thrust Module"
 	"engine capacity" -2
 	"module capacity" -1
