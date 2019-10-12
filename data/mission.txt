@@ -1193,6 +1193,33 @@ mission syndicate_target_practice_4
 	to offer
 		"combat rating" > 1400
 		random < 20
+mission t1_battles
+	description "Resets the Omnis tribute battles back to a single ship."
+	job
+	name "Easy Battles"
+	on accept
+		event x1_battles
+	repeat
+	source
+		system Omnis
+mission t2_battles
+	description "Strengthens the Omnis tribute fleets by a factor of ten, largely changing the dynamic of the fights."
+	job
+	name "Hard Battles"
+	on accept
+		event x10_battles
+	repeat
+	source
+		system Omnis
+mission t3_battles
+	description "Strengthens the Omnis tribute fleets by a factor of a hundred, have fun dying."
+	job
+	name "Impossible Battles"
+	on accept
+		event x100_battles
+	repeat
+	source
+		system Omnis
 mission test_plasma_repeater_1
 	description "When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test."
 	destination Rust

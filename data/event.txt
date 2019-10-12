@@ -886,3 +886,870 @@ event swizzle_5
 event swizzle_6
 	government Escort
 		swizzle 6
+event x100_battles
+	planet "Albatross "
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet albatross 100
+	planet "Autumn Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet autumn_leaf 100
+	planet "Cool Breeze"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet cool_breeze 100
+	planet "Heliarch Interdictor"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_interdictor 100
+	planet "Heliarch Neutralizer"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_neutralizer 100
+	planet "Heliarch Punisher"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_punisher 100
+	planet "Kar Ik Vot 349"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_349 100
+	planet "Kar Ik Vot 637"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_637 100
+	planet "Korath Raider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_raider 100
+	planet "Korath World-Ship A"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_world-ship_a 100
+	planet "Lightning Bug"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet lightning_bug 100
+	planet "Met Par Tek 53"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet met_par_tek_53 100
+	planet "Model 1024"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_1024 100
+	planet "Model 128"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_128 100
+	planet "Model 16"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_16 100
+	planet "Model 256"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_256 100
+	planet "Model 32"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_32 100
+	planet "Model 512"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_512 100
+	planet "Model 64"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_64 100
+	planet "Model 8"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_8 100
+	planet "Pond Strider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pond_strider 100
+	planet "Pug Arfecta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_arfecta 100
+	planet "Pug Enfolta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_enfolta 100
+	planet "Pug Maboro"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_maboro 100
+	planet "Pug Zibruka"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_zibruka 100
+	planet "Quarg Skylark"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_skylark 100
+	planet "Quarg Wardragon"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_wardragon 100
+	planet "Shield Beetle"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet shield_beetle 100
+	planet "Strong Wind"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet strong_wind 100
+	planet "Summer Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet summer_leaf 100
+	planet "Tek Far 109"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_109 100
+	planet "Tek Far 71 - Lek"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_71_lek 100
+	planet "Tek Far 78 - Osk"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_78_osk 100
+	planet "Winter Gale"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet winter_gale 100
+	planet Apocalypse
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet apocalypse 100
+	planet Archon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet archon 100
+	planet Bastion
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet bastion 100
+	planet Carrier
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet carrier 100
+	planet Derecho
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet derecho 100
+	planet Falcon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet falcon 100
+	planet Grasshopper
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet grasshopper 100
+	planet Hobby
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hobby 100
+	planet Hurricane
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hurricane 100
+	planet Leviathan
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet leviathan 100
+	planet Sarkic
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet sarkic 100
+	planet Solifuge
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet solifuge 100
+	planet Starling
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet starling 100
+	planet Tempest
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tempest 100
+event x10_battles
+	planet "Albatross "
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet albatross 10
+	planet "Autumn Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet autumn_leaf 10
+	planet "Cool Breeze"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet cool_breeze 10
+	planet "Heliarch Interdictor"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_interdictor 10
+	planet "Heliarch Neutralizer"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_neutralizer 10
+	planet "Heliarch Punisher"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_punisher 10
+	planet "Kar Ik Vot 349"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_349 10
+	planet "Kar Ik Vot 637"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_637 10
+	planet "Korath Raider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_raider 10
+	planet "Korath World-Ship A"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_world-ship_a 10
+	planet "Lightning Bug"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet lightning_bug 10
+	planet "Met Par Tek 53"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet met_par_tek_53 10
+	planet "Model 1024"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_1024 10
+	planet "Model 128"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_128 10
+	planet "Model 16"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_16 10
+	planet "Model 256"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_256 10
+	planet "Model 32"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_32 10
+	planet "Model 512"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_512 10
+	planet "Model 64"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_64 10
+	planet "Model 8"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_8 10
+	planet "Pond Strider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pond_strider 10
+	planet "Pug Arfecta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_arfecta 10
+	planet "Pug Enfolta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_enfolta 10
+	planet "Pug Maboro"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_maboro 10
+	planet "Pug Zibruka"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_zibruka 10
+	planet "Quarg Skylark"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_skylark 10
+	planet "Quarg Wardragon"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_wardragon 10
+	planet "Shield Beetle"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet shield_beetle 10
+	planet "Strong Wind"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet strong_wind 10
+	planet "Summer Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet summer_leaf 10
+	planet "Tek Far 109"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_109 10
+	planet "Tek Far 71 - Lek"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_71_lek 10
+	planet "Tek Far 78 - Osk"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_78_osk 10
+	planet "Winter Gale"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet winter_gale 10
+	planet Apocalypse
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet apocalypse 10
+	planet Archon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet archon 10
+	planet Bastion
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet bastion 10
+	planet Carrier
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet carrier 10
+	planet Derecho
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet derecho 10
+	planet Falcon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet falcon 10
+	planet Grasshopper
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet grasshopper 10
+	planet Hobby
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hobby 10
+	planet Hurricane
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hurricane 10
+	planet Leviathan
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet leviathan 10
+	planet Sarkic
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet sarkic 10
+	planet Solifuge
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet solifuge 10
+	planet Starling
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet starling 10
+	planet Tempest
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tempest 10
+event x1_battles
+	planet "Albatross "
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet albatross
+	planet "Autumn Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet autumn_leaf
+	planet "Cool Breeze"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet cool_breeze
+	planet "Heliarch Interdictor"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_interdictor
+	planet "Heliarch Neutralizer"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_neutralizer
+	planet "Heliarch Punisher"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet heliarch_punisher
+	planet "Kar Ik Vot 349"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_349
+	planet "Kar Ik Vot 637"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet kar_ik_vot_637
+	planet "Korath Raider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_raider
+	planet "Korath World-Ship A"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet korath_world-ship_a
+	planet "Lightning Bug"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet lightning_bug
+	planet "Met Par Tek 53"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet met_par_tek_53
+	planet "Model 1024"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_1024
+	planet "Model 128"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_128
+	planet "Model 16"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_16
+	planet "Model 256"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_256
+	planet "Model 32"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_32
+	planet "Model 512"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_512
+	planet "Model 64"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_64
+	planet "Model 8"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet model_8
+	planet "Pond Strider"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pond_strider
+	planet "Pug Arfecta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_arfecta
+	planet "Pug Enfolta"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_enfolta
+	planet "Pug Maboro"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_maboro
+	planet "Pug Zibruka"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet pug_zibruka
+	planet "Quarg Skylark"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_skylark
+	planet "Quarg Wardragon"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet quarg_wardragon
+	planet "Shield Beetle"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet shield_beetle
+	planet "Strong Wind"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet strong_wind
+	planet "Summer Leaf"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet summer_leaf
+	planet "Tek Far 109"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_109
+	planet "Tek Far 71 - Lek"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_71_lek
+	planet "Tek Far 78 - Osk"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tek_far_78_osk
+	planet "Winter Gale"
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet winter_gale
+	planet Apocalypse
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet apocalypse
+	planet Archon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet archon
+	planet Bastion
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet bastion
+	planet Carrier
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet carrier
+	planet Derecho
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet derecho
+	planet Falcon
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet falcon
+	planet Grasshopper
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet grasshopper
+	planet Hobby
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hobby
+	planet Hurricane
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet hurricane
+	planet Leviathan
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet leviathan
+	planet Sarkic
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet sarkic
+	planet Solifuge
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet solifuge
+	planet Starling
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet starling
+	planet Tempest
+		bribe 0
+		government "Unknown "
+		tribute 1
+			threshold 0
+			fleet tempes1

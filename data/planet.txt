@@ -3,139 +3,139 @@ planet "Albatross "
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet albatross 1
+		fleet albatross
 planet "Autumn Leaf"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet autumn_leaf 1
+		fleet autumn_leaf
 planet "Cool Breeze"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet cool_breeze 1
+		fleet cool_breeze
 planet "Heliarch Interdictor"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet heliarch_interdictor 1
+		fleet heliarch_interdictor
 planet "Heliarch Neutralizer"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet heliarch_neutralizer 1
+		fleet heliarch_neutralizer
 planet "Heliarch Punisher"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet heliarch_punisher 1
+		fleet heliarch_punisher
 planet "Kar Ik Vot 349"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet kar_ik_vot_349 1
+		fleet kar_ik_vot_349
 planet "Kar Ik Vot 637"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet kar_ik_vot_637 1
+		fleet kar_ik_vot_637
 planet "Korath Raider"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet korath_raider 1
+		fleet korath_raider
 planet "Korath World-Ship A"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet korath_world-ship_a 1
+		fleet korath_world-ship_a
 planet "Lightning Bug"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet lightning_bug 1
+		fleet lightning_bug
 planet "Met Par Tek 53"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet met_par_tek_53 1
+		fleet met_par_tek_53
 planet "Model 1024"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_1024 1
+		fleet model_1024
 planet "Model 128"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_128 1
+		fleet model_128
 planet "Model 16"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_16 1
+		fleet model_16
 planet "Model 256"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_256 1
+		fleet model_256
 planet "Model 32"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_32 1
+		fleet model_32
 planet "Model 512"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_512 1
+		fleet model_512
 planet "Model 64"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_64 1
+		fleet model_64
 planet "Model 8"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet model_8 1
+		fleet model_8
 planet "Pond Strider"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet pond_strider 1
+		fleet pond_strider
 planet "Pug Arfecta"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet pug_arfecta 1
+		fleet pug_arfecta
 planet "Pug Enfolta"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet pug_enfolta 1
+		fleet pug_enfolta
 planet "Pug Kaelin"
 	"required reputation" 2
 	description `This Pug world seems to fit with the other Pug worlds that you know of, presumably they are all outposts. Large cities with towers of indescribable design encompass a large portion of the main continent. The remainder of the planet remains practically untouched by anything not native to this planet, as if the Pug cities were simply lowered down onto the land rather than built up over time.`
@@ -148,25 +148,25 @@ planet "Pug Maboro"
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet pug_maboro 1
+		fleet pug_maboro
 planet "Pug Zibruka"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet pug_zibruka 1
+		fleet pug_zibruka
 planet "Quarg Skylark"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet quarg_skylark 1
+		fleet quarg_skylark
 planet "Quarg Wardragon"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet quarg_wardragon 1
+		fleet quarg_wardragon
 planet "Relic Station"
 	description "Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
 	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind."
@@ -177,55 +177,55 @@ planet "Shield Beetle"
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet shield_beetle 1
+		fleet shield_beetle
 planet "Strong Wind"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet strong_wind 1
+		fleet strong_wind
 planet "Summer Leaf"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet summer_leaf 1
+		fleet summer_leaf
 planet "Tek Far 109"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet tek_far_109 1
+		fleet tek_far_109
 planet "Tek Far 71 - Lek"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet tek_far_71_lek 1
+		fleet tek_far_71_lek
 planet "Tek Far 78 - Osk"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet tek_far_78_osk 1
+		fleet tek_far_78_osk
 planet "Winter Gale"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet winter_gale 1
+		fleet winter_gale
 planet Apocalypse
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet apocalypse 1
+		fleet apocalypse
 planet Archon
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet archon 1
+		fleet archon
 planet Arx
 	description "This ringworld is more than half completed, with no sign of construction slowing down for even a second. The product of millennia of concentrated construction effort which has consumed nearly every other stellar object in this system just to provide the raw materials."
 	description "Apparently even the Irms' home planet is being picked clean to contribute to this astronomical build. Undeniably this is a huge leap for what appears to be a single star system species."
@@ -244,13 +244,13 @@ planet Bastion
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet bastion 1
+		fleet bastion
 planet Carrier
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet carrier 1
+		fleet carrier
 planet Deprecated
 	bribe 0
 	description ""
@@ -263,7 +263,7 @@ planet Derecho
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet derecho 1
+		fleet derecho
 planet Everything
 	bribe 0
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
@@ -279,13 +279,13 @@ planet Falcon
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet falcon 1
+		fleet falcon
 planet Grasshopper
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet grasshopper 1
+		fleet grasshopper
 planet graveyard_wormhole
 	description ``
 planet graveyard_wormhole2
@@ -297,13 +297,13 @@ planet Hobby
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet hobby 1
+		fleet hobby
 planet Hurricane
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet hurricane 1
+		fleet hurricane
 planet irm_gate
 	description ``
 planet Leviathan
@@ -311,7 +311,7 @@ planet Leviathan
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet leviathan 1
+		fleet leviathan
 planet link_wormhole
 	description ``
 planet Nis
@@ -338,25 +338,25 @@ planet Sarkic
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet sarkic 1
+		fleet sarkic
 planet Solifuge
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet solifuge 1
+		fleet solifuge
 planet Starling
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet starling 1
+		fleet starling
 planet Tempest
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet tempest 1
+		fleet tempest
 planet Vanilla
 	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
