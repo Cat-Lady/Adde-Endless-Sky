@@ -1199,6 +1199,7 @@ mission t1_battles
 	name "Easy Battles"
 	on accept
 		event x1_battles
+		fail
 	repeat
 	source
 		system Omnis
@@ -1208,6 +1209,7 @@ mission t2_battles
 	name "Hard Battles"
 	on accept
 		event x10_battles
+		fail
 	repeat
 	source
 		system Omnis
@@ -1217,6 +1219,7 @@ mission t3_battles
 	name "Impossible Battles"
 	on accept
 		event x100_battles
+		fail
 	repeat
 	source
 		system Omnis
