@@ -73,6 +73,13 @@ ship Albatross "Albatross (Heavy)"
 		"Thrasher Turret" 3
 		"Tuning Rifle" 65
 		Hyperdrive
+ship Archon
+	fighter -15 46 under left
+	fighter -22 20 under left
+	fighter -32 -7 under left
+	fighter 15 46 under right
+	fighter 22 20 under right
+	fighter 32 -7 under right
 ship Bactrian
 	attributes
 		category Transport

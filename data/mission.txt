@@ -801,6 +801,12 @@ mission drak_guarding_forsaken
 		government Drak
 		personality heroic vindictive staying
 		ship Archon "Solemn Custodian"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
 		system Prima
 mission exile_drone_raid
 	invisible
@@ -1000,6 +1006,68 @@ mission licenses_take
 		system Omnis
 	to offer
 		has all_licenses
+mission momma_archie
+	invisible
+	landing
+	npc kill
+		government Drak
+		personality heroic vindictive staying
+		ship Archon "Kasiliri's Folly"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		system Fasitopfar
+	npc kill
+		government Drak
+		personality heroic vindictive staying
+		ship Archon "Sword of Eden"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		system Kasikfar
+	npc kill
+		government Drak
+		personality heroic vindictive staying
+		ship "Archon (Cloaked)" "Sleeping Dragon"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		system Nenia
+	npc kill
+		government Drak
+		personality heroic vindictive staying
+		ship Archon "Snows of Far Door Nai"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		system Peresedersi
+	npc kill
+		government Drak
+		personality heroic vindictive staying
+		ship Archon "Watchful Gravetender"
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		ship Sarkic ???
+		system Sayaiban
+	on offer
+		set "Drak guarding Korath space: declined"
+		set "Drak guarding Sayaiban: declined"
+		set "Drak guarding Void Sprites: declined"
 mission money
 	invisible
 	landing

@@ -333,12 +333,6 @@ planet Plugins
 	outfitter plugin
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
-planet Sarkic
-	bribe 0
-	government "Unknown "
-	tribute 1
-		threshold 0
-		fleet sarkic
 planet Solifuge
 	bribe 0
 	government "Unknown "

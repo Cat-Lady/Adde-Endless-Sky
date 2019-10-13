@@ -215,11 +215,6 @@ fleet quarg_wardragon
 	personality heroic
 	variant
 		"Quarg Wardragon"
-fleet sarkic
-	government "Unknown "
-	personality heroic
-	variant
-		Sarkic
 fleet shield_beetle
 	government "Unknown "
 	personality heroic

@@ -1752,4 +1752,4 @@ event x1_battles
 		government "Unknown "
 		tribute 1
 			threshold 0
-			fleet tempes1
+			fleet tempest

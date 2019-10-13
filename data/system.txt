@@ -746,10 +746,6 @@ system Omnis
 		distance 444
 		offset 45
 		sprite sprite/station8
-	object Sarkic
-		distance 1860
-		offset 317
-		sprite ship/sarkic
 	object Solifuge
 		distance 2160
 		offset 76

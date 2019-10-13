@@ -925,19 +925,20 @@ ship Revelation
 ship Sarkic
 	"never disabled"
 	attributes
+		"energy capacity" 1
 		"hull repair rate" 24
 		"required crew" 1
 		"reverse thrust" 80
 		bunks 1
-		category Interceptor
+		category Fighter
 		cloak .06
 		cost 100000000
 		drag 6
 		hull 940000
 		inscrutable 1
 		mass 400
-		thrust 40
-		turn 1200
+		thrust 80
+		turn 1800
 	explode "small explosion" 10
 	explode "tiny explosion" 16
 	gun 0 -27 Mouthparts?
@@ -946,9 +947,27 @@ ship Sarkic
 	gun 0 -27 Mouthparts?
 	gun 0 -27 Mouthparts?
 	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
 	noun entity
 	outfits
-		Mouthparts? 6
+		Mouthparts? 24
 	sprite ship/sarkic
 ship Scud
 	attributes
