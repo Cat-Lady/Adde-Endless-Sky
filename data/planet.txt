@@ -251,6 +251,13 @@ planet Carrier
 	tribute 1
 		threshold 0
 		fleet carrier
+planet Coalition
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter coalition
+	shipyard coalition
+	spaceport ""
 planet Deprecated
 	bribe 0
 	description ""
@@ -264,6 +271,13 @@ planet Derecho
 	tribute 1
 		threshold 0
 		fleet derecho
+planet Drak
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter drak
+	shipyard drak
+	spaceport ""
 planet Everything
 	bribe 0
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
@@ -292,20 +306,48 @@ planet graveyard_wormhole2
 	description ``
 planet graveyard_wormhole3
 	description ``
+planet Hai
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter hai
+	shipyard hai
+	spaceport ""
 planet Hobby
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet hobby
+planet Human
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter human
+	shipyard human
+	spaceport ""
 planet Hurricane
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet hurricane
+planet Irm
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter irm
+	shipyard irm
+	spaceport ""
 planet irm_gate
 	description ``
+planet Korath
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter korath
+	shipyard korath
+	spaceport ""
 planet Leviathan
 	bribe 0
 	government "Unknown "
@@ -333,6 +375,27 @@ planet Plugins
 	outfitter plugin
 	shipyard plugin
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!"
+planet Pug
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter pug
+	shipyard pug
+	spaceport ""
+planet Quarg
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter quarg
+	shipyard quarg
+	spaceport ""
+planet Remnant
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter remnant
+	shipyard remnant
+	spaceport ""
 planet Solifuge
 	bribe 0
 	government "Unknown "
@@ -355,12 +418,35 @@ planet Vanilla
 	bribe 0
 	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
-	outfitter vanilla
-	shipyard vanilla
+	outfitter coalition
+	outfitter drak
+	outfitter hai
+	outfitter human
+	outfitter korath
+	outfitter pug
+	outfitter quarg
+	outfitter remnant
+	outfitter wanderer
+	shipyard coalition
+	shipyard drak
+	shipyard hai
+	shipyard human
+	shipyard korath
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
+	shipyard wanderer
 	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 planet Variants
 	bribe 0
 	description ""
 	landscape landscape/station6
 	shipyard variants
+	spaceport ""
+planet Wanderer
+	bribe 0
+	description ""
+	landscape landscape/station6
+	outfitter wanderer
+	shipyard wanderer
 	spaceport ""

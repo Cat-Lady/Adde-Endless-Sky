@@ -1,7 +1,124 @@
+shipyard coalition
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+	"Heliarch Interdictor"
+	"Heliarch Neutralizer"
+	"Heliarch Punisher"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
+shipyard drak
+	"Void Sprite"
+	Archon
+	Sarkic
 shipyard Havenworks
 	"Marauder Firebird"
 	"Marauder Leviathan"
 	"Modified Argosy"
+shipyard hai
+	"Lightning Bug"
+	"Pond Strider"
+	"Shield Beetle"
+	"Violin Spider"
+	"Water Bug"
+	Aphid
+	Centipede
+	Flea
+	Geocoris
+	Grasshopper
+	Solifuge
+shipyard human
+	"Bulk Freighter"
+	"Class C Freighter"
+	"Combat Drone"
+	"Hauler II"
+	"Hauler III"
+	"Heavy Shuttle"
+	"Paltry Freighter"
+	"Star Barge"
+	"Star Queen"
+	"Surveillance Drone"
+	Aerie
+	Argosy
+	Arrow
+	Bactrian
+	Barb
+	Bastion
+	Behemoth
+	Berserker
+	Blackbird
+	Bounder
+	Boxwing
+	Bulwark
+	Carrier
+	Clipper
+	Corvette
+	Cruiser
+	Dagger
+	Dreadnought
+	Falcon
+	Finch
+	Firebird
+	Flivver
+	Freighter
+	Frigate
+	Fury
+	Gunboat
+	Hauler
+	Hawk
+	Headhunter
+	Hornet
+	Kestrel
+	Lance
+	Leviathan
+	Manta
+	Mule
+	Nest
+	Osprey
+	Protector
+	Quicksilver
+	Rainmaker
+	Raven
+	Roost
+	Scout
+	Shuttle
+	Skein
+	Sparrow
+	Splinter
+	Vanguard
+	Wasp
+shipyard irm
+	Apocalypse
+	Revelation
+shipyard korath
+	"Far Lek 14"
+	"Far Osk 27"
+	"Kar Ik Vot 349"
+	"Kar Ik Vot 637"
+	"Korath Chaser"
+	"Korath Raider"
+	"Korath Stalker"
+	"Korath World-Ship"
+	"Met Par Tek 53"
+	"Model 1024"
+	"Model 128"
+	"Model 16"
+	"Model 256"
+	"Model 32"
+	"Model 512"
+	"Model 64"
+	"Model 8"
+	"Tek Far 109"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
 shipyard plugin
 	"A-3 Lexel"
 	"A-60 Olisivant"
@@ -22,131 +139,21 @@ shipyard plugin
 	Revelation
 	Sarkic
 	Scud
-shipyard vanilla
-	"Arach Courier"
-	"Arach Freighter"
-	"Arach Hulk"
-	"Arach Spindle"
-	"Arach Transport"
-	"Autumn Leaf"
-	"Bulk Freighter"
-	"Class C Freighter"
-	"Combat Drone"
-	"Cool Breeze"
-	"Deep River"
-	"Earth Shaper"
-	"Far Lek 14"
-	"Far Osk 27"
-	"Hauler II"
-	"Hauler III"
-	"Heavy Shuttle"
-	"Heliarch Interdictor"
-	"Heliarch Neutralizer"
-	"Heliarch Punisher"
-	"Kar Ik Vot 349"
-	"Kimek Briar"
-	"Kimek Spire"
-	"Kimek Thistle"
-	"Kimek Thorn"
-	"Korath Chaser"
-	"Korath Raider"
-	"Korath World-Ship"
-	"Lightning Bug"
-	"Met Par Tek 53"
-	"Model 128"
-	"Model 16"
-	"Model 256"
-	"Model 32"
-	"Model 512"
-	"Model 64"
-	"Model 8"
-	"Pond Strider"
+shipyard pug
 	"Pug Arfecta"
 	"Pug Enfolta"
 	"Pug Maboro"
 	"Pug Zibruka"
+shipyard quarg
 	"Quarg Skylark"
 	"Quarg Wardragon"
-	"Saryd Runabout"
-	"Saryd Sojourner"
-	"Saryd Traveler"
-	"Saryd Visitor"
-	"Shield Beetle"
-	"Star Barge"
-	"Star Queen"
-	"Strong Wind"
-	"Summer Leaf"
-	"Surveillance Drone"
-	"Tek Far 109"
-	"Tek Far 71 - Lek"
-	"Tek Far 78 - Osk"
-	"Violin Spider"
-	"Void Sprite"
-	"Water Bug"
-	"Winter Gale"
-	Aerie
+shipyard remnant
 	Albatross
-	Aphid
-	Archon
-	Argosy
-	Arrow
-	Bactrian
-	Barb
-	Bastion
-	Behemoth
-	Berserker
-	Blackbird
-	Bounder
-	Boxwing
-	Carrier
-	Centipede
-	Clipper
-	Corvette
-	Cruiser
-	Dagger
-	Derecho
-	Dreadnought
-	Falcon
-	Finch
-	Firebird
-	Flea
-	Flivver
-	Flycatcher
-	Freighter
-	Frigate
-	Fury
 	Gascraft
-	Geocoris
-	Grasshopper
 	Gull
-	Gunboat
-	Hauler
-	Hawk
-	Headhunter
-	Hurricane
-	Kestrel
-	Lance
-	Leviathan
-	Manta
-	Mule
-	Nest
-	Osprey
+	Hobby
 	Pelican
-	Protector
-	Quicksilver
-	Rainmaker
-	Raven
-	Roost
-	Scout
-	Shuttle
-	Skein
-	Solifuge
-	Sparrow
-	Splinter
 	Starling
-	Tempest
-	Vanguard
-	Wasp
 shipyard variants
 	"Archon (Cloaked)"
 	"Deep River 0"
@@ -190,3 +197,16 @@ shipyard variants
 	"Marauder Splinter (Weapons)"
 	"Marauder Splinter"
 	"Modified Argosy"
+shipyard wanderer
+	"Autumn Leaf"
+	"Cool Breeze"
+	"Deep River"
+	"Earth Shaper"
+	"Strong Wind"
+	"Summer Leaf"
+	"Winter Gale"
+	Derecho
+	Flycatcher
+	Hurricane
+	Scud
+	Tempest
