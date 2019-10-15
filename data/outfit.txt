@@ -568,6 +568,22 @@ outfit "Transparency Plating"
 	mass 96
 	thumbnail outfit/transparency_plating
 	unplunderable 1
+outfit "Type 0 Radiant Engine"
+	"engine capacity" -17
+	"outfit space" -17
+	"thrusting energy" 0.3
+	"thrusting heat" 0.5
+	"turning energy" .2
+	"turning heat" 0.4
+	category Engines
+	cooling 1.9
+	cost 170000
+	licenses
+		"Wanderer Outfits"
+	mass 17
+	thumbnail outfit/type_0_radiant_engine
+	thrust 4.2
+	turn 131.3
 outfit Deterrence
 	"turret mounts" -1
 	category Turrets

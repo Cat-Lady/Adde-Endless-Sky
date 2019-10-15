@@ -335,6 +335,7 @@ outfitter plugin
 	"Thrust Module"
 	"Tool Rack"
 	"Transparency Plating"
+	"Type 0 Radiant Engine"
 	Capacitors
 	Deterrence
 	Devastator
@@ -409,6 +410,7 @@ outfitter wanderer
 	"Thunderhead Launcher"
 	"Thunderhead Missile"
 	"Thunderhead Storage Array"
+	"Type 0 Radiant Engine"
 	"Type 1 Radiant Steering"
 	"Type 1 Radiant Thruster"
 	"Type 2 Radiant Steering"
