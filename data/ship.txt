@@ -146,10 +146,10 @@ ship "Kar Ik Vot 637"
 	"final explode" "final explosion large"
 	attributes
 		"cargo space" 63
-		"engine capacity" 202
+		"engine capacity" 211
 		"fuel capacity" 600
 		"heat dissipation" .45
-		"outfit space" 1193
+		"outfit space" 1239
 		"self destruct" .45
 		"weapon capacity" 527
 		automaton 1
