@@ -146,10 +146,10 @@ ship "Kar Ik Vot 637"
 	"final explode" "final explosion large"
 	attributes
 		"cargo space" 63
-		"engine capacity" 211
+		"engine capacity" 202
 		"fuel capacity" 600
 		"heat dissipation" .45
-		"outfit space" 1239
+		"outfit space" 1193
 		"self destruct" .45
 		"weapon capacity" 527
 		automaton 1
@@ -193,11 +193,10 @@ ship "Kar Ik Vot 637"
 		"Korath Repeater Turret" 8
 		"Large Heat Shunt" 5
 		"Small Heat Shunt"
-		"Steering (Stellar Class)"
 		"Systems Core (Large)"
 		"Systems Core (Small)"
-		"Thruster (Stellar Class)"
 		"Triple Plasma Core"
+		"Vector Engine (Reality Class)"
 		Hyperdrive
 	sprite ship/kar_ik_vot_637
 	thumbnail thumbnail/kar_ik_vot_637

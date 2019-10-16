@@ -584,6 +584,23 @@ outfit "Type 0 Radiant Engine"
 	thumbnail outfit/type_0_radiant_engine
 	thrust 4.2
 	turn 131.3
+outfit "Vector Engine (Reality Class)"
+	"engine capacity" -196
+	"flare sound" "plasma huge"
+	"flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"outfit space" -196
+	"thrusting energy" 17.1
+	"thrusting heat" 47.4
+	"turning energy" 7.1
+	"turning heat" 23.2
+	category Engines
+	cost 5192000
+	mass 196
+	plural "Vector Engines (Reality Class)"
+	thrust 162.9
+	thumbnail "outfit/vector_engine_reality_class"
+	turn 3866
 outfit Deterrence
 	"turret mounts" -1
 	category Turrets

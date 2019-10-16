@@ -296,6 +296,7 @@ outfitter korath
 	"Thruster (Planetary Class)"
 	"Thruster (Stellar Class)"
 	"Triple Plasma Core"
+	"Vector Engine (Reality Class)"
 	Hyperdrive
 outfitter plugin
 	"Alpha Hermes Frame"
@@ -336,6 +337,7 @@ outfitter plugin
 	"Tool Rack"
 	"Transparency Plating"
 	"Type 0 Radiant Engine"
+	"Vector Engine (Reality Class)"
 	Capacitors
 	Deterrence
 	Devastator
