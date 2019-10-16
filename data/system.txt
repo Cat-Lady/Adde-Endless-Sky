@@ -647,7 +647,7 @@ system Omnis
 		sprite sprite/station8
 	object Deprecated
 		distance 444
-		offset 135
+		offset 120
 		sprite sprite/station8
 	object Derecho
 		distance 2540
@@ -767,7 +767,6 @@ system Omnis
 		sprite ship/leviathan
 	object Plugins
 		distance 444
-		offset 45
 		sprite sprite/station8
 	object Pug
 		distance 1420
@@ -793,13 +792,9 @@ system Omnis
 		distance 2140
 		offset 166
 		sprite ship/tempest
-	object Vanilla
-		distance 444
-		offset 315
-		sprite sprite/station8
 	object Variants
 		distance 444
-		offset 225
+		offset 240
 		sprite sprite/station8
 	object Wanderer
 		distance 1420

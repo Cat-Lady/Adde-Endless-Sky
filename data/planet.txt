@@ -282,11 +282,30 @@ planet Everything
 	bribe 0
 	description "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
 	landscape landscape/station6
+	outfitter coalition
+	outfitter deprecated
+	outfitter drak
+	outfitter hai
+	outfitter human
+	outfitter irm
+	outfitter korath
 	outfitter plugin
-	outfitter vanilla
+	outfitter pug
+	outfitter quarg
+	outfitter remnant
+	outfitter wanderer
+	shipyard coalition
+	shipyard drak
+	shipyard hai
+	shipyard human
+	shipyard irm
+	shipyard korath
 	shipyard plugin
-	shipyard vanilla
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
 	shipyard variants
+	shipyard wanderer
 	spaceport "This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!"
 planet Falcon
 	bribe 0
@@ -414,29 +433,6 @@ planet Tempest
 	tribute 1
 		threshold 0
 		fleet tempest
-planet Vanilla
-	bribe 0
-	description "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
-	landscape landscape/station6
-	outfitter coalition
-	outfitter drak
-	outfitter hai
-	outfitter human
-	outfitter korath
-	outfitter pug
-	outfitter quarg
-	outfitter remnant
-	outfitter wanderer
-	shipyard coalition
-	shipyard drak
-	shipyard hai
-	shipyard human
-	shipyard korath
-	shipyard pug
-	shipyard quarg
-	shipyard remnant
-	shipyard wanderer
-	spaceport "This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. Here a captain can find many items of technology of the universe, but at the same time, very few. There is much less access to technology here than the other constructs. There is no need to go running about to find some superior technology, it's all right here!"
 planet Variants
 	bribe 0
 	description ""

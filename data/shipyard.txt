@@ -19,10 +19,6 @@ shipyard drak
 	"Void Sprite"
 	Archon
 	Sarkic
-shipyard Havenworks
-	"Marauder Firebird"
-	"Marauder Leviathan"
-	"Modified Argosy"
 shipyard hai
 	"Lightning Bug"
 	"Pond Strider"
