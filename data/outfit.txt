@@ -640,8 +640,8 @@ outfit Devastator
 		"hit effect" devastator_hit3
 		"hit force" 10
 		"hull damage" 116
-		"random lifetime" 70 20
-		"random velocity" 50 30
+		"random lifetime" 90
+		"random velocity" 80
 		"shield damage" 87
 		inaccuracy 3.5
 		reload 2
