@@ -86,7 +86,6 @@ ship "A-60 Olisivant"
 		"Shield Modulator" 85
 		"Storage Cell" 18
 		"Thrust Module" 45
-	sprite outfit/unknown
 	turret 0 0
 	turret 0 0
 	turret 0 0
@@ -140,7 +139,6 @@ ship "B-10 Warden"
 		"Shield Modulator" 60
 		"Storage Cell" 18
 		"Thrust Module" 26
-	sprite outfit/unknown
 	turret 0 0
 ship "Kar Ik Vot 637"
 	"final explode" "final explosion large"

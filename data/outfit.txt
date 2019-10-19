@@ -10,7 +10,6 @@ outfit "Alpha Hermes Frame"
 	description "This is a small frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
 	mass 15
 	thrust 0
-	thumbnail outfit/unknown
 outfit "Apotropaic Anti-Missile"
 	"outfit space" -52
 	"turret mounts" -1
@@ -18,7 +17,6 @@ outfit "Apotropaic Anti-Missile"
 	category Turrets
 	cost 7300000
 	mass 52
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 62
 		"firing heat" -982
@@ -40,7 +38,6 @@ outfit "B-1 Achilles Frame"
 	description "This is a medium frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
 	mass 30
 	thrust 0
-	thumbnail outfit/unknown
 outfit "Balefire Lance"
 	"gun ports" -1
 	"outfit space" -35
@@ -49,7 +46,6 @@ outfit "Balefire Lance"
 	cost 420000
 	description "The Balefire Lance's inner workings are a mystery, but it's effects are not.  The contained field or 'lance' that it projects causes the atoms of any molecule caught within it to spontaneously split from their host molecule and bond with the nearest molecule.  The more durable the material that they're pointed at, the more volatile the reaction is as the energy from the strong molecular bonds is released."
 	mass 35
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 8
 		"firing heat" 8
@@ -73,7 +69,6 @@ outfit "Balefire Projector"
 	cost 250000
 	description "Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accellerator."
 	mass 20
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 35
 		"firing force" 10
@@ -102,7 +97,6 @@ outfit "C-3 Nimbus Frame"
 	description "The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships."
 	mass 50
 	thrust 0
-	thumbnail outfit/unknown
 outfit "Calypso Weapon"
 	"outfit space" -75
 	"turret mounts" -1
@@ -111,7 +105,6 @@ outfit "Calypso Weapon"
 	cost 4000000
 	description "The Calypso Weapon is a terrifying engine of death.  Instead of projecting a field of the balefire energy in front of your ship like the lance, this device is able to create a field of the energy directly around the enemy ship.  The field is not as intense as the field created by the lance, but the ability to harness this kind of destructive power at range more than makes up for it."
 	mass 75
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 12
 		"firing heat" 12
@@ -162,7 +155,6 @@ outfit "Denial Turret"
 	cost 250000
 	description "These turrets are very effective at protecting [data corrupted] ships from enemy missile attacks."
 	mass 25
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 40
 		"firing heat" 20
@@ -179,7 +171,6 @@ outfit "Deuterium Culture Tanks"
 	cost 110000
 	description "Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate."
 	mass 16
-	thumbnail outfit/unknown
 outfit "Dual Electron Beam"
 	"gun ports" -1
 	"outfit space" -41
@@ -209,7 +200,6 @@ outfit "Energy Cube"
 	cost 50000
 	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
 	mass 1
-	thumbnail outfit/unknown
 outfit "Flame Thrower"
 	"capture attack" 1.5
 	"capture defense" 1.2
@@ -227,7 +217,6 @@ outfit "Fracture Engine"
 	cost 4000000
 	description "Any weapon that disrupts space-time should probably be left on the shelf unless you want the Drak coming after you.  Still, I bet it's pretty cool..."
 	mass 65
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 1000
 		"firing heat" 2000
@@ -245,7 +234,6 @@ outfit "Heat Sink"
 	cost 3800
 	description "This heat sink has a modular design."
 	mass 1
-	thumbnail outfit/unknown
 outfit "Ion Mortar"
 	"outfit space" -98
 	"required crew" 2
@@ -287,7 +275,6 @@ outfit "Irm Large Engines"
 	cost 1960000
 	mass 139
 	thrust 73.9
-	thumbnail outfit/unknown
 	turn 1790
 outfit "Katabatic Scanner"
 	"outfit scan power" 21
@@ -298,7 +285,6 @@ outfit "Katabatic Scanner"
 	cost 538000
 	description "The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe."
 	mass 4
-	thumbnail outfit/unknown
 outfit "Kinetic Splicer"
 	"gun ports" -1
 	"outfit space" -35
@@ -307,7 +293,6 @@ outfit "Kinetic Splicer"
 	cost 540000
 	description "This bizzarre weapon fires orbs of energy that somehow are able to track targets and then pull them towards you."
 	mass 35
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 15
 		"firing heat" 12
@@ -393,7 +378,6 @@ outfit "Mass Driver"
 	category Guns
 	cost 558000
 	mass 54
-	thumbnail outfit/unknown
 	weapon
 		"firing energy" 43
 		"firing heat" 187
@@ -470,7 +454,6 @@ outfit "Shield Modulator"
 	cost 21600
 	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
 	mass 1
-	thumbnail outfit/unknown
 outfit "Shipwright Gear"
 	"tool storage" -1
 	"hull energy" .06
@@ -490,7 +473,6 @@ outfit "Small Ramscoop Module"
 		Coalition
 	mass 6
 	ramscoop 3.5
-	thumbnail outfit/unknown
 outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8
@@ -508,7 +490,6 @@ outfit "Storage Cell"
 	cost 1900
 	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
 	mass 1
-	thumbnail outfit/unknown
 outfit "Storage Lockers"
 	"outfit space" -13
 	"tool storage" 5
@@ -550,7 +531,6 @@ outfit "Thrust Module"
 	cost 38500
 	mass 2
 	thrust 1.1
-	thumbnail outfit/unknown
 	turn 38.141
 outfit "Tool Rack"
 	"outfit space" -3
@@ -605,7 +585,6 @@ outfit "Vector Engine (Reality Class)"
 outfit Deterrence
 	"turret mounts" -1
 	category Turrets
-	thumbnail outfit/unknown
 	weapon
 		"hull damage" 16666666.6667
 		"turret turn" 12
@@ -625,7 +604,6 @@ outfit Devastator
 	category Guns
 	cost 29590000
 	mass 343
-	thumbnail outfit/unknown
 	weapon
 		"blast radius" 400
 		"die effect" devastator_fire1 3
