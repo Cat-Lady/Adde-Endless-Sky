@@ -349,6 +349,11 @@ outfitter plugin
 	Deterrence
 	Devastator
 	Harrier
+	pet_battery
+	pet_generator_civilian
+	pet_generator_industrial
+	pet_shielding_complex
+	pet_shielding_planetary
 outfitter pug
 	"Cloaking Device"
 	"Jump Drive"

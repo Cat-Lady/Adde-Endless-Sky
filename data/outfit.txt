@@ -666,3 +666,30 @@ outfit Harrier
 			"frame rate" 1
 			"random start frame"
 		velocity 630
+outfit pet_battery
+	"energy capacity" 3650
+	"outfit space" -9
+	category Power
+	cost 9820000
+outfit pet_generator_industrial
+	"energy generation" 37
+	"heat generation" 139
+	"outfit space" -91
+	category Power
+	cost 65200000
+outfit pet_generator_civilian
+	"energy generation" 12.7
+	"heat generation" 56
+	"outfit space" -38
+	category Power
+	cost 31780000
+outfit pet_shielding_complex
+	"outfit space" -13
+	"shield generation" .73
+	category Systems
+	cost 10270000
+outfit pet_shielding_planetary
+	"outfit space" -136
+	"shield generation" 9.2
+	category Systems
+	cost 26220000
