@@ -495,10 +495,6 @@ system Omnis
 		distance 1860
 		offset 40
 		sprite ship/albatross
-	object Apocalypse
-		distance 2240
-		offset 220
-		sprite ship/apocalypse
 	object "Autumn Leaf"
 		distance 1860
 		offset 164
@@ -631,6 +627,10 @@ system Omnis
 		distance 2200
 		offset 160
 		sprite "ship/winter gale"
+	object Apocalypse
+		distance 2240
+		offset 220
+		sprite ship/apocalypse
 	object Archon
 		distance 1920
 		offset 320
@@ -657,6 +657,10 @@ system Omnis
 		distance 1420
 		offset 320
 		sprite sprite/station8
+	object Dummy
+		distance 1860
+		offset 340
+		sprite ship/caster
 	object Everything
 		distance 1218
 		sprite sprite/everything

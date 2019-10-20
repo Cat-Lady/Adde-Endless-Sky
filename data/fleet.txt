@@ -14,6 +14,7 @@ fleet archon
 	personality heroic
 	variant
 		Archon
+		Sarkic 6
 fleet autumn_leaf
 	government "Unknown "
 	personality heroic
@@ -41,6 +42,11 @@ fleet derecho
 	personality heroic
 	variant
 		Derecho
+fleet dummy
+	government "Unknown "
+	personality heroic
+	variant
+		Dummy
 fleet falcon
 	government "Unknown "
 	personality heroic

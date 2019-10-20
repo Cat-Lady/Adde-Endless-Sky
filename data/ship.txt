@@ -706,6 +706,15 @@ ship Caster
 	turret 0 116
 	turret 0 116
 	turret 0 116
+ship Dummy
+	attributes
+		"heat dissipation" .1667
+		"hull repair rate" 16666.6667
+		category Transport
+		hull 1000000
+		mass 1000000
+	sprite ship/caster
+	thumbnail thumbnail/caster
 ship Hobby
 	"final explode" "final explosion large" 1
 	attributes
