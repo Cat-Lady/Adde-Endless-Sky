@@ -533,12 +533,12 @@ ship Bennu
 	"final explode" "final explosion medium"
 	attributes
 		"cargo space" 35
-		"engine capacity" 115
+		"engine capacity" 105
 		"fuel capacity" 400
 		"heat dissipation" .7
 		"outfit space" 430
 		"required crew" 8
-		"weapon capacity" 175
+		"weapon capacity" 155
 		bunks 25
 		category "Medium Warship"
 		cost 3920000
@@ -558,24 +558,23 @@ ship Bennu
 	explode "medium explosion" 24
 	explode "small explosion" 36
 	explode "tiny explosion" 18
-	gun -29 -28 "Ion Cannon"
-	gun -40 -13 "Plasma Cannon"
-	gun 29 -28 "Ion Cannon"
-	gun 40 -13 "Plasma Cannon"
+	gun -29 -28 "Inhibitor Cannon"
+	gun -40 -13 "Plasma Repeater"
+	gun 29 -28 "Inhibitor Cannon"
+	gun 40 -13 "Plasma Repeater"
 	outfits
 		"Bullfrog Anti-Missile" 2
 		"Fission Reactor"
 		"Generator (Furnace Class)"
 		"Hai Corundum Regenerator"
+		"Inhibitor Cannon" 2
 		"Intrusion Countermeasures"
-		"Ion Cannon" 2
 		"Laser Rifle" 5
 		"Liquid Nitrogen Cooler"
-		"LP072a Battery Pack"
+		"LP144a Battery Pack"
 		"Nerve Gas" 2
-		"Outfits Expansion"
-		"Plasma Cannon" 2
-		"Small Heat Shunt"
+		"Plasma Repeater" 2
+		"Small Heat Shunt" 2
 		"Thruster (Asteroid Class)"
 		`"Biroo" Atomic Steering`
 		`"Biroo" Atomic Thruster`

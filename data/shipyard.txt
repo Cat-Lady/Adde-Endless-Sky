@@ -56,12 +56,14 @@ shipyard human
 	"Surveillance Drone"
 	"Unknown Ship Type"
 	Aerie
+	Aesalon
 	Argosy
 	Arrow
 	Bactrian
 	Barb
 	Bastion
 	Behemoth
+	Bennu
 	Berserker
 	Blackbird
 	Bounder
@@ -85,6 +87,7 @@ shipyard human
 	Hawk
 	Headhunter
 	Hornet
+	Hydra
 	Kestrel
 	Lance
 	Leviathan
