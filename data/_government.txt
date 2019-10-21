@@ -1,6 +1,3 @@
-government "Bounty Hunter"
-	"attitude toward"
-		Pirate -.5
 government "Independent"
 	"penalty for"
 		assist 0
