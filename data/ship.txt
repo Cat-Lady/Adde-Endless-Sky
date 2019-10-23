@@ -262,7 +262,7 @@ ship "Model 1024"
 			"hit force" 8400
 			"hull damage" 2800
 			"shield damage" 5600
-	description "The next step in the evolution of the Kor Mereti war-machine is the Model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sapience and diverted their focus to less self-destructive endeavors."
+	description `The next step in the evolution of the Kor Mereti war-machine is the Model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sapience and diverted their focus to less self-destructive endeavors.`
 	engine -149 97
 	engine 149 97
 	explode "large explosion" 35
@@ -551,7 +551,7 @@ ship Bennu
 			"hit force" 1550
 			"hull damage" 600
 			"shield damage" 1100
-	description "Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity."
+	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
 	engine -34 72
 	engine 34 72
 	explode "large explosion" 8

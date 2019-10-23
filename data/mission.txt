@@ -26,11 +26,12 @@ mission aben_first_contact
 	source
 		planet Nis
 mission aben_bounty
-	description "Hunt down a hostile ship that is circling overhead <planet>, then return to <planet> to receive your payment of <payment>."
+	description `Hunt down a hostile ship that is circling overhead <planet>, then return to <planet> to receive your payment of <payment>.`
 	job
-	name "Unknown Assailant"
+	name `Unknown Assailant`
 	npc kill
-		dialog "You have destroyed the assailant. You can now return to <planet> to collect your payment."
+		dialog
+			`You have destroyed the assailant. You can now return to <planet> to collect your payment.`
 		fleet
 			cargo 2
 			names hai
@@ -40,18 +41,20 @@ mission aben_bounty
 		personality heroic marked target waiting
 	on complete
 		payment 140000
-		dialog "Saed thanks you for your assistance in hunting down the aggressor, and hands you the agreed upon payment of <payment>."
+		dialog
+			`Saed thanks you for your assistance in hunting down the aggressor, and hands you the agreed upon payment of <payment>.`
 	repeat
 	source
 		planet Nis
 	to offer
 		random < 60
 mission aben_harvest_aluminum_large
-	description "The Aben are offering <payment> in exchange for 90 tons of aluminum."
+	description `The Aben are offering <payment> in exchange for 90 tons of aluminum.`
 	job
-	name "Harvest Aluminum"
+	name `Harvest Aluminum`
 	on complete
-		dialog `You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Aluminum -90
 		payment 324000
 	repeat
@@ -61,11 +64,12 @@ mission aben_harvest_aluminum_large
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_aluminum_small
-	description "The Aben are offering <payment> in exchange for 60 tons of aluminum."
+	description `The Aben are offering <payment> in exchange for 60 tons of aluminum.`
 	job
-	name "Harvest Aluminum"
+	name `Harvest Aluminum`
 	on complete
-		dialog `You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the aluminum at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Aluminum -60
 		payment 157500
 	repeat
@@ -75,11 +79,12 @@ mission aben_harvest_aluminum_small
 		has "aben_reconnaissance_1: done"
 		random < 30
 mission aben_harvest_copper_large
-	description "The Aben are offering <payment> in exchange for 90 tons of copper."
+	description `The Aben are offering <payment> in exchange for 90 tons of copper.`
 	job
-	name "Harvest Copper"
+	name `Harvest Copper`
 	on complete
-		dialog `You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Copper -90
 		payment 540000
 	repeat
@@ -89,11 +94,12 @@ mission aben_harvest_copper_large
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_copper_small
-	description "The Aben are offering <payment> in exchange for 60 tons of copper."
+	description `The Aben are offering <payment> in exchange for 60 tons of copper.`
 	job
-	name "Harvest Copper"
+	name `Harvest Copper`
 	on complete
-		dialog `You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the copper at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Copper -60
 		payment 262500
 	repeat
@@ -103,11 +109,12 @@ mission aben_harvest_copper_small
 		has "aben_reconnaissance_1: done"
 		random < 30
 mission aben_harvest_iron_large
-	description "The Aben are offering <payment> in exchange for 90 tons of iron."
+	description `The Aben are offering <payment> in exchange for 90 tons of iron.`
 	job
-	name "Harvest Iron"
+	name `Harvest Iron`
 	on complete
-		dialog `You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Iron -90
 		payment 216000
 	repeat
@@ -117,11 +124,12 @@ mission aben_harvest_iron_large
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_iron_small
-	description "The Aben are offering <payment> in exchange for 60 tons of iron."
+	description `The Aben are offering <payment> in exchange for 60 tons of iron.`
 	job
-	name "Harvest Iron"
+	name `Harvest Iron`
 	on complete
-		dialog `You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the iron at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Iron -60
 		payment 105000
 	repeat
@@ -131,11 +139,12 @@ mission aben_harvest_iron_small
 		has "aben_reconnaissance_1: done"
 		random < 30
 mission aben_harvest_lead_large
-	description "The Aben are offering <payment> in exchange for 90 tons of lead."
+	description `The Aben are offering <payment> in exchange for 90 tons of lead.`
 	job
-	name "Harvest Lead"
+	name `Harvest Lead`
 	on complete
-		dialog `You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Lead -90
 		payment 189000
 	repeat
@@ -145,11 +154,12 @@ mission aben_harvest_lead_large
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_lead_small
-	description "The Aben are offering <payment> in exchange for 60 tons of lead."
+	description `The Aben are offering <payment> in exchange for 60 tons of lead.`
 	job
-	name "Harvest Lead"
+	name `Harvest Lead`
 	on complete
-		dialog `You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the lead at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Lead -60
 		payment 90000
 	repeat
@@ -159,11 +169,12 @@ mission aben_harvest_lead_small
 		has "aben_reconnaissance_1: done"
 		random < 30
 mission aben_harvest_platinum_large
-	description "The Aben are offering <payment> in exchange for 90 tons of platinum."
+	description `The Aben are offering <payment> in exchange for 90 tons of platinum.`
 	job
-	name "Harvest Platinum"
+	name `Harvest Platinum`
 	on complete
-		dialog `You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Platinum -90
 		payment 3200000
 	repeat
@@ -173,11 +184,12 @@ mission aben_harvest_platinum_large
 		has "aben_reconnaissance_1: done"
 		random < 5
 mission aben_harvest_platinum_small
-	description "The Aben are offering <payment> in exchange for 60 tons of platinum."
+	description `The Aben are offering <payment> in exchange for 60 tons of platinum.`
 	job
-	name "Harvest Platinum"
+	name `Harvest Platinum`
 	on complete
-		dialog `You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the platinum at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Platinum -60
 		payment 1500000
 	repeat
@@ -187,11 +199,12 @@ mission aben_harvest_platinum_small
 		has "aben_reconnaissance_1: done"
 		random < 10
 mission aben_harvest_silicon_large
-	description "The Aben are offering <payment> in exchange for 90 tons of silicon."
+	description `The Aben are offering <payment> in exchange for 90 tons of silicon.`
 	job
-	name "Harvest Silicon"
+	name `Harvest Silicon`
 	on complete
-		dialog `You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Silicon -90
 		payment 128000
 	repeat
@@ -201,11 +214,12 @@ mission aben_harvest_silicon_large
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_silicon_small
-	description "The Aben are offering <payment> in exchange for 60 tons of silicon."
+	description `The Aben are offering <payment> in exchange for 60 tons of silicon.`
 	job
-	name "Harvest Silicon"
+	name `Harvest Silicon`
 	on complete
-		dialog `You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the silicon at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Silicon -60
 		payment 60000
 	repeat
@@ -215,11 +229,12 @@ mission aben_harvest_silicon_small
 		has "aben_reconnaissance_1: done"
 		random < 30
 mission aben_harvest_silver_large
-	description "The Aben are offering <payment> in exchange for 90 tons of silver."
+	description `The Aben are offering <payment> in exchange for 90 tons of silver.`
 	job
-	name "Harvest Silver"
+	name `Harvest Silver`
 	on complete
-		dialog `You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Silver -90
 		payment 960000
 	repeat
@@ -229,11 +244,12 @@ mission aben_harvest_silver_large
 		has "aben_reconnaissance_1: done"
 		random < 10
 mission aben_harvest_silver_small
-	description "The Aben are offering <payment> in exchange for 60 tons of silver."
+	description `The Aben are offering <payment> in exchange for 60 tons of silver.`
 	job
-	name "Harvest Silver"
+	name `Harvest Silver`
 	on complete
-		dialog `You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the silver at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Silver -60
 		payment 450000
 	repeat
@@ -243,11 +259,12 @@ mission aben_harvest_silver_small
 		has "aben_reconnaissance_1: done"
 		random < 20
 mission aben_harvest_uranium_large
-	description "The Aben are offering <payment> in exchange for 90 tons of uranium."
+	description `The Aben are offering <payment> in exchange for 90 tons of uranium.`
 	job
-	name "Harvest Uranium"
+	name `Harvest Uranium`
 	on complete
-		dialog `You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Uranium -90
 		payment 1600000
 	repeat
@@ -257,11 +274,12 @@ mission aben_harvest_uranium_large
 		has "aben_reconnaissance_1: done"
 		random < 5
 mission aben_harvest_uranium_small
-	description "The Aben are offering <payment> in exchange for 60 tons of uranium."
+	description `The Aben are offering <payment> in exchange for 60 tons of uranium.`
 	job
-	name "Harvest Uranium"
+	name `Harvest Uranium`
 	on complete
-		dialog `You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
+		dialog
+			`You unload the uranium at the spaceport. Saed thanks you, and hands you <payment>.`
 		outfit Uranium -60
 		payment 750000
 	repeat
@@ -291,7 +309,7 @@ mission aben_reconnaissance_1
 			`	"We have organized for all files that detail Aben space to be provided to you, additionally we have limited information regarding those systems that lie out of our reach." he explains.`
 			`	He pulls out a hologram projector showing a summary of what space the Aben have documented; with additional display modes for detailing the currency of the data shown, and estimated distances between star systems and planetary bodies, along with various other display modes. He then highlights the areas that they are interested in collecting data for, "We require basic scans of the systems closest to our space, and records of system traffic. We are hoping above all else that you are able to provide us any information about any inhabitants of the connected space."`
 				accept
-	name "Aben Reconnaissance"
+	name `Aben Reconnaissance`
 	source
 		planet Nis
 	to complete
@@ -864,7 +882,7 @@ mission drak_guards
 			`	"Be gone, quick.", The cancer within your head seems to fall away, and you are left talking to thin air, with no more than a hazy experience to carry with you. Perhaps it was a warning.`
 				decline
 	on enter Sayaiban
-		log "Factions" "Archons" `Archons consider it to be their job to enforce peace and to prevent extinction. If they are unable to prevent a species from driving itself extinct, they will still try to preserve some of what that species created as a memorial to them.`
+		log Factions Archons `Archons consider it to be their job to enforce peace and to prevent extinction. If they are unable to prevent a species from driving itself extinct, they will still try to preserve some of what that species created as a memorial to them.`
 			`They are capable of communicating telepathically.`
 		conversation
 			`A voice says, "This system is off limits. You should leave."`
@@ -940,8 +958,8 @@ mission fallen_activation
 	source
 		planet "Relic Station"
 mission hai_enlisted_1
-	description "Defeat a pirate raid on <destination>."
-	name "Defend <planet>"
+	description `Defeat a pirate raid on <destination>.`
+	name `Defend <planet>`
 	npc
 		fleet "Large Hai" 2
 		fleet "Large Militia"
@@ -952,7 +970,8 @@ mission hai_enlisted_1
 		government Pirate
 		personality heroic staying
 	on complete
-		dialog "The government of <planet> pays you <payment> for helping to drive off the attack."
+		dialog
+			`The government of <planet> pays you <payment> for helping to drive off the attack.`
 		payment 280000
 	on offer
 		conversation
@@ -969,9 +988,9 @@ mission hai_enlisted_1
 		"combat rating" > 400
 		random < 35
 mission hai_enlisted_2
-	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
+	description `You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment.`
 	destination Hai-home
-	name "Enlist with the Hai"
+	name `Enlist with the Hai`
 	on offer
 		conversation
 			`As soon as you depart your ship you discover an envoy of sorts awaiting you. "Few human visitors demonstrate care for the lasting peace we have established so long ago," the Hai begins hastily. "You are a prominent example of your kind, we request audience on <destination>. The unfettered humans have revealed a tentativeness to prey on those who follow a path unlike their own."`
@@ -991,15 +1010,16 @@ mission hai_enlisted_2
 		has "hai_enlisted_1: done"
 		"reputation: Hai" > 1
 mission hai_enlisted_3
-	description "Eliminate the coordinator of the attacks on Hai space."
+	description `Eliminate the coordinator of the attacks on Hai space.`
 	landing
-	name "Hai Bounty"
+	name `Hai Bounty`
 	npc kill
-		dialog "You have eliminated the pirate leaders' ships. Hopefully this sends a warning to any other pirate warlords who meddles in the affairs of the Hai."
+		dialog
+			`You have eliminated the pirate leaders' ships. Hopefully this sends a warning to any other pirate warlords who meddles in the affairs of the Hai.`
 		government Pirate
 		personality disables heroic nemesis plunders staying target
-		ship "Falcon (Heavy)" "Gash"
-		ship "Splinter (Laser)" "Gnar"
+		ship "Falcon (Heavy)" Gash
+		ship "Splinter (Laser)" Gnar
 		system Oblate
 	on complete
 		conversation
@@ -1024,9 +1044,9 @@ mission hai_enlisted_3
 	to offer
 		has "hai_enlisted_2: offered"
 mission irm_first_contact_1
-	description "Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained."
+	description `Find somewhere to learn about the enigmatic aliens to the far north. The device that you can only assume to be a translation device also needs to be explained.`
 	landing
-	name "Learn about Enigmatic Aliens"
+	name `Learn about Enigmatic Aliens`
 	on offer
 		conversation
 			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this massive undertaking just became a whole lot more impressive.`
@@ -1094,9 +1114,9 @@ mission irm_first_contact_3
 	to offer
 		has "event: irm_first_contact"
 mission licenses_give
-	description "Gives all licenses to the player."
+	description `Gives all licenses to the player.`
 	job
-	name "Licenses- Give"
+	name `Licenses- Give`
 	on accept
 		set "license: Aben Technology"
 		set "license: Carrier"
@@ -1120,9 +1140,9 @@ mission licenses_give
 	to offer
 		not all_licenses
 mission licenses_take
-	description "Take all licenses from the player."
+	description `Take all licenses from the player.`
 	job
-	name "Licenses- Remove"
+	name `Licenses- Remove`
 	on accept
 		clear "license: Aben Technology"
 		clear "license: Carrier"
@@ -1162,11 +1182,11 @@ mission money
 	source
 		government Unknown
 mission remnant_colonisation
-	description "Escort the Remnant colonization fleet through the ember wastes to <destination>, they have suggested attempting to cross the barrens to arrive sooner and remain safer."
+	description `Escort the Remnant colonization fleet through the ember wastes to <destination>, they have suggested attempting to cross the barrens to arrive sooner and remain safer.`
 	destination "Far Monad"
-	name "Remnant colonisation"
+	name `Remnant colonisation`
 	npc accompany save
-		government "Remnant"
+		government Remnant
 		personality escort timid
 		fleet
 			names remnant
@@ -1178,7 +1198,8 @@ mission remnant_colonisation
 				Gull 2
 				Pelican
 	on complete
-		dialog "On landing, two prefects thank you for your services. They promise that you'll be hearing from them again."
+		dialog
+			`On landing, two prefects thank you for your services. They promise that you'll be hearing from them again.`
 		payment 8500000
 		event remnant_colonisation_first_stages 85
 	on offer
@@ -1210,15 +1231,17 @@ mission remnant_colonisation
 		has "license: Remnant Capital"
 		random < 15
 mission remnant_colonisation_supplies
-	description "Fetch additional supplies for the Remnant colonisation effort."
+	description `Fetch additional supplies for the Remnant colonisation effort.`
 	cargo random 12 16
 	job
-	name "Remnant resupply"
+	name `Remnant resupply`
 	on complete
-		dialog "The dock workers at <origin> seem eager to offload the supplies you've brought them. They thank you and pay you <payment> credits."
+		dialog
+			`The dock workers at <origin> seem eager to offload the supplies you've brought them. They thank you and pay you <payment> credits.`
 		payment 75000
 	on stopover
-		dialog "Spaceport workers quickly load the supplies into your ships cargo hold. It's time to head back to <origin>."
+		dialog
+			`Spaceport workers quickly load the supplies into your ships cargo hold. It's time to head back to <origin>.`
 	repeat
 	source
 		planet "Far Monad"
@@ -1228,13 +1251,14 @@ mission remnant_colonisation_supplies
 		has "remnant_colonisation_first_stages"
 		random < 35
 mission remnant_surveillance
-	description "Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>"
+	description `Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>`
 	waypoint
 		government "Uninhabited "
 	job
-	name "Remnant surveillance"
+	name `Remnant surveillance`
 	on complete
-		dialog `You transmit your scans and receive a payment of <payment>. "This will save us months!" you hear someone sing in strange rhythm in the background as you close the audio link.`
+		dialog
+			`You transmit your scans and receive a payment of <payment>. "This will save us months!" you hear someone sing in strange rhythm in the background as you close the audio link.`
 		payment 220000
 	repeat
 	source
@@ -1243,7 +1267,7 @@ mission remnant_surveillance
 		random < 80
 mission reveal_map
 	job
-	name "Reveal Map"
+	name `Reveal Map`
 	on accept
 		event reveal_map
 		set revealed_map
@@ -1252,86 +1276,89 @@ mission reveal_map
 	to fail
 		has "reveal_map: Active"
 mission swizzle_0
-	description "Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow."
+	description `Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow.`
 	job
-	name "Swizzle- 0"
+	name `Swizzle- 0`
 	on accept
 		event swizzle_0
 	repeat
 	source
 		system Omnis
 mission swizzle_1
-	description "Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink."
+	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
 	job
-	name "Swizzle- 1"
+	name `Swizzle- 1`
 	on accept
 		event swizzle_1
 	repeat
 	source
 		system Omnis
 mission swizzle_2
-	description "Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green."
+	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
 	job
-	name "Swizzle- 2"
+	name `Swizzle- 2`
 	on accept
 		event swizzle_2
 	repeat
 	source
 		system Omnis
 mission swizzle_3
-	description "Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green."
+	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
 	job
-	name "Swizzle- 3"
+	name `Swizzle- 3`
 	on accept
 		event swizzle_3
 	repeat
 	source
 		system Omnis
 mission swizzle_4
-	description "Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple."
+	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
 	job
-	name "Swizzle- 4"
+	name `Swizzle- 4`
 	on accept
 		event swizzle_4
 	repeat
 	source
 		system Omnis
 mission swizzle_5
-	description "Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue."
+	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
 	job
-	name "Swizzle- 5"
+	name `Swizzle- 5`
 	on accept
 		event swizzle_5
 	repeat
 	source
 		system Omnis
 mission swizzle_6
-	description "Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black."
+	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
 	job
-	name "Swizzle- 6"
+	name `Swizzle- 6`
 	on accept
 		event swizzle_6
 	repeat
 	source
 		system Omnis
 mission syndicate_target_practice_4
-	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	description `Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>.`
 	destination
 		distance 1 3
 		government Syndicate
 	job
-	name "Syndicate target practice"
+	name `Syndicate target practice`
 	npc disable "scan cargo"
-		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+		dialog
+			`You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>.`
 		government "Test Dummy"
 		personality heroic staying target
-		ship Bulwark "Syndicate Test Vessel"
+		ship Bulwark `Syndicate Test Vessel`
 		system destination
 	on complete
-		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
+		dialog
+			`You transmit the scan results to a team of eager engineers and collect your payment of <payment>.`
 		payment 160000
 	on visit
-		dialog "You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment."
+		dialog
+			`You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment.`
 	repeat
 	source
 		government Syndicate
@@ -1339,9 +1366,9 @@ mission syndicate_target_practice_4
 		"combat rating" > 1400
 		random < 20
 mission t1_battles
-	description "Resets the Omnis tribute battles back to a single ship."
+	description `Resets the Omnis tribute battles back to a single ship.`
 	job
-	name "Easy Battles"
+	name `Easy Battles`
 	on accept
 		event x1_battles
 		fail
@@ -1349,9 +1376,9 @@ mission t1_battles
 	source
 		system Omnis
 mission t2_battles
-	description "Strengthens the Omnis tribute fleets by a factor of ten, largely changing the dynamic of the fights."
+	description `Strengthens the Omnis tribute fleets by a factor of ten, largely changing the dynamic of the fights.`
 	job
-	name "Hard Battles"
+	name `Hard Battles`
 	on accept
 		event x10_battles
 		fail
@@ -1359,9 +1386,9 @@ mission t2_battles
 	source
 		system Omnis
 mission t3_battles
-	description "Strengthens the Omnis tribute fleets by a factor of a hundred, have fun dying."
+	description `Strengthens the Omnis tribute fleets by a factor of a hundred, have fun dying.`
 	job
-	name "Impossible Battles"
+	name `Impossible Battles`
 	on accept
 		event x100_battles
 		fail
@@ -1369,10 +1396,10 @@ mission t3_battles
 	source
 		system Omnis
 mission test_plasma_repeater_1
-	description "When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test."
+	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
 	destination Rust
 	landing
-	name "Weapon Testing"
+	name `Weapon Testing`
 	on offer
 		conversation
 			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
@@ -1383,16 +1410,16 @@ mission test_plasma_repeater_1
 		has "free worlds plot completed"
 		random < 10
 mission test_plasma_repeater_2
-	description "A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance."
+	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
 	landing
-	name "Weapon Testing"
+	name `Weapon Testing`
 	npc save disable
 		personality disables heroic staying
 		government "Test Dummy"
 		ship leviathan_plasma_repeater Warlock
 	on complete
 		event plasma_repeater_available 30
-		log "Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results."
+		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
 			scene thumbnail/plasma_repeater
 			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun much like an old Plasma Cannon, but somewhat different. Presumably, this is the weapon that you were just attacked with in orbit. "It runs alot hotter, you see," he says. "But the results are impressive."`

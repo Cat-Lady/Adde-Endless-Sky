@@ -7,7 +7,7 @@ outfit "Alpha Hermes Frame"
 	"outfit space" -15
 	category Engines
 	cost 250000
-	description "This is a small frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
+	description `This is a small frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters.`
 	mass 15
 	thrust 0
 outfit "Apotropaic Anti-Missile"
@@ -35,7 +35,7 @@ outfit "B-1 Achilles Frame"
 	"outfit space" -30
 	category Engines
 	cost 500000
-	description "This is a medium frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters."
+	description `This is a medium frame for [data corrupted] thrust modules.  It comes equipped with integrated breaking thrusters.`
 	mass 30
 	thrust 0
 outfit "Balefire Lance"
@@ -44,7 +44,7 @@ outfit "Balefire Lance"
 	"weapon capacity" -35
 	category Guns
 	cost 420000
-	description "The Balefire Lance's inner workings are a mystery, but it's effects are not.  The contained field or 'lance' that it projects causes the atoms of any molecule caught within it to spontaneously split from their host molecule and bond with the nearest molecule.  The more durable the material that they're pointed at, the more volatile the reaction is as the energy from the strong molecular bonds is released."
+	description `The Balefire Lance's inner workings are a mystery, but it's effects are not.  The contained field or 'lance' that it projects causes the atoms of any molecule caught within it to spontaneously split from their host molecule and bond with the nearest molecule.  The more durable the material that they're pointed at, the more volatile the reaction is as the energy from the strong molecular bonds is released.`
 	mass 35
 	weapon
 		"firing energy" 8
@@ -67,7 +67,7 @@ outfit "Balefire Projector"
 	"weapon capacity" -20
 	category Guns
 	cost 250000
-	description "Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accellerator."
+	description `Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accellerator.`
 	mass 20
 	weapon
 		"firing energy" 35
@@ -94,7 +94,7 @@ outfit "C-3 Nimbus Frame"
 	"outfit space" -50
 	category Engines
 	cost 1500000
-	description "The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships."
+	description `The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships.`
 	mass 50
 	thrust 0
 outfit "Calypso Weapon"
@@ -103,7 +103,7 @@ outfit "Calypso Weapon"
 	"weapon capacity" -75
 	category Turrets
 	cost 4000000
-	description "The Calypso Weapon is a terrifying engine of death.  Instead of projecting a field of the balefire energy in front of your ship like the lance, this device is able to create a field of the energy directly around the enemy ship.  The field is not as intense as the field created by the lance, but the ability to harness this kind of destructive power at range more than makes up for it."
+	description `The Calypso Weapon is a terrifying engine of death.  Instead of projecting a field of the balefire energy in front of your ship like the lance, this device is able to create a field of the energy directly around the enemy ship.  The field is not as intense as the field created by the lance, but the ability to harness this kind of destructive power at range more than makes up for it.`
 	mass 75
 	weapon
 		"firing energy" 12
@@ -153,7 +153,7 @@ outfit "Denial Turret"
 	"weapon capacity" -25
 	category Turrets
 	cost 250000
-	description "These turrets are very effective at protecting [data corrupted] ships from enemy missile attacks."
+	description `These turrets are very effective at protecting [data corrupted] ships from enemy missile attacks.`
 	mass 25
 	weapon
 		"firing energy" 40
@@ -169,7 +169,7 @@ outfit "Deuterium Culture Tanks"
 	"outfit space" -16
 	category Systems
 	cost 110000
-	description "Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate."
+	description `Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate.`
 	mass 16
 outfit "Dual Electron Beam"
 	"gun ports" -1
@@ -198,14 +198,14 @@ outfit "Energy Cube"
 	"outfit space" -1
 	category Power
 	cost 50000
-	description "This cube can be stacked with others like it to produce the power you will need to power your ships."
+	description `This cube can be stacked with others like it to produce the power you will need to power your ships.`
 	mass 1
 outfit "Flame Thrower"
 	"capture attack" 1.5
 	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 35000
-	description "Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device."
+	description `Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device.`
 	illegal 800000
 	thumbnail outfit/flame_thrower
 	unplunderable 1
@@ -215,7 +215,7 @@ outfit "Fracture Engine"
 	"weapon capacity" -65
 	category Turrets
 	cost 4000000
-	description "Any weapon that disrupts space-time should probably be left on the shelf unless you want the Drak coming after you.  Still, I bet it's pretty cool..."
+	description `Any weapon that disrupts space-time should probably be left on the shelf unless you want the Drak coming after you.  Still, I bet it's pretty cool...`
 	mass 65
 	weapon
 		"firing energy" 1000
@@ -232,7 +232,7 @@ outfit "Heat Sink"
 	category Systems
 	cooling 1.725
 	cost 3800
-	description "This heat sink has a modular design."
+	description `This heat sink has a modular design.`
 	mass 1
 outfit "Ion Mortar"
 	"outfit space" -98
@@ -283,7 +283,7 @@ outfit "Katabatic Scanner"
 	"tactical scan power" 38
 	category Systems
 	cost 538000
-	description "The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe."
+	description `The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe.`
 	mass 4
 outfit "Kinetic Splicer"
 	"gun ports" -1
@@ -291,7 +291,7 @@ outfit "Kinetic Splicer"
 	"weapon capacity" -35
 	category Guns
 	cost 540000
-	description "This bizzarre weapon fires orbs of energy that somehow are able to track targets and then pull them towards you."
+	description `This bizzarre weapon fires orbs of energy that somehow are able to track targets and then pull them towards you.`
 	mass 35
 	weapon
 		"firing energy" 15
@@ -318,7 +318,7 @@ outfit "Knockout Gas"
 	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 110000
-	description "Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal."
+	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
 	licenses
 		Navy
 	thumbnail outfit/knockout_gas
@@ -329,7 +329,7 @@ outfit "Korath Disruptor Gun"
 	"weapon capacity" -23
 	category Guns
 	cost 697000
-	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description `Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves.`
 	mass 23
 	thumbnail outfit/disruptor_gun
 	weapon
@@ -393,8 +393,8 @@ outfit "Plasma Repeater"
 	"weapon capacity" -32
 	category Guns
 	cost 274000
-	description "Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding."
-	description "Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall."
+	description `Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding.`
+	description `Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall.`
 	mass 32
 	thumbnail outfit/plasma_repeater
 	weapon
@@ -442,7 +442,7 @@ outfit "Quad Plasma Turret"
 outfit "Regional Map"
 	category Special
 	cost 12000
-	description "This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+	description `This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly.`
 	map 48
 	thumbnail outfit/map
 outfit "Shield Modulator"
@@ -452,7 +452,7 @@ outfit "Shield Modulator"
 	"shield generation" .062
 	category Systems
 	cost 21600
-	description "This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly."
+	description `This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly.`
 	mass 1
 outfit "Shipwright Gear"
 	"tool storage" -1
@@ -461,14 +461,14 @@ outfit "Shipwright Gear"
 	"required crew" 1
 	category Special
 	cost 8400
-	description "As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship."
+	description `As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship.`
 	thumbnail outfit/shipwright_gear
 outfit "Small Ramscoop Module"
 	"energy consumption" 0.3
 	"outfit space" -6
 	category Systems
 	cost 96000
-	description "This ramscoop is extremely compact and is used to function as a back up in case a Coalition ship gets stranded in an empty system. However, it draws a small amount of energy."
+	description `This ramscoop is extremely compact and is used to function as a back up in case a Coalition ship gets stranded in an empty system. However, it draws a small amount of energy.`
 	licenses
 		Coalition
 	mass 6
@@ -480,7 +480,7 @@ outfit "Smugglers Fittings"
 	"scan interference" .7
 	category Systems
 	cost 9000
-	description "This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it."
+	description `This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it.`
 	illegal 650000
 	thumbnail outfit/smugglers_fittings
 outfit "Storage Cell"
@@ -488,7 +488,7 @@ outfit "Storage Cell"
 	"outfit space" -1
 	category Power
 	cost 1900
-	description "A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships."
+	description `A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships.`
 	mass 1
 outfit "Storage Lockers"
 	"outfit space" -13
@@ -576,7 +576,7 @@ outfit "Vector Engine (Reality Class)"
 	"turning heat" 29.2
 	category Engines
 	cost 5192000
-	description "Endless skirmishes among the rival Korath forces have produced a mockery of the word efficiency. Although total power output is increased considerably, the waste energy is very nearly enough to offset the advantages."
+	description `Endless skirmishes among the rival Korath forces have produced a mockery of the word efficiency. Although total power output is increased considerably, the waste energy is very nearly enough to offset the advantages.`
 	mass 198
 	plural "Vector Engines (Reality Class)"
 	thrust 166.9
