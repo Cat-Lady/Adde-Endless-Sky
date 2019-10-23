@@ -168,8 +168,8 @@ planet "Quarg Wardragon"
 		threshold 0
 		fleet quarg_wardragon
 planet "Relic Station"
-	description `Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways."
-	description "Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
+	description `Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways.`
+	description `Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
 	spaceport `The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning.`
 	landscape land/space6
 planet "Shield Beetle"
