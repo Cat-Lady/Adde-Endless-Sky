@@ -960,7 +960,7 @@ mission hai_enlisted_1
 			choice
 				`	(Join the defense fleet.)`
 				`	(Stay here until the fight is over.)`
-					decline
+					defer
 			`A mix of Hai and Human pilots have amassed to help repel the unfettered attack. You join them, and take off together...`
 				launch
 	source
