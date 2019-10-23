@@ -1029,7 +1029,7 @@ mission irm_first_contact_1
 	name "Learn about Enigmatic Aliens"
 	on offer
 		conversation
-			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this stellar construction just got a whole lot crazier.`
+			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this massive undertaking just became a whole lot more impressive.`
 			`	Being greeted by a large group of security personnel on landing has you uneasy, even more so with the escort of several security drones. The one leading the group advances towards you slowly, and says something in an alien language that you do not understand. Noticing your expression, they offer a small metallic device, presumably some sort of translation device.`
 			choice
 				`	(Try speaking into the device.)`
