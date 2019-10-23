@@ -28,7 +28,7 @@ system Stercutus
 	government "Uninhabited "
 system Rutilicus
 	add object gateway
-		distance 1624
+		distance 2777
 		period 360
 		sprite planet/wormhole
 system Waypoint

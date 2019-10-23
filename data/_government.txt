@@ -1,4 +1,4 @@
-government "Independent"
+government Independent
 	"penalty for"
 		assist 0
 		board 0
