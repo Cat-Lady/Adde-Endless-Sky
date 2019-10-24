@@ -582,6 +582,12 @@ outfit "Vector Engine (Reality Class)"
 	thrust 166.9
 	thumbnail "outfit/vector_engine_reality_class"
 	turn 4266
+outfit Capacitors
+	"capacitor slots" -1
+	"energy capacity" 18.75
+	category Power
+	cost 2400
+	thumbnail outfit/capacitors
 outfit Deterrence
 	"turret mounts" -1
 	category Turrets
@@ -628,12 +634,6 @@ outfit Devastator
 		sound "final explosion small"
 		sprite sprite/devastator
 		velocity 80
-outfit Capacitors
-	"capacitor slots" -1
-	"energy capacity" 18.75
-	category Power
-	cost 2400
-	thumbnail outfit/capacitors
 outfit fracture_engine_submunition
 	weapon
 		"hit effect" "heavy laser impact"
