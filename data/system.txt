@@ -198,6 +198,38 @@ system "Pak.zin Skwa"
 		period 10
 		sprite star/k5
 	pos 78 -519
+system "Pug Aki'il"
+	asteroids "large metal" 47 5
+	asteroids "large rock" 2 10
+	asteroids "medium metal" 100 8
+	asteroids "medium rock" 4 5
+	asteroids "small metal" 48 6
+	asteroids "small rock" 4 8
+	government Pug
+	object
+		distance 1106
+		period 667
+		sprite planet/rock7
+	object
+		distance 149
+		period 33
+		sprite planet/rock18
+	object
+		distance 2637
+		period 2456
+		sprite planet/neptune
+	object
+		distance 497
+		period 201
+		sprite planet/desert7
+	object "Pug Kaelin"
+		distance 824
+		period 429
+		sprite planet/ocean3
+	object
+		period 10
+		sprite star/k0
+	pos -83 722
 system Aurigae
 	asteroids "large metal" 28 3
 	asteroids "large rock" 14 2
@@ -2119,38 +2151,6 @@ system Tso-nii
 		period 10
 		sprite star/k5
 	pos 86 -467
-system "Pug Aki'il"
-	asteroids "large metal" 47 5
-	asteroids "large rock" 2 10
-	asteroids "medium metal" 100 8
-	asteroids "medium rock" 4 5
-	asteroids "small metal" 48 6
-	asteroids "small rock" 4 8
-	government Pug
-	object
-		distance 1106
-		period 667
-		sprite planet/rock7
-	object
-		distance 149
-		period 33
-		sprite planet/rock18
-	object
-		distance 2637
-		period 2456
-		sprite planet/neptune
-	object
-		distance 497
-		period 201
-		sprite planet/desert7
-	object "Pug Kaelin"
-		distance 824
-		period 429
-		sprite planet/ocean3
-	object
-		period 10
-		sprite star/k0
-	pos -83 722
 system Vaticanus
 	asteroids "large metal" 11 7
 	asteroids "large rock" 5 8
