@@ -18,6 +18,8 @@ outfitter coalition
 	"Large Steering Module"
 	"Large Thrust Module"
 	"Outfits Expansion"
+	"Overcharged Shield Module"
+	"Overclocked Repair Module"
 	"Scanning Module"
 	"Small Battery Module"
 	"Small Collector Module"
@@ -383,6 +385,7 @@ outfitter quarg
 	"Quarg Skylance"
 outfitter remnant
 	"Aeon Cell"
+	"Anvil-Class Engine"
 	"Bunk Room"
 	"Cargo Expansion"
 	"Crucible-Class Steering"
