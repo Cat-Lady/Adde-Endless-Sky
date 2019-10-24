@@ -263,7 +263,6 @@ planet Deprecated
 	description ""
 	landscape landscape/station6
 	outfitter deprecated
-	shipyard deprecated
 	spaceport ""
 planet Derecho
 	bribe 0
