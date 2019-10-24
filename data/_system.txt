@@ -26,11 +26,6 @@ system Segesta
 	government "Uninhabited "
 system Stercutus
 	government "Uninhabited "
-system Rutilicus
-	add object gateway
-		distance 2777
-		period 360
-		sprite planet/wormhole
 system Waypoint
 	add object irm_gate
 		distance 6048
