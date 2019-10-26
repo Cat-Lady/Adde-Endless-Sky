@@ -387,5 +387,6 @@ shipyard wanderer
 	Derecho
 	Flycatcher
 	Hurricane
+	Riptide
 	Scud
 	Tempest
