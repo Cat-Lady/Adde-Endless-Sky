@@ -1166,12 +1166,6 @@ event x100_battles
 		tribute 1
 			threshold 0
 			fleet leviathan 100
-	planet Sarkic
-		bribe 0
-		government "Unknown "
-		tribute 1
-			threshold 0
-			fleet sarkic 100
 	planet Solifuge
 		bribe 0
 		government "Unknown "
@@ -1455,12 +1449,6 @@ event x10_battles
 		tribute 1
 			threshold 0
 			fleet leviathan 10
-	planet Sarkic
-		bribe 0
-		government "Unknown "
-		tribute 1
-			threshold 0
-			fleet sarkic 10
 	planet Solifuge
 		bribe 0
 		government "Unknown "
@@ -1744,12 +1732,6 @@ event x1_battles
 		tribute 1
 			threshold 0
 			fleet leviathan
-	planet Sarkic
-		bribe 0
-		government "Unknown "
-		tribute 1
-			threshold 0
-			fleet sarkic
 	planet Solifuge
 		bribe 0
 		government "Unknown "
