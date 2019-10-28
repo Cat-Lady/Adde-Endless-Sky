@@ -7,5 +7,5 @@ government Independent
 		disable 0
 government Pirate
 	"attitude toward"
-		"Bounty Hunter" -.5
-		Hai -.5
+		"Bounty Hunter" -.01
+		Hai -.01
