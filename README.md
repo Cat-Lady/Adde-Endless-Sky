@@ -1,5 +1,5 @@
 # Adde Endless Sky
-Adde Endless Sky is a wide and general expansion to the vanilla game. It has multiple different segments, which when used together, forms Adde Master. These segments may be in the form of new alien species, cheats, or misc.
+Adde Endless Sky is a wide and general expansion to the vanilla game. It has multiple different segments, which when used together forms Adde Master. These segments may be in the form of new alien species, cheats, or misc.
 
 ## Adde Master
 This branch is the master branch, which contains all Adde content from all other branches joined as one. Please note that the master branch does include Omnis as it is one of the repository branches, so if you are meaning to play a legitimate game you should stay away from the wormhole in Rutilicus.
