@@ -166,8 +166,12 @@ shipyard remnant
 	Gascraft
 	Gull
 	Hobby
+	Ibis
 	Pelican
+	Penguin
+	Petrel
 	Starling
+	Tern
 shipyard variants
 	"Albatross (Heavy)"
 	"Albatross (Sniper)"
