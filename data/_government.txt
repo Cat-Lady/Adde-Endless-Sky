@@ -5,7 +5,3 @@ government Independent
 		capture 0
 		destroy 0
 		disable 0
-government Pirate
-	"attitude toward"
-		"Bounty Hunter" -.5
-		Hai -.5
