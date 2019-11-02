@@ -1,5 +1,4 @@
 #### This plugin is a part of upcoming "Endless Sky: Captain's Edition" reboot of the base game. Stay tuned - meanwhile, installing the plugins can help to preview the experience, together or in parts.
-#### This is a fork for personal use, that at the moment just removes wormhole to all-content area. In future, it might also integrate stuff from my plugins or "ES: Captain's Edition", where approriate.
 
 ## Adde Endless Sky
 ## Adde Master
