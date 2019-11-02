@@ -166,8 +166,12 @@ shipyard remnant
 	Gascraft
 	Gull
 	Hobby
+	Ibis
 	Pelican
+	Penguin
+	Petrel
 	Starling
+	Tern
 shipyard variants
 	"Albatross (Heavy)"
 	"Albatross (Sniper)"
@@ -387,5 +391,6 @@ shipyard wanderer
 	Derecho
 	Flycatcher
 	Hurricane
+	Riptide
 	Scud
 	Tempest

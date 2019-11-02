@@ -9,11 +9,10 @@ government Aben
 	color .2 .5 .7
 government Fallen
 	"attitude toward"
-		"Free Worlds" -1
-		Merchant -1
-		Militia -1
-		Pirate -1
-	"player reputation" -1
+		"Free Worlds" -.1
+		Merchant -.1
+		Militia -.1
+		Pirate -.1
 	color .3 .2 .2
 	fine 0
 	swizzle 0

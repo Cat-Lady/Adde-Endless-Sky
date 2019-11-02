@@ -66,6 +66,9 @@ event exile_drone_raid
 	system Sheratan
 		add fleet "Korath Raid" 22500
 event fallen_incursion
+	"reputation: Fallen" = -1
+	planet "Relic Station"
+		add spaceport `The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning.`
 	system "Zeta Centauri"
 		add fleet fallen 600
 	system Alkaid
