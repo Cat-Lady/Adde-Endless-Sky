@@ -122,6 +122,8 @@ outfit "Capacitor Rack"
 	"outfit space" -.5
 	category Power
 	cost 2000
+	"unplunderable" 1
+	description "This rack is a base for pluggable capacitor modules. Together, they form modular energy storage system."
 	mass .5
 	thumbnail outfit/capacitor_rack
 outfit "Chain Blaster Turret"
@@ -169,6 +171,7 @@ outfit "Deuterium Culture Tanks"
 	"outfit space" -16
 	category Systems
 	cost 110000
+	"unplunderable" 1
 	description `Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate.`
 	mass 16
 outfit "Dual Electron Beam"
@@ -198,10 +201,11 @@ outfit "Energy Cube"
 	"outfit space" -1
 	category Power
 	cost 50000
+	"unplunderable" 1
 	description `This cube can be stacked with others like it to produce the power you will need to power your ships.`
 	mass 1
 outfit "Flame Thrower"
-	"capture attack" 1.5
+	"capture attack" 1.8
 	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 35000
@@ -232,6 +236,7 @@ outfit "Heat Sink"
 	category Systems
 	cooling 1.725
 	cost 3800
+	"unplunderable" 1
 	description `This heat sink has a modular design.`
 	mass 1
 outfit "Ion Mortar"
@@ -283,6 +288,7 @@ outfit "Katabatic Scanner"
 	"tactical scan power" 38
 	category Systems
 	cost 538000
+	"unplunderable" 1
 	description `The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe.`
 	mass 4
 outfit "Kinetic Splicer"
@@ -439,12 +445,6 @@ outfit "Quad Plasma Turret"
 		sprite projectile/plasma
 			"frame rate" 3
 		velocity 12
-outfit "Regional Map"
-	category Special
-	cost 12000
-	description `This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly.`
-	map 48
-	thumbnail outfit/map
 outfit "Shield Modulator"
 	"energy generation" -.024
 	"heat generation" .162
@@ -452,6 +452,7 @@ outfit "Shield Modulator"
 	"shield generation" .062
 	category Systems
 	cost 21600
+	"unplunderable" 1
 	description `This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly.`
 	mass 1
 outfit "Shipwright Gear"
@@ -461,6 +462,7 @@ outfit "Shipwright Gear"
 	"required crew" 1
 	category Special
 	cost 8400
+	"unplunderable" 1
 	description `As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship.`
 	thumbnail outfit/shipwright_gear
 outfit "Small Ramscoop Module"
@@ -477,7 +479,7 @@ outfit "Smugglers Fittings"
 	"cargo space" 5
 	"engine capacity" -8
 	"outfit space" -8
-	"scan interference" .7
+	"scan interference" 1.5
 	category Systems
 	cost 9000
 	description `This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it.`
@@ -488,6 +490,7 @@ outfit "Storage Cell"
 	"outfit space" -1
 	category Power
 	cost 1900
+	"unplunderable" 1
 	description `A small battery, ready to be bundled up with others to manage to the considerable power requirements of [data corrupted] ships.`
 	mass 1
 outfit "Storage Lockers"
@@ -495,6 +498,8 @@ outfit "Storage Lockers"
 	"tool storage" 5
 	category Systems
 	cost 13600
+	"unplunderable" 1
+	description "This is a small, self-contained room, that provides safe and convenient way to store, retrieve, and professionally take care of various specialised tools, even in zero-G work enviromnent."
 	mass 13
 	thumbnail outfit/storage_lockers
 outfit "Tekina Engine"
@@ -537,6 +542,8 @@ outfit "Tool Rack"
 	"tool storage" 1
 	category Systems
 	cost 13600
+	"unplunderable" 1
+	description "Those racks are designed to safely store retrieve, and recharge various specialised tools, even in zero-G work enviromnent."
 	mass 3
 	thumbnail outfit/tool_rack
 outfit "Transparency Plating"
@@ -545,9 +552,9 @@ outfit "Transparency Plating"
 	category Systems
 	cloak .002
 	cost 750000
+	description "This plating uses strong radio emitters to bend electromagnetic radiation of various frequencies around the ship - including part of the visible light spectrum."
 	mass 96
 	thumbnail outfit/transparency_plating
-	unplunderable 1
 outfit "Type 0 Radiant Engine"
 	"engine capacity" -17
 	"outfit space" -17
@@ -587,6 +594,8 @@ outfit Capacitors
 	"energy capacity" 18.75
 	category Power
 	cost 2400
+	"unplunderable" 1
+	description "This is a small capacitor, designed to be plugged in the Capacitor Rack."
 	thumbnail outfit/capacitors
 outfit Deterrence
 	"turret mounts" -1
@@ -673,6 +682,7 @@ outfit pet_battery
 	"outfit space" -9
 	category Power
 	cost 9820000
+	"unplunderable" 1
 	mass 9
 outfit pet_generator_industrial
 	"energy generation" 37
@@ -680,6 +690,7 @@ outfit pet_generator_industrial
 	"outfit space" -91
 	category Power
 	cost 65200000
+	"unplunderable" 1
 	mass 91
 outfit pet_generator_civilian
 	"energy generation" 12.7
@@ -687,6 +698,7 @@ outfit pet_generator_civilian
 	"outfit space" -38
 	category Power
 	cost 31780000
+	"unplunderable" 1
 	mass 38
 outfit pet_shielding_complex
 	"outfit space" -13
@@ -695,6 +707,7 @@ outfit pet_shielding_complex
 	"shield heat" .11
 	category Systems
 	cost 10270000
+	"unplunderable" 1
 	mass 13
 outfit pet_shielding_planetary
 	"outfit space" -136
@@ -703,4 +716,5 @@ outfit pet_shielding_planetary
 	"shield heat" 2.3
 	category Systems
 	cost 26220000
+	"unplunderable" 1
 	mass 136

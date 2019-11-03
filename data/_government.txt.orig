@@ -1,0 +1,15 @@
+government Independent
+	"penalty for"
+		assist 0
+		board 0
+		capture 0
+		destroy 0
+<<<<<<< HEAD
+		disable 0
+=======
+		disable 0
+government Pirate
+	"attitude toward"
+		"Bounty Hunter" -.01
+		Hai -.01
+>>>>>>> upstream/master
