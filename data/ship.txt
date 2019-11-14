@@ -976,16 +976,18 @@ ship Sarkic
 	sprite ship/sarkic
 ship Scud
 	attributes
-		"engine capacity" 25
+		"engine capacity" 17
 		"heat dissipation" .7
-		"outfit space" 73
+		"outfit space" 61
 		"weapon capacity" 29
 		automaton 1
 		category Drone
 		cost 980000
-		drag .7
-		hull 5100
-		mass 45
+		drag .6
+		hull 3900
+		licenses
+			Wanderer
+		mass 41
 		weapon
 			"blast radius" 10
 			"hit force" 250
@@ -998,10 +1000,8 @@ ship Scud
 	outfits
 		"Small Biochemical Cell"
 		"Thunderhead Launcher"
-		"Thunderhead Missile" 60
-		"Thunderhead Storage Array"
-		"Type 1 Radiant Thruster"
-		"Type 1 Radiant Steering"
+		"Thunderhead Missile" 40
+		"Type 0 Radiant Engine"
 	gun 0 -36 "Thunderhead Launcher"
 	sprite ship/scud
 	thumbnail thumbnail/scud

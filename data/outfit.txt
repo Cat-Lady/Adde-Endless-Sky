@@ -556,8 +556,8 @@ outfit "Transparency Plating"
 	mass 96
 	thumbnail outfit/transparency_plating
 outfit "Type 0 Radiant Engine"
-	"engine capacity" -17
-	"outfit space" -17
+	"engine capacity" -14
+	"outfit space" -14
 	"thrusting energy" 0.3
 	"thrusting heat" 0.5
 	"turning energy" .2
@@ -567,10 +567,10 @@ outfit "Type 0 Radiant Engine"
 	cost 170000
 	licenses
 		"Wanderer Outfits"
-	mass 17
+	mass 14
 	thumbnail outfit/type_0_radiant_engine
-	thrust 4.2
-	turn 131.3
+	thrust 4.6
+	turn 141.3
 outfit "Vector Engine (Reality Class)"
 	"engine capacity" -198
 	"flare sound" "plasma huge"
