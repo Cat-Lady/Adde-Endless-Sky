@@ -499,7 +499,7 @@ outfit "Storage Lockers"
 	category Systems
 	cost 13600
 	"unplunderable" 1
-	description "This is a small, self-contained room, that provides safe and convenient way to store, retrieve, and professionally take care of various specialised tools, even in zero-G work enviromnent."
+	description "This is a small, self-contained room, that provides safe and convenient way to store, retrieve, and professionally take care of various specialized tools, even in zero-G work enviromnent."
 	mass 13
 	thumbnail outfit/storage_lockers
 outfit "Tekina Engine"
@@ -543,7 +543,7 @@ outfit "Tool Rack"
 	category Systems
 	cost 13600
 	"unplunderable" 1
-	description "Those racks are designed to safely store retrieve, and recharge various specialised tools, even in zero-G work enviromnent."
+	description "Those racks are designed to safely store retrieve, and recharge various specialized tools, even in zero-G work enviromnent."
 	mass 3
 	thumbnail outfit/tool_rack
 outfit "Transparency Plating"
